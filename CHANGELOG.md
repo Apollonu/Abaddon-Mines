@@ -61,20 +61,50 @@
 
 - Additions
   - Mods
-    - none - 0.0.0
+    - Create Mechanical Extruder - [1.6.3](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder/files/5843880)
+    - Engineered Schematics - [1.1.1](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6293337)
+    - Industrial Foregoing - [3.5.19](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/5474059) + Titanium - [3.8.32](https://www.curseforge.com/minecraft/mc-mods/titanium/files/5468426)
+    - Just Enough Mekanism Multiblocks - [4.10.0](https://www.curseforge.com/minecraft/mc-mods/just-enough-mekanism-multiblocks/files/6170219)
+    - KJS Industrial Foregoing - [1.0.0](https://github.com/BobVarioa/kjsindustrialforegoing) (Nightly)
+    - KubeJS Immersive Engineering - [2001.1.5.19](https://www.curseforge.com/minecraft/mc-mods/kubejs-immersive-engineering-unofficial/files/5910414)
+    - KubeJS TFMG - [1.2.0](https://www.curseforge.com/minecraft/mc-mods/kubejs-tfmg/files/5991318)
+    - LootJS - [2.12.0](https://www.curseforge.com/minecraft/mc-mods/lootjs/files/5404565)
+    - Map Atlases - [6.0.15](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6301932)
   - Resourcepacks / Shaderpacks
     - none - 0.0.0
 - Updates
   - Modpack
-    - none 0.0.0 -> 0.0.0
+    - Journey's Gate - [1.1.1](https://www.curseforge.com/minecraft/modpacks/abaddon-vanilla/files/6302024)
   - Mods
-    - none 0.0.0 -> 0.0.0
+    - Blueprint - [7.1.2](https://www.curseforge.com/minecraft/mc-mods/blueprint/files/6267669)
+    - Curios API - [5.12.1](https://www.curseforge.com/minecraft/mc-mods/curios/files/6238756)
+    - Enhanced AI - [2.5.8](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6708316)
+    - Farmer's Delight - [1.2.7](https://www.curseforge.com/minecraft/mc-mods/farmers-delight/files/6154802)
+    - Gravestone Curios API Compat - [2.1.0](https://www.curseforge.com/minecraft/mc-mods/gravestone-x-curios-api-compat/files/6201439)
+    - InsaneLib - [1.18.3](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6224822)
+    - Lychee - [5.1.18](https://www.curseforge.com/minecraft/mc-mods/lychee/files/6266223)
+    - Mekanism - [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6258796)
+    - Mekanism Generators [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6258799)
+    - Mobs Properties Randomness - [4.10.15](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6192224)
+    - Oh The Biomes We've Gone - [1.5.8](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6263908)
+    - Oh The Trees You'll Grow - [1.3.6](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/6294236)
+    - Patchouli - [84.1.0](https://www.curseforge.com/minecraft/mc-mods/patchouli/files/6164575)
+    - TerraBlender - [3.0.1.10](https://www.curseforge.com/minecraft/mc-mods/terrablender/files/6290448)
   - Configs
-    - none (?)
+    - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap)
+    - [Carry On](https://www.curseforge.com/minecraft/mc-mods/carry-on)
+    - [Create Mechanical Extruder](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder)
+    - [Create: Vintage Improvements](https://www.curseforge.com/minecraft/mc-mods/create-vintage-improvements)
+    - Curios API
+    - [Harvest Level Tweaker](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker)
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Harvest Levels)
+    - [Map Atlases](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge)
+    - [No Tree Punching](https://www.curseforge.com/minecraft/mc-mods/no-tree-punching)
+    - [Title Screen Mobs](https://www.curseforge.com/minecraft/mc-mods/title-screen-mobs)
   - Resourcepacks / Shaderpacks
     - none 0.0.0 -> 0.0.0
 - Fixes
-  - none
+  - Unification
 - Reverts / Removals
   - Reverts
     - none
