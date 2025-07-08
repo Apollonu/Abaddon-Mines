@@ -12,10 +12,10 @@
     - Thermal And Space - [1.0.3](https://www.curseforge.com/minecraft/mc-mods/thermal-and-space/files/5420535)
     - Thermal Expansion - [11.0.1.29](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion/files/5372749) + Thermal Foundation - [11.0.6.70](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation/files/5443583) + CoFH Core - [11.0.2.56](https://www.curseforge.com/minecraft/mc-mods/cofh-core/files/5374122)
   - Resourcepacks / Shaderpacks
-    - none - 0.0.0
+    - none
 - Updates
   - Modpack
-    - none 0.0.0 -> 0.0.0
+    - Journey's Gate - [1.1.2](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.3](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
     - CorgiLib - [4.0.3.3](https://www.curseforge.com/minecraft/mc-mods/corgilib/files/6002849) -> [4.0.3.4](https://www.curseforge.com/minecraft/mc-mods/corgilib/files/6616784)
     - Create - [6.0.4](https://www.curseforge.com/minecraft/mc-mods/create/files/6323270) -> [6.0.6](https://www.curseforge.com/minecraft/mc-mods/create/files/6641603)
@@ -48,7 +48,7 @@
     - [Thermal](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) (Disabled Lead)
     - [Vintage](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port) (Config Button)
   - Resourcepacks / Shaderpacks
-    - none 0.0.0 -> 0.0.0
+    - none
 - Fixes
   - none
 - Reverts / Removals
@@ -71,10 +71,10 @@
     - [Create: Vintage - 1.1.0](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6438729)
     - Jaden's Nether Expansion - [2.3.2](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6388893) + Elysium API - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/elysium-api/files/6376984)
   - Resourcepacks / Shaderpacks
-    - none - 0.0.0
+    - none
 - Updates
   - Modpack
-    - Journey's Gate - [1.1.2](https://www.curseforge.com/minecraft/modpacks/abaddon-vanilla/files/6511099)
+    - Journey's Gate - [1.1.1](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.2](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
     - Blueprint - [7.1.2](https://www.curseforge.com/minecraft/mc-mods/blueprint/files/6267669) -> [7.1.3](https://www.curseforge.com/minecraft/mc-mods/blueprint/files/6408581)
     - Create - [0.5.1j](https://www.curseforge.com/minecraft/mc-mods/create/files/5838779) -> [6.0.4](https://www.curseforge.com/minecraft/mc-mods/create/files/6323270)
@@ -106,7 +106,7 @@
     - [No Tree Punching](https://www.curseforge.com/minecraft/mc-mods/no-tree-punching) (Nerfed Original Knapping)
     - [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear) (Removed Conversions)
   - Resourcepacks / Shaderpacks
-    - none 0.0.0 -> 0.0.0
+    - none
 - Fixes
   - none
 - Reverts / Removals
@@ -137,10 +137,10 @@
     - LootJS - [2.12.0](https://www.curseforge.com/minecraft/mc-mods/lootjs/files/5404565)
     - Map Atlases - [6.0.15](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6301932)
   - Resourcepacks / Shaderpacks
-    - none - 0.0.0
+    - none
 - Updates
   - Modpack
-    - Journey's Gate - [1.1.1](https://www.curseforge.com/minecraft/modpacks/abaddon-vanilla/files/6302024)
+    - Journey's Gate - [1.1.1](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
     - Blueprint - [7.1.2](https://www.curseforge.com/minecraft/mc-mods/blueprint/files/6267669)
     - Curios API - [5.12.1](https://www.curseforge.com/minecraft/mc-mods/curios/files/6238756)
@@ -168,7 +168,7 @@
     - [No Tree Punching](https://www.curseforge.com/minecraft/mc-mods/no-tree-punching)
     - [Title Screen Mobs](https://www.curseforge.com/minecraft/mc-mods/title-screen-mobs)
   - Resourcepacks / Shaderpacks
-    - none 0.0.0 -> 0.0.0
+    - none
 - Fixes
   - Unification
 - Reverts / Removals
@@ -199,10 +199,10 @@
     - [TerraBlenderFix](https://www.curseforge.com/minecraft/mc-mods/terrablenderfix)
     - [William Wythers' Overhauled Overworld](https://www.curseforge.com/minecraft/mc-mods/william-wythers-overhauled-overworld)
   - Resourcepacks / Shaderpacks
-    - none - 0.0.0
+    - none
 - Updates
   - Modpack
-    - Journey's Gate - [1.1.0](https://www.curseforge.com/minecraft/modpacks/abaddon-vanilla/files/6228246)
+    - Journey's Gate - [1.1.0](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
     - Oh The Biomes We've Gone
   - Configs
@@ -215,7 +215,7 @@
     - [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear)
     - [WF's Cave Overhaul](https://www.curseforge.com/minecraft/mc-mods/wfs-cave-overhaul)
   - Resourcepacks / Shaderpacks
-    - none 0.0.0 -> 0.0.0
+    - none
 - Fixes
   - TPS + Worldgen Speed
 - Reverts / Removals
@@ -241,10 +241,10 @@
     - [Smarter Farmers](https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant)
     - [Spelunkery](https://www.curseforge.com/minecraft/mc-mods/spelunkery)
   - Resourcepacks / Shaderpacks
-    - none - 0.0.0
+    - none
 - Updates
   - Modpack
-    - Journey's Gate - [1.0.8](https://www.curseforge.com/minecraft/modpacks/abaddon-vanilla/files/6148432)
+    - Journey's Gate - [1.0.8](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
     - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
     - [Oh The Biomes We've Gone](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone)
@@ -255,7 +255,7 @@
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (en_us, Lychee, Properties Randomness, Tree Punching)
     - [No Tree Punching](https://www.curseforge.com/minecraft/mc-mods/no-tree-punching)
   - Resourcepacks / Shaderpacks
-    - none 0.0.0 -> 0.0.0
+    - none
 - Fixes
   - Recipes
 - Reverts / Removals
@@ -297,21 +297,21 @@
     - [Withering Boon](https://www.curseforge.com/minecraft/mc-mods/tetra-booster-pack)
     - [Volcanic Caverns](https://www.curseforge.com/minecraft/mc-mods/volcanic-caverns)
   - Resourcepacks / Shaderpacks
-    - none - 0.0.0
+    - none
 - Updates
   - Modpack
-    - Journey's Gate - [1.0.7](https://www.curseforge.com/minecraft/modpacks/abaddon-vanilla/files/6105034)
+    - Journey's Gate - [1.0.7](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
-    - none 0.0.0 -> 0.0.0
+    - none
   - Configs
     - [Item Obliterator](https://www.curseforge.com/minecraft/mc-mods/item-obliterator)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Low-Heated. Crafts & Additions, Vintage Improvements, More Mekanism Processing)
     - [WF's Cave Overhaul](https://www.curseforge.com/minecraft/mc-mods/wfs-cave-overhaul)
   - Resourcepacks / Shaderpacks
-    - none 0.0.0 -> 0.0.0
+    - none
 - Fixes
   - Crash Upon World Loading
-  - Create FFPS
+  - Create FPS
   - Unifying Zinc
   - Worldgen
 - Reverts / Removals
