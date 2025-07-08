@@ -5,44 +5,95 @@
 
 - Additions
   - Mods
-    - none - 0.0.0
+    - Ad Astra - [1.15.20](https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/6262032) + Resourceful Lib - [2.1.29](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib/files/5659871)
+    - Create: Ad Astra Compatibility - [1.0.0](https://www.curseforge.com/minecraft/mc-mods/create-ad-astra-compatibility/files/5252441)
+    - KubeJS Thermal - [2001.1.10-build.2](https://www.curseforge.com/minecraft/mc-mods/kubejs-thermal/files/5002992)
+    - Mekanism: Ad Astra Ores - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/mekanism-ad-astra-ores/files/6223395)
+    - Thermal And Space - [1.0.3](https://www.curseforge.com/minecraft/mc-mods/thermal-and-space/files/5420535)
+    - Thermal Expansion - [11.0.1.29](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion/files/5372749) + Thermal Foundation - [11.0.6.70](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation/files/5443583) + CoFH Core - [11.0.2.56](https://www.curseforge.com/minecraft/mc-mods/cofh-core/files/5374122)
   - Resourcepacks / Shaderpacks
     - none - 0.0.0
 - Updates
   - Modpack
     - none 0.0.0 -> 0.0.0
   - Mods
-    - none 0.0.0 -> 0.0.0
+    - CorgiLib - [4.0.3.3](https://www.curseforge.com/minecraft/mc-mods/corgilib/files/6002849) -> [4.0.3.4](https://www.curseforge.com/minecraft/mc-mods/corgilib/files/6616784)
+    - Create - [6.0.4](https://www.curseforge.com/minecraft/mc-mods/create/files/6323270) -> [6.0.6](https://www.curseforge.com/minecraft/mc-mods/create/files/6641603)
+    - Create Mechanical Extruder - [1.6.9](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder/files/6436744) -> [1.6.10](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder/files/6657454)
+    - Create: The Factory Must Grow - [0.9.3b](https://www.curseforge.com/minecraft/mc-mods/create-industry/files/6255138) -> [1.0.1b](https://www.curseforge.com/minecraft/mc-mods/create-industry/files/6729106)
+    - Create: Vintage - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6438729) -> [1.2.6](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6713730)
+    - Elysium API - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/elysium-api/files/6376984) -> [1.1.3](https://www.curseforge.com/minecraft/mc-mods/elysium-api/files/6589093)
+    - Engineered Schematics - [1.2.2](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6338665) -> [1.2.3](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6560826)
+    - Enhanced AI - [2.6.0](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6482844) -> [2.6.3](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6555664)
+    - GeckoLib - [4.7.1.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6333474) -> [4.7.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6658942)
+    - Gravestone Curios API Compat - 2.1.0 -> [3.0.0](https://www.curseforge.com/minecraft/mc-mods/gravestone-x-curios-api-compat/files/6544424)
+    - Gravestone Mod - 1.0.24 -> 1.0.32
+    - Harvest Level Tweaker - 1.3.0 -> 1.4.0
+    - InsaneLib - 1.19.0 -> 1.20.2
+    - Jaden's Nether Expansion - 2.3.2 -> 2.3.5
+    - Mekanism - 10.4.15 -> 10.4.16.80
+    - Mekanism: Generators - 10.4.15 -> 10.4.16.80
+    - Oh The Biomes We've Gone - 1.5.11 -> 1.6.2
+    - Oh The Trees You'll Grow - 1.3.9 -> 1.3.13
+    - Oreganized - 3.1.4 -> 4.1.1
   - Configs
-    - none (?)
+    - [Thermal](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) (Disabled Lead)
   - Resourcepacks / Shaderpacks
     - none 0.0.0 -> 0.0.0
 - Fixes
   - none
 - Reverts / Removals
   - Reverts
-    - none
+    - [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tectonic) (Enabled)
   - Removals
-    - none
+    - //William
 </details>
 
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="">0.1.5</a>
+  Abaddon Mines - <a href="">0.1.5</a> (Modern Template)
 </h2></summary><br>
 
 - Additions
   - Mods
-    - none - 0.0.0
+    - Backpacked - [3.0.0-beta.9](https://www.curseforge.com/minecraft/mc-mods/backpacked/files/5813547)
+    - [Create: Vintage - 1.1.0](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6438729)
+    - Jaden's Nether Expansion - [2.3.2](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6388893) + Elysium API - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/elysium-api/files/6376984)
   - Resourcepacks / Shaderpacks
     - none - 0.0.0
 - Updates
   - Modpack
-    - none 0.0.0 -> 0.0.0
+    - Journey's Gate - [1.1.2](https://www.curseforge.com/minecraft/modpacks/abaddon-vanilla/files/6511099)
   - Mods
-    - none 0.0.0 -> 0.0.0
+    - Blueprint - [7.1.2](https://www.curseforge.com/minecraft/mc-mods/blueprint/files/6267669) -> [7.1.3](https://www.curseforge.com/minecraft/mc-mods/blueprint/files/6408581)
+    - Create - [0.5.1j](https://www.curseforge.com/minecraft/mc-mods/create/files/5838779) -> [6.0.4](https://www.curseforge.com/minecraft/mc-mods/create/files/6323270)
+    - Create Crafts & Additions - [1.2.5](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/6084982) -> [1.3.1](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/6306951)
+    - Create Low-Heated - [0.5.1.f-i](https://www.curseforge.com/minecraft/mc-mods/create-low-heated/files/5393309) -> [6.0.2-3](https://www.curseforge.com/minecraft/mc-mods/create-low-heated/files/6282998)
+    - Create Mechanical Extruder - [1.6.3](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder/files/5843880) -> [1.6.9](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder/files/6436744)
+    - Create Picky Wheels - [0.5.1f-c](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels/files/5201809) -> [6.0.0-1](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels/files/6254312)
+    - Create: New Age - [1.1.2](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/5080957) -> [1.1.4](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/6482827)
+    - Curios API - [5.12.1](https://www.curseforge.com/minecraft/mc-mods/curios/files/6238756) -> [5.14.1](https://www.curseforge.com/minecraft/mc-mods/curios/files/6418456)
+    - Engineered Schematics - [1.1.1](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6293337) -> [1.2.2](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6338665)
+    - Enhanced AI - [2.5.8](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6301456) -> [2.6.0](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6482844)
+    - GeckoLib - [4.7.0](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6027567) -> [4.7.1.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6333474)
+    - InsaneLib - [1.18.3](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6224822) -> [1.19.0](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6362613)
+    - KubeJS Create - [2001.2.5-build.2](https://www.curseforge.com/minecraft/mc-mods/kubejs-create/files/4884096) -> [2001.3.0-build.8](https://www.curseforge.com/minecraft/mc-mods/kubejs-create/files/6265498)
+    - LootJS - [2.12.0](https://www.curseforge.com/minecraft/mc-mods/lootjs/files/5404565) -> [2.13.0](https://www.curseforge.com/minecraft/mc-mods/lootjs/files/6508899)
+    - Lychee - [5.1.18](https://www.curseforge.com/minecraft/mc-mods/lychee/files/6266223) -> [5.1.19](https://www.curseforge.com/minecraft/mc-mods/lychee/files/6291293)
+    - Map Atlases - [6.0.15](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6301932) -> [6.0.16](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6425194)
+    - Mobs Properties Randomness - [4.10.15](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6192224) -> [4.10.16](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6334820)
+    - More Mekanism Processing - [4.2.0](https://www.curseforge.com/minecraft/mc-mods/more-mekanism-processing/files/5932752) -> [4.3.0](https://www.curseforge.com/minecraft/mc-mods/more-mekanism-processing/files/6413517)
+    - Oh The Biomes We've Gone - [1.5.8](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6263908) -> [1.5.11](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6416899)
+    - Oh The Trees You'll Grow - [1.3.6](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/6294236) -> [1.3.9](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/6479077)
+    - Oreganized - [3.1.2](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/5890510) -> [3.1.4](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6276242)
   - Configs
-    - none (?)
+    - [Backpacked](https://www.curseforge.com/minecraft/mc-mods/backpacked)
+    - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Balancing)
+    - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (Console Spam)
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Major Changes)
+    - [Map Atlases](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge) (Y-Axis)
+    - [No Tree Punching](https://www.curseforge.com/minecraft/mc-mods/no-tree-punching) (Nerfed Original Knapping)
+    - [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear) (Removed Conversions)
   - Resourcepacks / Shaderpacks
     - none 0.0.0 -> 0.0.0
 - Fixes
@@ -51,7 +102,11 @@
   - Reverts
     - none
   - Removals
-    - none
+    - [Compressed Creativity](https://www.curseforge.com/minecraft/mc-mods/compressedcreativity)
+    - [Create: Vintage Improvements](https://www.curseforge.com/minecraft/mc-mods/create-vintage-improvements)
+    - [Oculus Flywheel Compat](https://www.curseforge.com/minecraft/mc-mods/iris-flywheel-compat)
+    - [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tectonic) (Disabled)
+    - [William Wythers Overhauled Overworld](https://www.curseforge.com/minecraft/mc-mods/william-wythers-overhauled-overworld) (Disabled)
 </details>
 
 <details close>
@@ -123,8 +178,8 @@
     - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap)
     - [Create: New Age](https://www.curseforge.com/minecraft/mc-mods/create-new-age) + [Botarium](https://www.curseforge.com/minecraft/mc-mods/botarium)
     - [Create: The Factory Must Grow](https://www.curseforge.com/minecraft/mc-mods/create-industry)
-    - [GraveStone Mod](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
     - [Gravestone Curios API Compat](https://www.curseforge.com/minecraft/mc-mods/gravestone-x-curios-api-compat) + [Curios API](https://www.curseforge.com/minecraft/mc-mods/curios)
+    - [GraveStone Mod](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
     - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
     - [Just Enough Immersive Multiblocks](https://www.curseforge.com/minecraft/mc-mods/just-enough-immersive-multiblocks)
     - [Mekanism Generators](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators)
