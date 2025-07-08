@@ -26,18 +26,27 @@
     - Engineered Schematics - [1.2.2](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6338665) -> [1.2.3](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6560826)
     - Enhanced AI - [2.6.0](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6482844) -> [2.6.3](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6555664)
     - GeckoLib - [4.7.1.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6333474) -> [4.7.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6658942)
-    - Gravestone Curios API Compat - 2.1.0 -> [3.0.0](https://www.curseforge.com/minecraft/mc-mods/gravestone-x-curios-api-compat/files/6544424)
-    - Gravestone Mod - 1.0.24 -> 1.0.32
-    - Harvest Level Tweaker - 1.3.0 -> 1.4.0
-    - InsaneLib - 1.19.0 -> 1.20.2
-    - Jaden's Nether Expansion - 2.3.2 -> 2.3.5
-    - Mekanism - 10.4.15 -> 10.4.16.80
-    - Mekanism: Generators - 10.4.15 -> 10.4.16.80
-    - Oh The Biomes We've Gone - 1.5.11 -> 1.6.2
-    - Oh The Trees You'll Grow - 1.3.9 -> 1.3.13
-    - Oreganized - 3.1.4 -> 4.1.1
+    - Gravestone Curios API Compat - [2.1.0](https://www.curseforge.com/minecraft/mc-mods/gravestone-x-curios-api-compat/files/6201439) -> [3.0.0](https://www.curseforge.com/minecraft/mc-mods/gravestone-x-curios-api-compat/files/6544424)
+    - Gravestone Mod - [1.0.24](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/5794082) -> [1.0.32](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/6740170)
+    - Harvest Level Tweaker - [1.3.0](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker/files/5760642) -> [1.4.0](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker/files/6461992)
+    - InsaneLib - [1.19.0](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6362613) -> [1.20.2](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6577516)
+    - Jaden's Nether Expansion - [2.3.2](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6388893) -> [2.3.5](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6729020)
+    - Mekanism - [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6258796) -> [10.4.16.80](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6552911)
+    - Mekanism: Generators - [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6258799) -> [10.4.16.80](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6552914)
+    - Oh The Biomes We've Gone - [1.5.11](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6416899) -> [1.6.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6706622)
+    - Oh The Trees You'll Grow - [1.3.9](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/6479077) -> [1.3.13](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/6608610)
+    - Oreganized - [3.1.4](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6276242) -> [4.1.1](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6661380)
   - Configs
+    - [Ad Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra) (Oxygen Display)
+    - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap) (Mekanism)
+    - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Flee & Hostile Chance)
+    - [Harvest Level Tweaker](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker)
+    - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (Disabled Silver, Lead, Nickel)
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (assets, data, server_events, startup_scripts)
+    - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism) (Tin Disabled)
+    - [Sparse Sructures](https://www.curseforge.com/minecraft/mc-mods/ssr) (Abridged)
     - [Thermal](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) (Disabled Lead)
+    - [Vintage](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port) (Config Button)
   - Resourcepacks / Shaderpacks
     - none 0.0.0 -> 0.0.0
 - Fixes
@@ -46,7 +55,9 @@
   - Reverts
     - [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tectonic) (Enabled)
   - Removals
-    - //William
+    - [KubeJS TFMG](https://www.curseforge.com/minecraft/mc-mods/kubejs-tfmg)
+    - [Create: Vintage Improvements](https://www.curseforge.com/minecraft/mc-mods/create-vintage-improvements) Config
+    - [William Wythers Overhauled Overworld](https://www.curseforge.com/minecraft/mc-mods/william-wythers-overhauled-overworld)
 </details>
 
 <details close>
