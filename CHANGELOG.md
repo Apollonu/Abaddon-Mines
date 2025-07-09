@@ -18,11 +18,13 @@
   - Modpack
     - Journey's Gate - [1.1.2](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.3](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
+    - Abridged - [1.1.1](https://www.curseforge.com/minecraft/mc-mods/abridged/files/4985756) -> [2.0.0](https://www.curseforge.com/minecraft/mc-mods/abridged/files/6745463)
     - CorgiLib - [4.0.3.3](https://www.curseforge.com/minecraft/mc-mods/corgilib/files/6002849) -> [4.0.3.4](https://www.curseforge.com/minecraft/mc-mods/corgilib/files/6616784)
     - Create - [6.0.4](https://www.curseforge.com/minecraft/mc-mods/create/files/6323270) -> [6.0.6](https://www.curseforge.com/minecraft/mc-mods/create/files/6641603)
     - Create Mechanical Extruder - [1.6.9](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder/files/6436744) -> [1.6.10](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder/files/6657454)
     - Create: The Factory Must Grow - [0.9.3b](https://www.curseforge.com/minecraft/mc-mods/create-industry/files/6255138) -> [1.0.1b](https://www.curseforge.com/minecraft/mc-mods/create-industry/files/6729106)
     - Create: Vintage - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6438729) -> [1.2.6](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6713730)
+    - Deeper Oceans - [1.0.1a](https://www.curseforge.com/minecraft/mc-mods/deeper-oceans/files/4573339) -> [2.0.0](https://www.curseforge.com/minecraft/mc-mods/deeper-oceans/files/6668834)
     - Elysium API - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/elysium-api/files/6376984) -> [1.1.3](https://www.curseforge.com/minecraft/mc-mods/elysium-api/files/6589093)
     - Engineered Schematics - [1.2.2](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6338665) -> [1.2.3](https://www.curseforge.com/minecraft/mc-mods/engineered-schematics/files/6560826)
     - Enhanced AI - [2.6.0](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6482844) -> [2.6.8](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6708316)
@@ -30,6 +32,7 @@
     - Gravestone Curios API Compat - [2.1.0](https://www.curseforge.com/minecraft/mc-mods/gravestone-x-curios-api-compat/files/6201439) -> [3.0.0](https://www.curseforge.com/minecraft/mc-mods/gravestone-x-curios-api-compat/files/6544424)
     - Gravestone Mod - [1.0.24](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/5794082) -> [1.0.32](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/6740170)
     - Harvest Level Tweaker - [1.3.0](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker/files/5760642) -> [1.4.0](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker/files/6461992)
+    - Industrial Foregoing - [3.5.19](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/5474059) -> [3.5.20](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/6626653)
     - InsaneLib - [1.19.0](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6362613) -> [1.21.13](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6743693)
     - Jaden's Nether Expansion - [2.3.2](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6388893) -> [2.3.5](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6729020)
     - Mekanism - [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6258796) -> [10.4.16.80](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6552911)
