@@ -37,7 +37,7 @@
     - Jaden's Nether Expansion - [2.3.2](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6388893) -> [2.3.5](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6729020)
     - Mekanism - [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6258796) -> [10.4.16.80](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6552911)
     - Mekanism: Generators - [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6258799) -> [10.4.16.80](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6552914)
-    - Mobs Properties Randomness - [4.10.16](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6334820) -> [5.0.5-alpha](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6737647)
+    - Mobs Properties Randomness - [4.10.16](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6334820) -> [5.0.6-alpha](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6747502)
     - Oh The Biomes We've Gone - [1.5.11](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6416899) -> [1.6.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6706622)
     - Oh The Trees You'll Grow - [1.3.9](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/6479077) -> [1.3.13](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/6608610)
     - Oreganized - [3.1.4](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6276242) -> [4.1.1](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6661380)
