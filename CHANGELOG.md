@@ -65,6 +65,7 @@
   - Removals
     - [KubeJS TFMG](https://www.curseforge.com/minecraft/mc-mods/kubejs-tfmg)
     - [Create: Vintage Improvements](https://www.curseforge.com/minecraft/mc-mods/create-vintage-improvements) Config
+    - [TerraBlenderFix](https://www.curseforge.com/minecraft/mc-mods/terrablenderfix)
     - [William Wythers Overhauled Overworld](https://www.curseforge.com/minecraft/mc-mods/william-wythers-overhauled-overworld)
 </details>
 
