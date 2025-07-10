@@ -33,7 +33,7 @@
     - Gravestone Mod - [1.0.24](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/5794082) -> [1.0.32](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/6740170)
     - Harvest Level Tweaker - [1.3.0](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker/files/5760642) -> [1.4.0](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker/files/6461992)
     - Industrial Foregoing - [3.5.19](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/5474059) -> [3.5.20](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/6626653)
-    - InsaneLib - [1.19.0](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6362613) -> [1.21.13](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6743693)
+    - InsaneLib - [1.19.0](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6362613) -> [1.21.14](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6751966)
     - Jaden's Nether Expansion - [2.3.2](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6388893) -> [2.3.5](https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion/files/6729020)
     - Mekanism - [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6258796) -> [10.4.16.80](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6552911)
     - Mekanism: Generators - [10.4.15.75](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6258799) -> [10.4.16.80](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6552914)
