@@ -45,6 +45,7 @@
   - Configs
     - [Ad Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra) (Energy & Oxygen Anchor)
     - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap) (Create, Mekanism)
+    - [Cave Dust](https://www.curseforge.com/minecraft/mc-mods/cave-dust)
     - [CobbleGen](https://www.curseforge.com/minecraft/mc-mods/cobblegen)
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Flee & Hostile Chance)
     - [Harvest Level Tweaker](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker)
