@@ -6,6 +6,7 @@
 - Additions
   - Mods
     - Ad Astra - [1.15.20](https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/6262032) + Resourceful Lib - [2.1.29](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib/files/5659871)
+    - CobbleGen - [5.4.5](https://www.curseforge.com/minecraft/mc-mods/cobblegen/files/6600688)
     - Create: Ad Astra Compatibility - [1.0.0](https://www.curseforge.com/minecraft/mc-mods/create-ad-astra-compatibility/files/5252441)
     - KubeJS Mekanism - [2001.1.5.1-build.2](https://www.curseforge.com/minecraft/mc-mods/kubejs-mekanism-unofficial/files/5532573)
     - KubeJS Thermal - [2001.1.10-build.2](https://www.curseforge.com/minecraft/mc-mods/kubejs-thermal/files/5002992)
@@ -43,7 +44,8 @@
     - Oreganized - [3.1.4](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6276242) -> [4.1.1](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6661380)
   - Configs
     - [Ad Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra) (Energy & Oxygen Anchor)
-    - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap) (Mekanism)
+    - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap) (Create, Mekanism)
+    - [CobbleGen](https://www.curseforge.com/minecraft/mc-mods/cobblegen)
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Flee & Hostile Chance)
     - [Harvest Level Tweaker](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker)
     - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (Disabled Silver, Lead, Nickel)
