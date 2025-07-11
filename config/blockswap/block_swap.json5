@@ -1,0 +1,55 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+{
+	// Generates all block states for all blocks in the registry.
+	"generate_all_known_states": true,
+	// Whether blocks are replaced in existing chunks.
+	"retro_gen": false,
+	"state_swapper": [],
+	"swapper": {
+		"create:limestone": "quark:limestone",
+
+		"mekanism:deepslate_osmium_ore": "minecraft:stone",
+		"mekanism:osmium_ore": "minecraft:stone",
+
+		"oreganized:deepslate_lead_ore": "minecraft:deepslate",
+		"oreganized:deepslate_silver_ore": "minecraft:deepslate",
+		"oreganized:lead_ore": "minecraft:stone",
+		"oreganized:silver_ore": "minecraft:stone",
+		
+		"silentgear:bort_ore": "minecraft:stone",
+		"silentgear:deepslate_bort_ore": "minecraft:deepslate",
+		"silentgear:wild_flax_plant": "minecraft:grass",
+		"silentgear:wild_fluffy_plant": "minecraft:grass",
+
+		"spelunkery:andesite_lead_ore": "minecraft:andesite",
+		"spelunkery:andesite_silver_ore": "minecraft:andesite",
+		"spelunkery:diorite_lead_ore": "minecraft:diorite",
+		"spelunkery:diorite_silver_ore": "minecraft:diorite",
+		"spelunkery:granite_lead_ore": "minecraft:granite",
+		"spelunkery:granite_silver_ore": "minecraft:granite",
+		"spelunkery:tuff_lead_ore": "minecraft:tuff",
+		"spelunkery:tuff_silver_ore": "minecraft:tuff",
+
+		"tfmg:deepslate_lead_ore": "minecraft:deepslate",
+		"tfmg:deepslate_lithium_ore": "minecraft:deepslate",
+		"tfmg:deepslate_nickel_ore": "minecraft:deepslate",
+		"tfmg:galena": "oreganized:glance",
+		"tfmg:lead_ore": "minecraft:stone",
+		"tfmg:lithium_ore": "minecraft:stone",
+		"tfmg:nickel_ore": "minecraft:stone",
+
+		"thermal_and_space:glacio_lead_ore": "ad_astra:glacio_stone",
+		"thermal_and_space:mars_lead_ore": "ad_astra:mars_stone",
+		"thermal_and_space:mercury_lead_ore": "ad_astra:mercury_stone",
+		"thermal_and_space:moon_lead_ore": "ad_astra:moon_stone",
+		"thermal_and_space:venus_lead_ore": "ad_astra:venus_sandstone"
+	}
+}

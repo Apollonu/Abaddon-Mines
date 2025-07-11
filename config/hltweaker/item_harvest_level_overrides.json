@@ -1,0 +1,16 @@
+{
+	"notreepunching:flint_pickaxe": {"minecraft:mineable/pickaxe": "flint"},
+	"notreepunching:flint_axe": {"minecraft:mineable/axe": "flint"},
+	"notreepunching:flint_shovel": {"minecraft:mineable/shovel": "flint"},
+	"notreepunching:flint_hoe": {"minecraft:mineable/hoe": "flint"},
+
+	"everythingcopper:copper_pickaxe": {"minecraft:mineable/pickaxe": "copper"},
+	"everythingcopper:copper_axe": {"minecraft:mineable/axe": "copper"},
+	"everythingcopper:copper_shovel": {"minecraft:mineable/shovel": "copper"},
+	"everythingcopper:copper_hoe": {"minecraft:mineable/hoe": "copper"},
+
+	"immersiveengineering:pickaxe_steel": {"minecraft:mineable/pickaxe": "steel"},
+	"immersiveengineering:axe_steel": {"minecraft:mineable/axe": "steel"},
+	"immersiveengineering:shovel_steel": {"minecraft:mineable/shovel": "steel"},
+	"immersiveengineering:hoe_steel": {"minecraft:mineable/hoe": "steel"}
+}

@@ -1,0 +1,10 @@
+{
+    "level": 11,
+    "color": "#5d6167",
+    "icons": {
+        "minecraft:mineable/pickaxe": "immersiveengineering:pickaxe_steel",
+        "minecraft:mineable/axe": "immersiveengineering:axe_steel",
+        "minecraft:mineable/shovel": "immersiveengineering:shovel_steel",
+        "minecraft:mineable/hoe": "immersiveengineering:hoe_steel"
+    }
+}

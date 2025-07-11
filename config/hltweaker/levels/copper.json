@@ -1,0 +1,10 @@
+{
+    "level": 7,
+    "color": "#b87333",
+    "icons": {
+        "minecraft:mineable/pickaxe": "everythingcopper:copper_pickaxe",
+        "minecraft:mineable/axe": "everythingcopper:copper_axe",
+        "minecraft:mineable/shovel": "everythingcopper:copper_shovel",
+        "minecraft:mineable/hoe": "everythingcopper:copper_hoe"
+    }
+}

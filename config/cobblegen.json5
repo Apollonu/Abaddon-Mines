@@ -1,0 +1,17 @@
+{
+	"formatVersion": "1.0",
+		"advanced": {
+			"minecraft:lava": {
+				"create:honey": {
+					"resultsFromTop": {
+					"*": [
+						{
+						"id": "quark:limestone",
+						"weight": 1.0,
+						}
+					]
+				}
+			}
+		}
+	}
+}
