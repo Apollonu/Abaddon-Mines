@@ -47,6 +47,7 @@
     - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap) (Create, Mekanism)
     - [Cave Dust](https://www.curseforge.com/minecraft/mc-mods/cave-dust)
     - [CobbleGen](https://www.curseforge.com/minecraft/mc-mods/cobblegen)
+    - [Curios API](https://www.curseforge.com/minecraft/mc-mods/curios)
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Flee & Hostile Chance)
     - [Harvest Level Tweaker](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker)
     - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (Disabled Silver, Lead, Nickel)
