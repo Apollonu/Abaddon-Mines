@@ -1,0 +1,25 @@
+{
+	"target": "#kubejs:normal_passive_mobs",
+	"properties": [
+		{
+			"property": "attribute_modifier",
+			"attribute": "minecraft:generic.max_health",
+			"modifier_name": "More Health",
+			"amount": {
+				"min": 0,
+				"max": 10
+			},
+			"operation": "addition"
+		},
+		{
+			"property": "attribute_modifier",
+			"attribute": "minecraft:generic.armor",
+			"modifier_name": "More Armor",
+			"amount": {
+				"min": 0,
+				"max": 2
+			},
+			"operation": "addition"
+		}
+	]
+}

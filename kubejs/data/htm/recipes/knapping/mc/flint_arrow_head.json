@@ -1,0 +1,44 @@
+{
+	"type": "lychee:block_clicking",
+  "comment": "find hardened stone and split the flint",
+  "post": [
+    {
+      "type": "add_item_cooldown",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 1
+        }
+      ],
+      "s": 1.6
+    },
+    {
+      "type": "drop_item",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 0.8
+        }
+      ],
+      "item": "htm:flint_arrow_head",
+      "count": 2
+    },
+    {
+      "type": "drop_item",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 0.2
+        }
+      ],
+      "item": "htm:flint_arrow_head",
+      "count": 1
+    }
+  ],
+  "item_in": {
+    "item": "htm:flint_scrap"
+  },
+  "block_in": {
+    "tag": "forge:stone"
+  }
+}

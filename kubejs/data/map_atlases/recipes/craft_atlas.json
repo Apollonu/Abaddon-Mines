@@ -1,0 +1,14 @@
+{
+	"type": "map_atlases:crafting_atlas",
+	"ingredients": [
+		{
+			"tag": "map_atlases:sticky_crafting_items"
+		}, {
+			"item": "minecraft:book"
+		} , {
+			"tag": "minecraft:compasses"
+		}, {
+			"tag": "supplementaries:altimeters"
+		}
+	]
+}

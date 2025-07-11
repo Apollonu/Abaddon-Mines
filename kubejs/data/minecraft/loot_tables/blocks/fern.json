@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "loot_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "htm:plant_fiber",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "forge:knives"
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.70
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:fern",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "forge:shears"
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.90
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "htm:plant_fiber",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:wheat_seeds",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.125
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "parameters": {
+                    "bonusMultiplier": 2
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}
