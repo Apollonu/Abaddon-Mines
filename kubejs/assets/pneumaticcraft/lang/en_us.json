@@ -1,0 +1,10 @@
+{
+   "gui.tooltip.item.immersiveengineering.biodiesel_bucket" : "Equivalent to Diesel in fuel quality, but produced from renewable sources.",
+   "gui.tooltip.item.tfmg.diesel_bucket" : "Can be processed in a Thermopneumatic Processing Plant to produce Kerosene or (by adding Redstone) Lubricant. A reasonable liquid fuel. Can be placed in a Furnace.",   "gui.tooltip.item.immersiveengineering.ethanol_bucket" : "A weak fuel when burned on its own, but can be used to produce Biodiesel.",
+   "gui.tooltip.item.tfmg.gasoline_bucket" : "Can be processed in a Thermopneumatic Processing Plant to produce LPG. An excellent liquid fuel (equivalent in quality to Thermal Expansion's Refined Fuel). Can be placed in a Furnace.",
+   "gui.tooltip.item.tfmg.kerosene_bucket" : "Can be processed in a Thermopneumatic Processing Plant to produce Gasoline. A good liquid fuel. Can be placed in a Furnace.",
+   "gui.tooltip.item.tfmg.lpg_bucket" : "Used in a Thermopneumatic Processing Plant together with Coal to produce Plastic. A superior liquid fuel. Can be placed in a Furnace.",
+   "gui.tooltip.item.tfmg.lubrication_oil_bucket" : "Required for the creation of Speed Upgrades.",
+   "gui.tooltip.item.tfmg.crude_oil_bucket" : "Can be processed in a Refinery to produce various fuels which can ultimately be used to produce Plastic. A very poor liquid fuel if burned directly. Can be placed in a Furnace.",
+   "gui.tooltip.item.immersiveengineering.plantoil_bucket" : "Oil squeezed from crop or seed sources. Has uses in both culinary applications and fuel production."
+}

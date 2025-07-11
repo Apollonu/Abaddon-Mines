@@ -1,0 +1,16 @@
+{
+    "text.hltweaker.tool.farmersdelight.knife": "Knife",
+    "text.hltweaker.tool.minecraft.leaves": "Sickle",
+
+    "text.hltweaker.level.minecraft.wood": "Wood {I}",
+    "text.hltweaker.level.minecraft.gold": "Gold {I}",
+    "text.hltweaker.level.minecraft.stone": "Stone {II}",
+    "text.hltweaker.level.flint": "Flint {III}",
+    "text.hltweaker.level.copper": "Copper {IV}",
+    "text.hltweaker.level.bronze": "Bronze {V}",
+    "text.hltweaker.level.minecraft.iron": "Iron {VI}",
+    "text.hltweaker.level.compressed_iron": "Compressed Iron {VII}",
+    "text.hltweaker.level.steel": "Steel {VIII}",
+    "text.hltweaker.level.minecraft.diamond": "Diamond {IX}",
+    "text.hltweaker.level.minecraft.netherite": "Netherite {X}"
+}
