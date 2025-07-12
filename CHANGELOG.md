@@ -1,6 +1,34 @@
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="">0.1.7</a> (Nightly)
+  Abaddon Mines - <a href="">0.1.8</a> (Nightly)
+</h2></summary><br>
+
+- Additions
+  - Mods
+    - none
+  - Resourcepacks / Shaderpacks
+    - none
+- Updates
+  - Modpack
+    - Journey's Gate - [1.1.4](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.5](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
+  - Mods
+    - none
+  - Configs
+    - none
+  - Resourcepacks / Shaderpacks
+    - none
+- Fixes
+  - none
+- Reverts / Removals
+  - Reverts
+    - none
+  - Removals
+    - none
+</details>
+
+<details close>
+<summary><h2>
+  Abaddon Mines - <a href="">0.1.7</a> (Current Release)
 </h2></summary><br>
 
 - Additions
@@ -28,7 +56,7 @@
 
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/6756741">0.1.6</a> (Current Release)
+  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/6756741">0.1.6</a>
 </h2></summary><br>
 
 - Additions
