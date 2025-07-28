@@ -12,7 +12,13 @@
   - Modpack
     - Journey's Gate - [1.1.4](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.5](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
-    - none
+    - CobbleGen - [5.4.5](https://www.curseforge.com/minecraft/mc-mods/cobblegen/files/6600688) -> [5.4.6](https://www.curseforge.com/minecraft/mc-mods/cobblegen/files/6767399)
+    - Create Low-Heated - [3.0.0](https://www.curseforge.com/minecraft/mc-mods/create-low-heated/files/6282998) -> [4.0.0](https://www.curseforge.com/minecraft/mc-mods/create-low-heated/files/6789818)
+    - Create: The Factory Must Grow - [1.0.1b](https://www.curseforge.com/minecraft/mc-mods/create-industry/files/6729106) -> [1.0.2c](https://www.curseforge.com/minecraft/mc-mods/create-industry/files/6816350)
+    - Create: Vintage - [1.2.6](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6713730) -> [1.3.0](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6809097)
+    - GeckoLib - [4.7.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6658942) -> [4.7.3](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6789487)
+    - Map Atlases - [6.0.16](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6425194) -> [6.0.17](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6807697)
+    - Oh The Biomes We've Gone - [1.6.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6706622) -> [1.6.3](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6817611)
   - Configs
     - none
   - Resourcepacks / Shaderpacks
