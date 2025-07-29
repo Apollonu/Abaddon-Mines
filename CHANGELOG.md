@@ -19,8 +19,9 @@
     - GeckoLib - [4.7.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6658942) -> [4.7.3](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6789487)
     - Map Atlases - [6.0.16](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6425194) -> [6.0.17](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6807697)
     - Oh The Biomes We've Gone - [1.6.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6706622) -> [1.6.3](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6817611)
+    - Oreganized - [4.1.1](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6661380) -> [4.2.2](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6821455)
   - Configs
-    - none
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (data/oreganized)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
