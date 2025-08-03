@@ -16,7 +16,7 @@
     - Create Low-Heated - [3.0.0](https://www.curseforge.com/minecraft/mc-mods/create-low-heated/files/6282998) -> [4.0.0](https://www.curseforge.com/minecraft/mc-mods/create-low-heated/files/6789818)
     - Create: The Factory Must Grow - [1.0.1b](https://www.curseforge.com/minecraft/mc-mods/create-industry/files/6729106) -> [1.0.2c](https://www.curseforge.com/minecraft/mc-mods/create-industry/files/6816350)
     - Create: Vintage - [1.2.6](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6713730) -> [1.3.0](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6809097)
-    - Enhanced AI - [2.6.8](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6708316) -> [2.7.0](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6813169)
+    - Enhanced AI - [2.6.8](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6708316) -> [2.7.1](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6831339)
     - GeckoLib - [4.7.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6658942) -> [4.7.3](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6789487)
     - Map Atlases - [6.0.16](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6425194) -> [6.0.17](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge/files/6807697)
     - Mobs Properties Randomness - [5.0.6](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6747502) -> [5.0.11](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6805892)
