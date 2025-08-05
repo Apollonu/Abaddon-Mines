@@ -894,7 +894,7 @@
 	[Animals."Animals Scared Attack"]
 		#Animals have this percentage chance to be scared by players and run away. Fight back chance has priority over this
 		#Range: 0.0 ~ 1.0
-		"Players Scared chance" = 1.0
+		"Players Scared chance" = 0.12
 		#Speed multiplier when the animal avoids the player and it's within 8 blocks from him.
 		#Range: 0.0 ~ 4.0
 		"Flee speed Multiplier Near" = 1.15
