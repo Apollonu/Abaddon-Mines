@@ -133,7 +133,7 @@
 
 	#Make villagers fight back. Use the enhancedai:villagers_can_attack entity type tag to add more villagers. Attack damage can't be changed via config due to limitation so use mods like Mobs Properties Randomness to change the damage. Base damage is 4.
 	[Villagers."Villager attacking"]
-		#If false villagers will not attack back monsters
+		#If true, villagers will attack back monsters
 		"Villagers fight back enemies" = false
 		#Villagers will only attack players that have below this reputation (like Iron Golems by default). https://minecraft.wiki/w/Villager#Gossiping
 		#Range: > -2147483648
@@ -894,13 +894,13 @@
 	[Animals."Animals Scared Attack"]
 		#Animals have this percentage chance to be scared by players and run away. Fight back chance has priority over this
 		#Range: 0.0 ~ 1.0
-		"Players Scared chance" = 0.12
+		"Players Scared chance" = 1.0
 		#Speed multiplier when the animal avoids the player and it's within 8 blocks from him.
 		#Range: 0.0 ~ 4.0
-		"Flee speed Multiplier Near" = 1.4
+		"Flee speed Multiplier Near" = 1.15
 		#Speed multiplier when the animal avoids the player and it's farther than 16 blocks from him.
 		#Range: 0.0 ~ 4.0
-		"Flee speed Multiplier Far" = 1.2
+		"Flee speed Multiplier Far" = 1.05
 		#Movement speed multiplier when aggroed.
 		#Range: 0.0 ~ 4.0
 		"Movement Speed Multiplier" = 1.2
@@ -911,7 +911,7 @@
 		"Knockback size based" = true
 		#Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitations so use mods like Mobs Properties Randomness to change the damage. Base damage is 3
 		#Range: 0.0 ~ 1.0
-		"Neutral chance" = 0.3
+		"Neutral chance" = 0.25
 		#Animals have this percentage chance to be hostile
 		#Range: 0.0 ~ 1.0
 		"Hostile chance" = 0.04
@@ -919,7 +919,7 @@
 	[Animals."Animals Group Flee"]
 		#Range at which an animal alerts other animals.
 		#Range: > 1
-		"Flee Range" = 24
+		"Flee Range" = 14
 
 	[Animals."Not Tempted Animals"]
 		#Animals have this percentage chance to not be temped by food.
