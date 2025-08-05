@@ -25,7 +25,7 @@
     - Oh The Biomes We've Gone - [1.6.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6706622) -> [1.6.3](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6817611)
     - Oreganized - [4.1.1](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6661380) -> [4.2.2](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6821455)
   - Configs
-    - [Enhacned AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (update)
+    - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Update)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (data/oreganized)
   - Resourcepacks / Shaderpacks
     - none
