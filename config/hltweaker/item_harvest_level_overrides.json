@@ -9,8 +9,18 @@
 	"everythingcopper:copper_shovel": {"minecraft:mineable/shovel": "copper"},
 	"everythingcopper:copper_hoe": {"minecraft:mineable/hoe": "copper"},
 
+	"mekanismtools:bronze_pickaxe": {"minecraft:mineable/pickaxe": "bronze"},
+	"mekanismtools:bronze_axe": {"minecraft:mineable/axe": "bronze"},
+	"mekanismtools:bronze_shovel": {"minecraft:mineable/shovel": "bronze"},
+	"mekanismtools:bronze_hoe": {"minecraft:mineable/hoe": "bronze"},
+
 	"immersiveengineering:pickaxe_steel": {"minecraft:mineable/pickaxe": "steel"},
 	"immersiveengineering:axe_steel": {"minecraft:mineable/axe": "steel"},
 	"immersiveengineering:shovel_steel": {"minecraft:mineable/shovel": "steel"},
-	"immersiveengineering:hoe_steel": {"minecraft:mineable/hoe": "steel"}
+	"immersiveengineering:hoe_steel": {"minecraft:mineable/hoe": "steel"},
+
+	"mekanismtools:osmium_pickaxe": {"minecraft:mineable/pickaxe": "osmium"},
+	"mekanismtools:osmium_axe": {"minecraft:mineable/axe": "osmium"},
+	"mekanismtools:osmium_shovel": {"minecraft:mineable/shovel": "osmium"},
+	"mekanismtools:osmium_hoe": {"minecraft:mineable/hoe": "osmium"}
 }

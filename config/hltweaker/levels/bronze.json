@@ -1,10 +1,10 @@
 {
-    "level": 8,
+    "level": 7,
     "color": "#d7995b",
     "icons": {
-        "minecraft:mineable/pickaxe": "everythingcopper:copper_pickaxe",
-        "minecraft:mineable/axe": "everythingcopper:copper_axe",
-        "minecraft:mineable/shovel": "everythingcopper:copper_shovel",
-        "minecraft:mineable/hoe": "everythingcopper:copper_hoe"
+        "minecraft:mineable/pickaxe": "mekanismtools:bronze_pickaxe",
+        "minecraft:mineable/axe": "mekanismtools:bronze_axe",
+        "minecraft:mineable/shovel": "mekanismtools:bronze_shovel",
+        "minecraft:mineable/hoe": "mekanismtools:bronze_hoe"
     }
 }

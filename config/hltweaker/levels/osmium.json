@@ -1,0 +1,10 @@
+{
+    "level": 10,
+    "color": "#b0c4de",
+    "icons": {
+        "minecraft:mineable/pickaxe": "mekanismtools:osmium_pickaxe",
+        "minecraft:mineable/axe": "mekanismtools:osmium_axe",
+        "minecraft:mineable/shovel": "mekanismtools:osmium_shovel",
+        "minecraft:mineable/hoe": "mekanismtools:osmium_hoe"
+    }
+}
