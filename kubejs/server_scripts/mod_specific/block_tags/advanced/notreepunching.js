@@ -45,6 +45,7 @@ ServerEvents.tags('block', event => {
 	let unbreakable_tags = [
 		'hltweaker:needs_compressed_iron_tool',
 		'hltweaker:needs_steel_tool',
+		'hltweaker:needs_osmium_tool',
 		'minecraft:needs_diamond_tool',
 		'minecraft:needs_netherite_tool'
 	].forEach(tag => {
