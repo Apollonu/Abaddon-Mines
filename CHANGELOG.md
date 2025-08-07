@@ -26,6 +26,7 @@
     - Oreganized - [4.1.1](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6661380) -> [4.2.2](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6821455)
   - Configs
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Update)
+    - [Harvest Level Tweaker](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker) (Bronze, Osmium)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (data/oreganized)
   - Resourcepacks / Shaderpacks
     - none
