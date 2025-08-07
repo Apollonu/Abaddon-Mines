@@ -27,7 +27,6 @@
   - Configs
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Update)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (data/oreganized)
-    - [Undertale Death Screen](https://www.curseforge.com/minecraft/mc-mods/undertale-death-screen)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
