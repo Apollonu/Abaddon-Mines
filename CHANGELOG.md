@@ -35,7 +35,7 @@
   - Reverts
     - none
   - Removals
-    - none
+    - [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tectonic)
 </details>
 
 <details close>
