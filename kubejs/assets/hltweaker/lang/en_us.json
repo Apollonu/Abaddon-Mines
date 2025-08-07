@@ -11,6 +11,7 @@
     "text.hltweaker.level.minecraft.iron": "Iron {VI}",
     "text.hltweaker.level.compressed_iron": "Compressed Iron {VII}",
     "text.hltweaker.level.steel": "Steel {VIII}",
-    "text.hltweaker.level.minecraft.diamond": "Diamond {IX}",
-    "text.hltweaker.level.minecraft.netherite": "Netherite {X}"
+    "text.hltweaker.level.osmium": "Osmium {IX}",
+    "text.hltweaker.level.minecraft.diamond": "Diamond {X}",
+    "text.hltweaker.level.minecraft.netherite": "Netherite {XI}"
 }
