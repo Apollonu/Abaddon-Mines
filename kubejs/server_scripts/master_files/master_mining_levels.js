@@ -36,11 +36,10 @@ function block_tags (event, material, individual_blocks, individual_tags) {
 		'obsidian'
 	]
 	let mining_level_steel = [
-		'diamond',
 		'osmium'
 	]
 	let mining_level_osmium = [
-		
+		'diamond'
 	]
 	let mining_level_diamond = [
 		
@@ -97,6 +96,11 @@ function block_tags (event, material, individual_blocks, individual_tags) {
 		mining_level_steel.forEach(type => {
 			if (type == material) {
 				event.add('hltweaker:needs_steel_tool', individual)
+			}
+		})
+		mining_level_osmium.forEach(type => {
+			if (type == material) {
+				event.add('hltweaker:needs_osmium_tool', individual)
 			}
 		})
 		mining_level_diamond.forEach(type => {
