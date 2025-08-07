@@ -27,7 +27,7 @@
   - Configs
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Update)
     - [Harvest Level Tweaker](https://www.curseforge.com/minecraft/mc-mods/harvest-level-tweaker) (Bronze, Osmium)
-    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (data/oreganized)
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (data/oreganized, mining levels, hltweaker lang)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
