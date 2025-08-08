@@ -13,7 +13,7 @@ ServerEvents.tags('item', event => {
 
 	]
 
-	//Ore Types
+	//Paxel Types
 	let paxel_types = [
 		'bronze',
 		'diamond',
@@ -32,6 +32,17 @@ ServerEvents.tags('item', event => {
 		all_individual_items.push(individual)
 	})
 
+	//Tool Types
+	let tool_types = [
+		'_axe',
+		'_hoe',
+		'_pickaxe',
+		'_shovel',
+		'_sword'
+	].forEach(type => {
+		let individual = prefix + 'steel' + type
+		all_individual_items.push(individual)
+	})
 	
 	//Remove Items Function Push
 	remove_items (
