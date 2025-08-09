@@ -1,6 +1,6 @@
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="">0.1.9</a> (Nightly
+  Abaddon Mines - <a href="">0.1.9</a> (Nightly)
 </h2></summary><br>
 
 - Additions
