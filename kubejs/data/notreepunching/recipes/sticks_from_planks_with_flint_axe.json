@@ -11,12 +11,12 @@
         "tag": "notreepunching:weak_saws"
       },
       "W": {
-        "tag": "minecraft:logs"
+        "tag": "minecraft:planks"
       }
     },
     "result": {
       "item": "minecraft:stick",
-      "count": 8
+      "count": 2
     }
   }
 }
