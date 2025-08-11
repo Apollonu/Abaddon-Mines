@@ -15,11 +15,4 @@ ServerEvents.tags('item', event => {
     ].forEach(individual => {
         event.add(prefix + 'weak_saws', individual)
     })
-
-    //Individual Saws
-    let individual_saws = [
-        
-    ].forEach(individual => {
-        event.add(prefix + 'saws', individual)
-    })
 })
