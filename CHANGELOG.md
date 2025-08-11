@@ -5,7 +5,7 @@
 
 - Additions
   - Mods
-    - none
+    - Tinkers Construct - [3.10.2.92](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/6777068) + Mantle - [1.11.79](https://www.curseforge.com/minecraft/mc-mods/mantle/files/6819217)
   - Resourcepacks / Shaderpacks
     - none
 - Updates
@@ -14,7 +14,7 @@
   - Mods
     - none
   - Configs
-    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Missing Mod Icon)
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Tinkers, Missing Mod Icon)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
