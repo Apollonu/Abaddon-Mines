@@ -10,11 +10,11 @@
     - none
 - Updates
   - Modpack
-    - none
+    - Journey's Gate - [1.1.5](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.6](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
     - none
   - Configs
-    - none
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Missing Mod Icon)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
