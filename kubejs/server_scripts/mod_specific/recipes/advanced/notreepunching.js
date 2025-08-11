@@ -69,13 +69,9 @@ ServerEvents.recipes(event => {
 		if (individual.includes('rubberwood')) individual = '#forge:rubberwood_logs'
 		
 		event.remove({output: plank, input: individual, type: 'minecraft:crafting_shapeless'})
-		event.shaped('2x ' + plank, ['B', 'A'], {
+		event.shaped('4x ' + plank, ['B', 'A'], {
 			A: individual,
 			B: '#notreepunching:weak_saws'
 		}).damageIngredient('#notreepunching:weak_saws', 1)
-		event.shaped('4x ' + plank, ['B', 'A'], {
-			A: individual,
-			B: '#notreepunching:saws'
-		}).damageIngredient('#notreepunching:saws', 1)
 	})
 })
