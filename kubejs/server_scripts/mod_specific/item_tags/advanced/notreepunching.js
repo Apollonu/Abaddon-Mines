@@ -11,10 +11,6 @@ ServerEvents.tags('item', event => {
         'everythingcopper:copper_axe',
         'immersiveengineering:axe_steel',
         'oreganized:electrum_axe',
-        'silentgear:axe',
-        'silentgear:machete',
-        'silentgear:mattock',
-        'silentgear:paxel',
         'tfmg:aluminum_axe'
     ].forEach(individual => {
         event.add(prefix + 'weak_saws', individual)
@@ -22,7 +18,7 @@ ServerEvents.tags('item', event => {
 
     //Individual Saws
     let individual_saws = [
-        'silentgear:saw'
+        
     ].forEach(individual => {
         event.add(prefix + 'saws', individual)
     })
