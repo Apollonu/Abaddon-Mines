@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:nuggets/compressed_iron"
+  },
+  "material": "kubejs:compressed_iron",
+  "needed": 9,
+  "value": 1
+}
