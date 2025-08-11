@@ -14,7 +14,8 @@
   - Mods
     - none
   - Configs
-    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Tinkers, Missing Mod Icon)
+    - Blockswap
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Silent, Tinkers, Missing Mod Icon)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
@@ -23,7 +24,7 @@
   - Reverts
     - none
   - Removals
-    - none
+    - [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear) + Config + [Silent Lib](https://www.curseforge.com/minecraft/mc-mods/silent-lib)
 </details>
 
 <details close>
