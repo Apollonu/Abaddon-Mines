@@ -15,6 +15,7 @@
     - none
   - Configs
     - Blockswap
+    - [Global GameRules](https://www.curseforge.com/minecraft/mc-mods/global-gamerules)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Silent, Tinkers, Missing Mod Icon)
   - Resourcepacks / Shaderpacks
     - none
