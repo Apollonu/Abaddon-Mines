@@ -11,10 +11,10 @@ ServerEvents.tags('item', event => {
         'everythingcopper:copper_axe',
         'immersiveengineering:axe_steel',
         'oreganized:electrum_axe',
-        'tfmg:aluminum_axe',
         'tconstruct:broad_axe',
         'tconstruct:hand_axe',
-        'tconstruct:mattock'
+        'tconstruct:mattock',
+        'tfmg:aluminum_axe'
     ].forEach(individual => {
         event.add(prefix + 'weak_saws', individual)
     })

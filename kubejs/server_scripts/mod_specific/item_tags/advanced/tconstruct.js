@@ -11,6 +11,6 @@ ServerEvents.tags('item', event => {
 		'sledge_hammer',
 		'vein_hammer'
 	].forEach(type => {
-		event.add('forge:hammer', prefix + type)
+		event.add('forge:hammers', prefix + type)
 	})
 })
