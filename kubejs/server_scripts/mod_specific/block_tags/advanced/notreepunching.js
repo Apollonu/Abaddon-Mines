@@ -11,7 +11,7 @@ ServerEvents.tags('block', event => {
 
 	//Breakable Individual
 	let breakable_individual = [
-
+		
 	].forEach(individual => {
 		always_breakable.push(individual)
 	})
@@ -62,7 +62,8 @@ ServerEvents.tags('block', event => {
 
 	//Drops Individual
 	let drops_individual = [
-
+		'minecraft:bamboo',
+		'minecraft:vine'
 	].forEach(individual => {
 		always_drops.push(individual)
 	})
