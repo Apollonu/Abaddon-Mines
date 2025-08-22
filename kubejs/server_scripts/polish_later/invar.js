@@ -42,7 +42,6 @@ ServerEvents.recipes(event => {
 	].forEach(type => {
 		event.remove({output: '#forge:ingots/invar', type: type})
 	})
-
 	event.recipes.immersiveengineering.arc_furnace(['6x #forge:ingots/invar'], '6x #forge:ingots/iron', [
 		'3x #forge:ingots/nickel',
 		'#forge:ingots/osmium'
@@ -50,35 +49,26 @@ ServerEvents.recipes(event => {
 	event.recipes.mekanism.enriching('thermal:invar_ingot', '#forge:dusts/invar')
 	event.custom({
 		'type': 'thermal:smelter',
-		'ingredients': [
-			{
-				'value': [
-					{
+		'ingredients': [{
+				'value': [{
 					'tag': 'forge:ingots/iron'
 					}, {
 					'tag': 'forge:dusts/iron'
-					}
-				],
+				}],
 				'count': 6
-			},
-			{
-				'value': [
-					{
+			}, {
+				'value': [{
 					'tag': 'forge:ingots/nickel'
 					}, {
 					'tag': 'forge:dusts/nickel'
-					}
-				],
+				}],
 				'count': 3
-			},
-			{
-				'value': [
-					{
+			}, {
+				'value': [{
 					'tag': 'forge:ingots/osmium'
 					}, {
 					'tag': 'forge:dusts/osmium'
-					}
-				],
+				}],
 				'count': 1
 			}
 		],
@@ -87,5 +77,14 @@ ServerEvents.recipes(event => {
 			'count': 6
 		}],
 		'energy': 3000
+	})
+	
+	//Machine Frame
+	event.remove({output: 'thermal:machine_frame'})
+	event.shaped('thermal:machine_frame', ['ACA', 'CDC', 'BCB'], {
+		A: '#forge:ingots/osmium',
+		B: '#forge:ingots/steel',
+		C: '#c:glass_blocks',
+		D: '#forge:gears/tin'
 	})
 })
