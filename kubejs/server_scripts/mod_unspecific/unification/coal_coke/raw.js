@@ -23,7 +23,20 @@ ServerEvents.recipes(event => {
 
     //Custom Recipe Types
     let custom_recipe_types = [
-
+        {
+            'type': 'tfmg:coking',
+            'ingredients': [{'item': 'minecraft:coal'}],
+            'processingTime': 1200,
+            'results': [{
+                'item': 'immersiveengineering:coal_coke'
+                }, {
+                'amount': 1,
+                'fluid': 'tfmg:creosote'
+                }, {
+                'amount': 30,
+                'fluid': 'tfmg:carbon_dioxide'
+            }]
+        }
     ]
 
     //Other Recipe Types
