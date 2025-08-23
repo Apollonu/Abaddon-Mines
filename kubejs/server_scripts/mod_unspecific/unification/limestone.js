@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     let unified_individual = 'quark:limestone'
 
     //Blasting Recipe
-    event.recipes.create.compacting('create:limestone', unified_individual).heated()
+    event.blasting('create:limestone', unified_individual)
 
     //Mechanical Extruder Recipe
     event.custom({
