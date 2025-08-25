@@ -20,7 +20,10 @@
     - Oh The Biomes We've Gone - [1.6.3](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6817611) -> [1.6.4](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6884267)
     - Oreganized - [4.2.2](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6821455) -> [4.2.3](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6907823)
   - Configs
-    - Blockswap
+    - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap)
+    - [Create](https://www.curseforge.com/minecraft/mc-mods/create) (Conveyor Length)
+    - [Create Picky Wheels](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels)
+    - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Creeper, Miner)
     - [Global GameRules](https://www.curseforge.com/minecraft/mc-mods/global-gamerules)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Silent, Tinkers, Missing Mod Icon)
   - Resourcepacks / Shaderpacks
