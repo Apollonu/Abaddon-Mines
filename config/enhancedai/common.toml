@@ -507,11 +507,11 @@
 	[Mobs."Miner mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner chance" = 0.07
+		"Miner chance" = 0.05
 		#Mobs with the miner AI will mine only if they have any tool in the off-hand
 		"Can mine with tool only" = true
 		#Mobs with the miner AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
-		"Can mine with proper tool only" = false
+		"Can mine with proper tool only" = true
 		#If 'Can mine with proper tool only' is enabled, mobs with the miner AI will mine blocks that don't require a tool only with the proper tool.
 		"Always require proper tool" = false
 		#Mobs with Miner AI will spawn with a Stone Pickaxe that never drops.
@@ -521,12 +521,12 @@
 		"Max y" = 320
 		#The maximum distance from the target at which the Mobs can mine. Set to 0 to always mine.
 		#Range: 0 ~ 128
-		"Max distance" = 0
+		"Max distance" = 24
 		#Mobs with Miner AI will not be able to break tile entities
 		"Blacklist tile entities" = false
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
-		"Time to break multiplier" = 1.25
+		"Time to break multiplier" = 1.5
 		#If true, the block tag `enhancedai:miner_block_blacklist` will be treated as a whitelist instead of blacklist
 		"Block blacklist as whitelist" = false
 
@@ -759,7 +759,7 @@
 		"Walking fuse speed modifier" = -0.5
 		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
 		#Range: 0.0 ~ 1.0
-		"Ignore walls chance" = 0.65
+		"Ignore walls chance" = 0.2
 		#Beta creepers when exploding will walk around the target, like the creepers in pre-1.2.
 		#Range: 0.0 ~ 1.0
 		"Beta creeper chance" = 0.35
@@ -792,7 +792,7 @@
 			Chance = 0.075
 			#How far away (horizontally) from the target breaching creepers can breach.
 			#Range: > 0
-			"Horizontal range" = 24
+			"Horizontal range" = 8
 
 		[Creepers."Creeper swell".Angry]
 			#Chance for a creeper to spawn angry
