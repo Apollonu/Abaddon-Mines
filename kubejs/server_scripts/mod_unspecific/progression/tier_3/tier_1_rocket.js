@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
     })
 
 	//Gas Tank Recipe
-    //event.remove('ad_astra:gas_tank')
+    event.remove('ad_astra:gas_tank')
     event.shaped('ad_astra:gas_tank', ['B ', 'CA', 'AA'], {
         A: '#forge:plates/aluminum',
         B: '#forge:rods/iron',
