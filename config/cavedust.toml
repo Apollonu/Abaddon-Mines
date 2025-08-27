@@ -14,7 +14,7 @@
 	upperLimit = 64
 	#translation{key='menu.cavedust.lowerlimit.tooltip', args=[]}
 	#Range: -255 ~ 0
-	lowerLimit = -192
+	lowerLimit = -160
 	#translation{key='menu.cavedust.particlemultiplier.tooltip', args=[]}
 	#Range: 1 ~ 100
 	particleMultiplier = 20
