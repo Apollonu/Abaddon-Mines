@@ -14,8 +14,8 @@
     }
   },
   "noise": {
-    "min_y": -192,
-    "height": 512,
+    "min_y": -160,
+    "height": 480,
     "size_horizontal": 1,
     "size_vertical": 2
   },
