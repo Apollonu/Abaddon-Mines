@@ -32,4 +32,21 @@ ServerEvents.recipes(event => {
 			'results': [{'item': (prefix + type), 'nbt': '{Material: "kubejs:compressed_iron"}'}]
 		})
 	})
+	
+	//Coal Lump Recipe
+	event.custom(
+		{
+			'type': 'pneumaticcraft:pressure_chamber',
+			'inputs': [{
+				'type': 'pneumaticcraft:stacked_item',
+				'count': 2,
+				'item': 'minecraft:charcoal'
+			}],
+			'pressure': 2.5,
+			'results': [{
+				'count': 3,
+				'item': 'spelunkery:coal_lump'
+			}]
+		}
+	)
 })
