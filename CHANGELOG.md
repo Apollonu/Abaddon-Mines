@@ -14,10 +14,13 @@
   - Mods
     - BaguetteLib - [1.0.0](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/6523425) -> [1.1.0](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/6909482)
     - Create Crafts & Additions - [1.3.1](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/6306951) -> [1.3.2](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/6901922)
-    - InsaneLib - [1.21.17](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6858532) -> [1.21.18](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6881227)
+    - Create Picky Wheels - [6.0.0-1](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels/files/6254312) -> [6.0.6-2](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels/files/6932328)
+    - GeckoLib - [4.7.3](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6789487) -> [4.7.4](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6920925)
+    - Gravestone Mod - [1.0.32](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/6740170) -> [1.0.33](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/6930821)
+    - InsaneLib - [1.21.17](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6858532) -> [1.21.20](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6927148)
     - Lychee Tweaker - [5.1.20](https://www.curseforge.com/minecraft/mc-mods/lychee/files/6841382) -> [5.1.21](https://www.curseforge.com/minecraft/mc-mods/lychee/files/6899773)
     - Mobs Properties Randomness - [5.0.12](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6845995) -> [5.0.13](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6915443)
-    - Oh The Biomes We've Gone - [1.6.3](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6817611) -> [1.6.4](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6884267)
+    - Oh The Biomes We've Gone - [1.6.3](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6817611) -> [1.6.5](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6943503)
     - Oreganized - [4.2.2](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6821455) -> [4.2.3](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6907823)
   - Configs
     - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap)
