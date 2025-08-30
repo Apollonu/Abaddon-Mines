@@ -5,6 +5,7 @@
 
 - Additions
   - Mods
+    - Create Better FPS - [1.1.1](https://www.curseforge.com/minecraft/mc-mods/create-better-fps/files/6716449)
     - Tinkers Construct - [3.10.2.92](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/6777068) + Mantle - [1.11.79](https://www.curseforge.com/minecraft/mc-mods/mantle/files/6819217)
   - Resourcepacks / Shaderpacks
     - none
