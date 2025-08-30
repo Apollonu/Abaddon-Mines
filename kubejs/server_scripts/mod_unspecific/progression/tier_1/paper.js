@@ -21,16 +21,16 @@ ServerEvents.recipes(event => {
     event.recipes.createMixing('2x ' + paper_pulp, [
 		'1x minecraft:slime_ball',
         '3x minecraft:sugar_cane',
-        Fluid.water(750)
+        Fluid.water(100)
 	])
-    event.recipes.createMixing(paper_pulp, [
+    event.recipes.createMixing('2x ' + paper_pulp, [
 		'2x minecraft:slime_ball',
         '5x farmersdelight:tree_bark',
-        Fluid.water(1000)
+        Fluid.water(500)
 	]).lowheated()
     event.recipes.createMixing('3x ' + paper_pulp, [
 		'1x minecraft:slime_ball',
         '3x netherexp:warphopper_fur',
-        Fluid.water(800)
+        Fluid.water(250)
 	]).lowheated()
 })
