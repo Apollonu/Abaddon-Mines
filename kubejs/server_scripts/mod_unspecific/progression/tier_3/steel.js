@@ -21,6 +21,16 @@ ServerEvents.recipes(event => {
 		B: '#forge:ingots/andesite_alloy'
 	})
 
+	//Schematicannon Recipe
+	event.remove({output: 'create:schematicannon'})
+	event.shaped('create:schematicannon', [' A ', 'CBC', 'EDE'], {
+		A: 'supplementaries:cannon',
+		B: '#forge:storage_blocks/steel',
+		C: '#minecraft:logs',
+		D: 'minecraft:dispenser',
+		E: 'minecraft:smooth_stone'
+	})
+
 	//Mechanical Drill Recipe
 	event.remove({output: 'create:mechanical_drill'})
 	event.shaped('create:mechanical_drill', [' A ', 'CDC', ' B '], {
