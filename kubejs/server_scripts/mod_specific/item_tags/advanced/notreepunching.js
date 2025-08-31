@@ -10,6 +10,13 @@ ServerEvents.tags('item', event => {
     let individual_axes = [
         'everythingcopper:copper_axe',
         'immersiveengineering:axe_steel',
+        'mekanismtools:bronze_axe',
+        'mekanismtools:lapis_axe',
+        'mekanismtools:osmium_axe',
+        'mekanismtools:refined_glowstone_axe',
+        'mekanismtools:refined_obsidian_axe',
+        'minecraft:stone_axe',
+        'minecraft:wooden_axe',
         'oreganized:electrum_axe',
         'tconstruct:broad_axe',
         'tconstruct:hand_axe',
