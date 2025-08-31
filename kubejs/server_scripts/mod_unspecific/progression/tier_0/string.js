@@ -5,4 +5,7 @@ ServerEvents.recipes(event => {
 
     //String Recipe
     event.blasting('minecraft:string', 'htm:plant_string')
+
+    //Hemp Recipe Removal
+    event.remove({output: 'minecraft:string', input: 'immersiveengineering:hemp_fiber'})
 })
