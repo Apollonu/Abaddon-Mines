@@ -33,18 +33,33 @@ ServerEvents.recipes(event => {
 		})
 	})
 	
-	//Coal Lump Recipe
+	//Coal Lump Recipes
 	event.custom(
 		{
 			'type': 'pneumaticcraft:pressure_chamber',
 			'inputs': [{
 				'type': 'pneumaticcraft:stacked_item',
 				'count': 2,
-				'item': 'minecraft:charcoal'
+				'tag': 'forge:charcoal'
 			}],
 			'pressure': 2.5,
 			'results': [{
 				'count': 3,
+				'item': 'spelunkery:coal_lump'
+			}]
+		}
+	)
+	event.custom(
+		{
+			'type': 'pneumaticcraft:pressure_chamber',
+			'inputs': [{
+				'type': 'pneumaticcraft:stacked_item',
+				'count': 2,
+				'tag': 'forge:storage_blocks/charcoal'
+			}],
+			'pressure': 2.5,
+			'results': [{
+				'count': 27,
 				'item': 'spelunkery:coal_lump'
 			}]
 		}
