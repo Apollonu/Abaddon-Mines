@@ -14,6 +14,7 @@ ServerEvents.tags('item', event => {
 	let individual_items = [
 		prefix + 'aluminum_wire',
 		prefix + 'constantan_wire',
+		prefix + 'enderium_sheet',
 		prefix + 'netherite_sheet',
 		prefix + 'steel_rod',
 		prefix + 'sulfur',
