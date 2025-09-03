@@ -8,7 +8,6 @@ ServerEvents.tags('block', event => {
 	const always_breakable = []
 	const unbreakable = []
 	const always_drops = []
-	const no_drops = []
 
 	//Breakable Individual
 	let breakable_individual = [
