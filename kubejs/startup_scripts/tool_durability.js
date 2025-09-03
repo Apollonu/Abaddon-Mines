@@ -12,6 +12,15 @@ ItemEvents.modification(event => {
 		'sword'
 	]
 
+	//Fishing Rods
+	event.modify('tide:iron_fishing_rod', item => {
+		item.maxDamage = 80
+	})
+	event.modify('tide:crystal_fishing_rod', item => {
+		item.maxDamage = 64
+	})
+
+	//Screwdriver
 	event.modify('immersiveengineering:screwdriver', item => {
 		item.maxDamage = 250
 	})
