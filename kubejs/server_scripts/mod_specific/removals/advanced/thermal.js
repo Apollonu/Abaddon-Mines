@@ -33,6 +33,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'signalum_plate',,
 		prefix + 'slag_block',
 		prefix + 'slag_bricks',
+		prefix + 'sugar_cane_block',
 		prefix + 'sulfur_dust'
 	]
 
