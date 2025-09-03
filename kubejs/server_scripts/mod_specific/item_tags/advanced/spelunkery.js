@@ -15,4 +15,7 @@ ServerEvents.tags('item', event => {
 		event.add('forge:dusts', individual)
 		event.add('forge:dusts/' + type, individual)
 	})
+
+	//Niter Dust Tag
+	event.add('forge:dusts/niter', prefix + 'saltpeter')
 })
