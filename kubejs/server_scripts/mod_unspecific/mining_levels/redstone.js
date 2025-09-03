@@ -9,7 +9,8 @@ ServerEvents.tags('block', event => {
 
 	//Individual Blocks
 	let individual_blocks = [
-		'minecraft:deepslate_redstone_ore'
+		'minecraft:deepslate_redstone_ore',
+		'minecraft:redstone_block'
 	]
 
 	//Individual Tags

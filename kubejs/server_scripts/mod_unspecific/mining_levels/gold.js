@@ -9,7 +9,12 @@ ServerEvents.tags('block', event => {
 
 	//Individual Blocks
 	let individual_blocks = [
-		'minecraft:deepslate_gold_ore'
+		'minecraft:deepslate_gold_ore',
+		'minecraft:light_weighted_pressure_plate',
+
+		'quark:gold_bars',
+
+		'supplementaries:gold_gate'
 	]
 
 	//Individual Tags
