@@ -9,7 +9,8 @@ ServerEvents.tags('item', event => {
 	
 	//Individual Items
 	let individual_items = [
-		prefix + 'copper_nugget'
+		prefix + 'copper_nugget',
+		prefix + 'golden_sheet'
 	]
 	
 	//Remove Items Function Push
