@@ -174,15 +174,6 @@ ServerEvents.recipes(event => {
             'results': [{
                 'item': 'tfmg:rubber_sheet'
             }]
-        }, {
-            'type': 'create:compacting',
-            'heatRequirement': 'heated',
-            'ingredients': [{
-                'amount': 1000,
-                'fluid': unified_individual,
-                'nbt': {}
-            }],
-            'results': [{'item': 'tfmg:bitumen'}]
         }
     ]
 
