@@ -1,13 +1,3 @@
 {
-  "type": "tconstruct:ore_melting",
-  "ingredient": {
-    "tag": "forge:raw_materials/iron"
-  },
-  "rate": "metal",
-  "result": {
-    "amount": 90,
-    "tag": "forge:molten_iron"
-  },
-  "temperature": 800,
-  "time": 90
+
 }
