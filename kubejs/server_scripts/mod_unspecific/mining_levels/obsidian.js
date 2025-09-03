@@ -19,7 +19,14 @@ ServerEvents.tags('block', event => {
 		'quark:duskbound_block_slab',
 		'quark:duskbound_block_stairs',
 		'quark:duskbound_lantern',
-		'quark:obsidian_pressure_plate'
+		'quark:obsidian_pressure_plate',
+		
+		'thermal:enderium_glass',
+		'thermal:lumium_glass',
+		'thermal:obsidian_glass',
+		'thermal:signalum_glass',
+
+		'tide:obsidian_loot_crate'
 	]
 
 	//Individual Tags
