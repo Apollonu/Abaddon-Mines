@@ -22,7 +22,6 @@ ServerEvents.tags('item', event => {
 		//'amethyst',
 		'azure_silver',
 		'bismuth',
-		'cobalt',
 		'crimson_iron',
 		'diamond',
 		'draconium',
@@ -39,7 +38,6 @@ ServerEvents.tags('item', event => {
 		'lapis',
 		'quartz',
 		'redstone',
-		//'silver'
 		//'sulfur'
 	].forEach(type => {
 		processing_variants.forEach(variant => {
