@@ -15,6 +15,7 @@ ServerEvents.tags('item', event => {
 	let individual_items = [
 		prefix + 'aluminum_frame',
 		prefix + 'aluminum_sheet',
+		prefix + 'bitumen',
 		prefix + 'coal_coke',
 		prefix + 'coal_coke_block',
 		prefix + 'constantan_block',
