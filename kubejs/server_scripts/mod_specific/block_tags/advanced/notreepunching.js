@@ -8,6 +8,7 @@ ServerEvents.tags('block', event => {
 	const always_breakable = []
 	const unbreakable = []
 	const always_drops = []
+	const no_drops = []
 
 	//Breakable Individual
 	let breakable_individual = [
@@ -62,15 +63,35 @@ ServerEvents.tags('block', event => {
 
 	//Drops Individual
 	let drops_individual = [
+		'biomeswevegone:sandy_farmland',
+		'biomeswevegone:lush_farmland',
+		'biomeswevegone:lush_dirt_path',
+		'biomeswevegone:sandy_dirt_path',
+
+		'farmersdelight:rich_soil_farmland',
+		'farmersdelight:cutting_board',
+
 		'minecraft:bamboo',
-		'minecraft:vine'
+		'minecraft:dirt',
+		'minecraft:dirt_path',
+		'minecraft:farmland',
+		'minecraft:soul_sand',
+		'minecraft:soul_soil',
+		'minecraft:vine',
+
+		'netherexp:soul_path'
 	].forEach(individual => {
 		always_drops.push(individual)
 	})
 	
 	//Drops Tags
 	let drops_tags = [
-		
+		'biomeswevegone:crafting_tables',
+
+		'forge:workbenches',
+
+		'minecraft:all_signs',
+		'minecraft:wooden_buttons'
 	].forEach(tag => {
 		event.get(tag)
 		.getObjectIds().forEach(individual => {
