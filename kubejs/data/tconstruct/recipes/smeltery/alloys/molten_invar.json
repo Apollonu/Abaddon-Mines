@@ -1,28 +1,3 @@
 {
-  "type": "tconstruct:alloy",
-  "conditions": [
-    {
-      "type": "mantle:tag_filled",
-      "tag": "forge:ingots/nickel"
-    }
-  ],
-  "inputs": [
-    {
-      "amount": 540,
-      "tag": "forge:molten_iron"
-    },
-    {
-      "amount": 270,
-      "tag": "forge:molten_nickel"
-    },
-    {
-      "amount": 90,
-      "tag": "forge:molten_osmium"
-    }
-  ],
-  "result": {
-    "amount": 540,
-    "tag": "forge:molten_invar"
-  },
-  "temperature": 1050
+
 }
