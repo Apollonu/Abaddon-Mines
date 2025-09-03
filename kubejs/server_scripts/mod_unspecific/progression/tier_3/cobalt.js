@@ -9,6 +9,50 @@ ServerEvents.recipes(event => {
 
 	//Melting Recipes
 	event.custom({
+		"type": "tconstruct:melting",
+		"ingredient": {"tag": "forge:storage_blocks/cobalt"},
+		"result": {
+			"amount": 810,
+			"tag": "forge:molten_cobalt"
+		},
+		"temperature": 1050,
+		"time": 194
+	})
+	event.custom({
+		"type": "tconstruct:melting",
+		"conditions": [{
+			"type": "mantle:tag_filled",
+			"tag": "forge:dusts/cobalt"
+		}],
+		"ingredient": {"tag": "forge:dusts/cobalt"},
+		"result": {
+			"amount": 90,
+			"tag": "forge:molten_cobalt"
+		},
+		"temperature": 1050,
+		"time": 49
+	})
+	event.custom({
+		"type": "tconstruct:melting",
+		"ingredient": {"tag": "forge:ingots/cobalt"},
+		"result": {
+			"amount": 90,
+			"tag": "forge:molten_cobalt"
+		},
+		"temperature": 1050,
+		"time": 65
+	})
+	event.custom({
+		"type": "tconstruct:melting",
+		"ingredient": {"tag": "forge:nuggets/cobalt"},
+		"result": {
+			"amount": 10,
+			"tag": "forge:molten_cobalt"
+		},
+		"temperature": 1050,
+		"time": 22
+	})
+	event.custom({
 		'type': 'tconstruct:ore_melting',
 		'conditions': [{
 			'type': 'mantle:tag_combination_filled',
@@ -29,7 +73,7 @@ ServerEvents.recipes(event => {
 			'amount': 540,
 			'tag': 'forge:molten_cobalt'
 		},
-		'temperature': 950,
+		'temperature': 1050,
 		'time': 292
 	})
 	event.custom({
@@ -49,7 +93,7 @@ ServerEvents.recipes(event => {
 			'amount': 180,
 			'tag': 'forge:molten_cobalt'
 		},
-		'temperature': 950,
+		'temperature': 1050,
 		'time': 162
 	})
 	event.custom({
@@ -73,29 +117,55 @@ ServerEvents.recipes(event => {
 			'amount': 90,
 			'tag': 'forge:molten_cobalt'
 		},
-		'temperature': 950,
+		'temperature': 1050,
 		'time': 97
 	})
 	event.custom({
-		'type': 'tconstruct:ore_melting',
-		'ingredient': {'tag': 'forge:raw_materials/cobalt'},
-		'rate': 'metal',
-		'result': {
-			'amount': 90,
-			'tag': 'forge:molten_cobalt'
+		"type": "tconstruct:melting",
+		"ingredient": {"item": "tconstruct:cobalt_platform"},
+		"result": {
+			"amount": 100,
+			"tag": "forge:molten_cobalt"
 		},
-		'temperature': 950,
-		'time': 97
+		"temperature": 1050,
+		"time": 68
 	})
 	event.custom({
-		'type': 'tconstruct:ore_melting',
-		'ingredient': {'tag': 'forge:storage_blocks/raw_cobalt'},
-		'rate': 'metal',
-		'result': {
-			'amount': 810,
-			'tag': 'forge:molten_cobalt'
+		"type": "tconstruct:melting",
+		"ingredient": {"item": "tconstruct:cobalt_reinforcement"},
+		"result": {
+			"amount": 90,
+			"tag": "forge:molten_cobalt"
 		},
-		'temperature': 950,
-		'time': 389
+		"temperature": 1050,
+		"time": 65
+	})
+	event.custom({
+		"type": "tconstruct:melting",
+		"byproducts": [{
+			"amount": 1000,
+			"fluid": "tconstruct:scorched_stone"
+		}],
+		"ingredient": {"item": "tconstruct:scorched_duct"},
+		"result": {
+			"amount": 180,
+			"tag": "forge:molten_gold"
+		},
+		"temperature": 1050,
+		"time": 142
+	})
+	event.custom({
+		"type": "tconstruct:melting",
+		"byproducts": [{
+			"amount": 1000,
+			"fluid": "tconstruct:seared_stone"
+		}],
+		"ingredient": {"item": "tconstruct:seared_duct"},
+		"result": {
+			"amount": 180,
+			"tag": "forge:molten_gold"
+		},
+		"temperature": 1050,
+		"time": 142
 	})
 })
