@@ -34,6 +34,7 @@ function block_tags (event, material, individual_blocks, individual_tags) {
 		//'steel'
 	]
 	let mining_level_compressed_iron = [
+		'cobalt',
 		'obsidian'
 	]
 	let mining_level_steel = [
