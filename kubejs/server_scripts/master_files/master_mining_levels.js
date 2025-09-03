@@ -29,8 +29,11 @@ function block_tags (event, material, individual_blocks, individual_tags) {
 		'iron'
 	]
 	let mining_level_iron = [
+		'emerald',
 		'fluorite',
-		'nahuatl'
+		'gold',
+		'nahuatl',
+		'redstone'
 		//'steel'
 	]
 	let mining_level_compressed_iron = [
