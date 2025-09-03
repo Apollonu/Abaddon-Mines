@@ -11,6 +11,12 @@ ServerEvents.recipes(event => {
 		'#forge:plates/gold',
 		'#forge:plates/brass'
 	)
+	//Steam Engine Recipe
+	//Wrench Recipe
+	event.replaceInput({output: 'create:steam_engine'},
+		'#forge:plates/gold',
+		'#forge:plates/brass'
+	)
 
 	//Smeltery Alloying Recipe
 	event.custom({
