@@ -41,7 +41,6 @@
   - Reverts
     - none
   - Removals
-    - [Flerovium](https://www.curseforge.com/minecraft/mc-mods/flerovium)
     - [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear) + Config + [Silent Lib](https://www.curseforge.com/minecraft/mc-mods/silent-lib)
 </details>
 
