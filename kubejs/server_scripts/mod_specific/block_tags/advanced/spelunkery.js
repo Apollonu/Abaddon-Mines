@@ -21,7 +21,8 @@ ServerEvents.tags('block', event => {
 	let zinc_types = [
 		'andesite_',
 		'diorite_',
-		'granite_'
+		'granite_',
+		'tuff_'
 	].forEach(type => {
 		let individual = prefix + type + 'zinc_ore'
 		event.add('forge:ores', individual)
