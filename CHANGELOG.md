@@ -32,7 +32,7 @@
     - [Create Picky Wheels](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels)
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai) (Creeper, Miner)
     - [Global GameRules](https://www.curseforge.com/minecraft/mc-mods/global-gamerules)
-    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Silent, Tinkers, Missing Mod Icon, Progression, World Generation Reduced to -160)
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Silent Removed, Tinkers, Missing Mod Icon, Progression, Unification, World Generation Reduced to -160)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
