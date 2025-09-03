@@ -3,7 +3,7 @@
 //Recipe Event
 ServerEvents.recipes(event => {
 
-	//
+	//Mixing Recipe
 	event.replaceInput({output: '#forge:ingots/slimesteel', input: '#forge:ingots/iron'},
 		'#forge:ingots/iron',
 		'#forge:ingots/steel'
