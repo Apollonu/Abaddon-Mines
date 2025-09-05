@@ -12,7 +12,8 @@ ServerEvents.recipes(event => {
 
     //Output Recipe Types
     let output_recipe_types = [
-        'create:pressing'
+        'create:pressing',
+        'create:sequenced_assembly'
     ]
 
     //Input Recipe Types
