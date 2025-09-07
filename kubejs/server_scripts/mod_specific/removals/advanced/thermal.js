@@ -26,6 +26,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'lead_ore',
 		prefix + 'lumium_plate',
 		prefix + 'machine_sawmill',
+		prefix + 'netherite_dust',
 		prefix + 'niter_dust',
 		prefix + 'polished_slag',
 		prefix + 'saw_blade',
