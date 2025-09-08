@@ -109,6 +109,47 @@ ServerEvents.recipes(event => {
             },
             'pressure': 3.0,
             'speed': 0.5
+        }, {
+            'type': 'minecraft:crafting_shaped',
+            'category': 'misc',
+            'key': {
+                'C': {
+                    'type': 'pneumaticcraft:fluid',
+                    'amount': 1000,
+                    'fluid': unified_individual
+                },
+                'L': {'tag': 'pneumaticcraft:upgrade_components'},
+                'X': {'item': 'minecraft:sugar'}
+            },
+            'pattern': [
+                'LXL',
+                'XCX',
+                'LXL'
+            ],
+            'result': {'item': 'pneumaticcraft:speed_upgrade'},
+            'show_notification': true
+        }, {
+            'type': 'minecraft:crafting_shaped',
+            'category': 'misc',
+            'key': {
+                'C': {
+                    'type': 'pneumaticcraft:fluid',
+                    'amount': 1000,
+                    'fluid': unified_individual
+                },
+                'L': {'tag': 'pneumaticcraft:upgrade_components'},
+                'X': {'item': 'pneumaticcraft:glycerol'}
+            },
+            'pattern': [
+                'LXL',
+                'XCX',
+                'LXL'
+            ],
+            'result': {
+                'count': 2,
+                'item': 'pneumaticcraft:speed_upgrade'
+            },
+            'show_notification': true
         }
     ]
 
