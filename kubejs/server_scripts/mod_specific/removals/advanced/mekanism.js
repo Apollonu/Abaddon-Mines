@@ -15,6 +15,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'block_charcoal',
 		prefix + 'block_steel',
 		prefix + 'deepslate_tin_ore',
+		prefix + 'dust_emerald',
 		prefix + 'dust_diamond',
 		prefix + 'dust_obsidian',
 		prefix + 'dust_sulfur',
