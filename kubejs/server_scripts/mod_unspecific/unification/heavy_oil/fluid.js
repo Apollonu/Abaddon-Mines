@@ -161,9 +161,9 @@ ServerEvents.recipes(event => {
                 'tfmg:firebrick_lined_vat'
             ],
             'heatRequirement': 'heated',
-            'ingredients': [{
-                    'item': 'tfmg:sulfur_dust'
-                }, {
+            'ingredients': [
+                {'tag': 'forge:dusts/sulfur'},
+                {
                     'amount': 250,
                     'fluid': unified_individual,
                     'nbt': {}
