@@ -3,7 +3,7 @@
 //Recipe Event
 ServerEvents.recipes(event => {
 
-	//Smelting Recipe Removals
+	//Infused Alloy Recipe
 	event.replaceInput({output: '#forge:alloys/advanced', input: '#forge:ingots/iron'},
 		'#forge:ingots/iron',
 		'#forge:ingots/aluminum'
