@@ -24,6 +24,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'electrum_plate',
 		prefix + 'gunpowder_block',
 		prefix + 'iron_plate',
+		prefix + 'lapis_dust',
 		prefix + 'lead_ore',
 		prefix + 'lumium_plate',
 		prefix + 'machine_sawmill',
