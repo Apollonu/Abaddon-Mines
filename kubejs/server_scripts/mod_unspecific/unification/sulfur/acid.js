@@ -77,6 +77,35 @@ ServerEvents.recipes(event => {
             'minSize': 1,
             'processingTime': 100,
             'results': [{'item': 'tfmg:etched_circuit_board'}]
+        }, {
+            'type': 'vintage:pressurizing',
+            'secondaryFluidInput': 1,
+            'ingredients': [ {
+                    'fluid': 'mekanism:sulfur_trioxide',
+                    'amount': 1000
+                }, {
+                    'fluid': 'minecraft:water',
+                    'amount': 1000
+                }
+            ],
+            'results': [{
+                'fluid': unified_individual,
+                'amount': 1000
+            }],
+            'processingTime': 600
+        }, {
+            'type': 'vintage:pressurizing',
+            'ingredients': [ {
+                    'fluid': unified_individual,
+                    'amount': 200
+                }, {
+                    'fluid': 'minecraft:water',
+                    'amount': 200
+                },
+                {'tag': 'forge:ingots/copper'}
+            ],
+            'results': [{'item': 'tfmg:copper_sulfate'}],
+            'processingTime': 800
         }
     ]
 
