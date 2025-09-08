@@ -41,6 +41,7 @@
   - Reverts
     - none
   - Removals
+    - [Carry On](https://www.curseforge.com/minecraft/mc-mods/carry-on) Config
     - [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear) + Config + [Silent Lib](https://www.curseforge.com/minecraft/mc-mods/silent-lib)
 </details>
 
