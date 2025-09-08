@@ -58,6 +58,25 @@ ServerEvents.recipes(event => {
             }
         ],
         'results': [{'item': 'tfmg:copper_sulfate'}]
+        }, {
+            'type': 'tfmg:vat_machine_recipe',
+            'allowedVatTypes': [
+                'tfmg:steel_vat',
+                'tfmg:cast_iron_vat',
+                'tfmg:firebrick_lined_vat'
+            ],
+            'ingredients': [
+                {'item': 'tfmg:coated_circuit_board'},
+                {
+                    'amount': 250,
+                    'fluid': unified_individual,
+                    'nbt': {}
+                }
+            ],
+            'machines': [],
+            'minSize': 1,
+            'processingTime': 100,
+            'results': [{'item': 'tfmg:etched_circuit_board'}]
         }
     ]
 
