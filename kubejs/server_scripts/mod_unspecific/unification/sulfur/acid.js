@@ -47,6 +47,17 @@ ServerEvents.recipes(event => {
                 'amount': 500,
                 'fluid': unified_individual
             }]
+        }, {
+        'type': 'create:mixing',
+        'ingredients': [
+            {'item': 'minecraft:copper_ingot'},
+            {
+                'amount': 500,
+                'fluid': unified_individual,
+                'nbt': {}
+            }
+        ],
+        'results': [{'item': 'tfmg:copper_sulfate'}]
         }
     ]
 
