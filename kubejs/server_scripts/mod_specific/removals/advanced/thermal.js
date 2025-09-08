@@ -31,6 +31,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'netherite_dust',
 		prefix + 'niter_dust',
 		prefix + 'polished_slag',
+		prefix + 'quartz_dust',
 		prefix + 'saw_blade',
 		prefix + 'sawdust',
 		prefix + 'signalum_plate',,
