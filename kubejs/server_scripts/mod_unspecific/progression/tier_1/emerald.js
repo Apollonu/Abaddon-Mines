@@ -9,12 +9,6 @@ ServerEvents.recipes(event => {
         '#forge:gems/emerald'
     )
 
-    //Etching Table Recipe
-    event.replaceInput({output: 'etched:etching_table'},
-        '#forge:gems/diamond',
-        '#forge:gems/emerald'
-    )
-
     //Precision Sawmill Recipe
     event.replaceOutput({input: 'minecraft:jukebox'},
         '#forge:gems/diamond',
