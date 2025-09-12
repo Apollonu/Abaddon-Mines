@@ -18,4 +18,8 @@ ServerEvents.tags('item', event => {
 
 	//Niter Dust Tag
 	event.add('forge:dusts/niter', prefix + 'saltpeter')
+
+	//Cinnabar Tags
+	event.add('forge:gems', prefix + 'cinnabar')
+	event.add('forge:gems/cinnabar', prefix + 'cinnabar')
 })
