@@ -225,7 +225,7 @@
 	[Skeletons."Skeleton shoot"]
 		#Chance for a Skeleton to spawn with the ability to strafe (like vanilla)
 		#Range: 0.0 ~ 1.0
-		"Strafe chance" = 0.333
+		"Strafe chance" = 0.667
 		#Chance for a Skeleton to spawn as a spammer, which spams arrows instead of fully charging the bow
 		#Range: 0.0 ~ 1.0
 		"Spammer chance" = 0.07
@@ -233,9 +233,9 @@
 		#The range from where a skeleton will shoot a player
 		[Skeletons."Skeleton shoot"."Shooting range"]
 			#Range: 1.0 ~ 64.0
-			Minimum = 24.0
+			Minimum = 12.0
 			#Range: 1.0 ~ 64.0
-			Maximum = 32.0
+			Maximum = 26.0
 
 		#The ticks cooldown after shooting
 		[Skeletons."Skeleton shoot"."Shooting cooldown"]
@@ -264,19 +264,19 @@
 	[Skeletons."Skeleton flee target"]
 		#Chance for a Skeleton to spawn with the ability to avoid the player
 		#Range: 0.0 ~ 1.0
-		"Avoid player chance" = 0.5
+		"Avoid player chance" = 0.3
 		#Chance for a Skeleton to be able to shoot while running from a player
 		#Range: 0.0 ~ 1.0
-		"Attack when avoiding chance" = 0.5
+		"Attack when avoiding chance" = 0.4
 		#Distance from a player that counts as near and will make the skeleton run away faster.
 		#Range: 0.0 ~ 32.0
-		"Flee distance near" = 8.0
+		"Flee distance near" = 6.0
 		#Distance from a player that will make the skeleton run away.
 		#Range: 0.0 ~ 32.0
-		"Flee distance far" = 16.0
+		"Flee distance far" = 12.0
 		#Speed multiplier when the skeleton avoids the player and it's within 'Flee Distance Near' blocks from him.
 		#Range: 0.0 ~ 4.0
-		"Flee speed near" = 1.25
+		"Flee speed near" = 1.2
 		#Speed multiplier when the skeleton avoids the player and it's farther than 'Flee Distance Far' blocks from him.
 		#Range: 0.0 ~ 4.0
 		"Flee speed far" = 1.1
@@ -442,9 +442,9 @@
 		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute. Only mobs in the entity type tag `enhancedai:change_follow_range` will be affected by this override
 		[Mobs.Targeting."Follow range override"]
 			#Range: 0.0 ~ 128.0
-			Minimum = 24.0
+			Minimum = 14.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 48.0
+			Maximum = 32.0
 
 		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'. Only mobs in the entity type tag `enhancedai:apply_xray` will be affected by this override.
 		[Mobs.Targeting."Xray range override"]
@@ -460,16 +460,16 @@
 			"Prefer players" = true
 			#Change for a mob to not attack other mobs when hit.
 			#Range: 0.0 ~ 1.0
-			"Prevent infighting" = 0.9
+			"Prevent infighting" = 0.5
 
 		#Chances for a mob to spawn neutral
 		[Mobs.Targeting."Neutral chances"]
 			#Range: 0.0 ~ 1.0
-			"Easy/Peaceful" = 0.25
+			"Easy/Peaceful" = 0.15
 			#Range: 0.0 ~ 1.0
-			Normal = 0.1
+			Normal = 0.05
 			#Range: 0.0 ~ 1.0
-			Hard = 0.04
+			Hard = 0.01
 
 	#Prevent players from abusing some game mechanics to stop mobs. Only mobs in the entity type tag enhancedai:can_use_anti_cheese will be affected by this feature. Only veichles in `enhancedai:anti_cheese_veichles` will be affected by this feature.
 	[Mobs.Anti-Cheese]
@@ -507,7 +507,7 @@
 	[Mobs."Miner mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner chance" = 0.05
+		"Miner chance" = 0.025
 		#Mobs with the miner AI will mine only if they have any tool in the off-hand
 		"Can mine with tool only" = true
 		#Mobs with the miner AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
@@ -526,7 +526,7 @@
 		"Blacklist tile entities" = false
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
-		"Time to break multiplier" = 1.5
+		"Time to break multiplier" = 2.0
 		#If true, the block tag `enhancedai:miner_block_blacklist` will be treated as a whitelist instead of blacklist
 		"Block blacklist as whitelist" = false
 
@@ -541,13 +541,13 @@
 		#Chance for a mob in the entity type tag enhancedai:can_be_fisher to spawn with a Fishing Rod in the offhand.
 		#I recommend Mobs Properties Randomness to have more control over mobs equipment.
 		#Range: 0.0 ~ 1.0
-		"Equip fishing rod chance" = 0.07
+		"Equip fishing rod chance" = 0.05
 		#Chance for a fisher mob to steal an entity item in the hands instead of reeling the player.
 		#Range: 0.0 ~ 1.0
 		"Hook hands chance" = 0.4
 		#The max distance mobs will use the fishing rod. Above this distance they will try to get closer.
 		#Range: > -2147483648
-		"Max distance" = 24
+		"Max distance" = 16
 		#The min distance mobs will use the fishing rod. Below this distance they will just get closer and attack melee.
 		#Range: > -2147483648
 		"Min distance" = 4
@@ -555,18 +555,18 @@
 		#How fast will a mob reel in the grappled entity (or if the hook is on the ground).
 		[Mobs."Fisher mobs"."Reel in ticks"]
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-			"Easy/Peaceful" = 30.0
+			"Easy/Peaceful" = 80.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-			Normal = 30.0
+			Normal = 60.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-			Hard = 20.0
+			Hard = 40.0
 
 		#How much will a mob wait before casting the bobber again. The cooldown is doubled if successfully reels in someone.
 		[Mobs."Fisher mobs".Cooldown]
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-			"Easy/Peaceful" = 80.0
+			"Easy/Peaceful" = 240.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-			Normal = 80.0
+			Normal = 120.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 			Hard = 60.0
 
@@ -753,7 +753,7 @@
 	[Creepers."Creeper swell"]
 		#Percentage chance for a Creeper to keep walking while exploding. This is overwritten if the creeper has the beta property.
 		#Range: 0.0 ~ 1.0
-		"Walking fuse chance" = 0.1
+		"Walking fuse chance" = 0.15
 		#Speed modifier when a walking fuse creeper is swelling.
 		#Range: -1.0 ~ 64.0
 		"Walking fuse speed modifier" = -0.5
@@ -797,14 +797,14 @@
 		[Creepers."Creeper swell".Angry]
 			#Chance for a creeper to spawn angry
 			#Range: 0.0 ~ 1.0
-			Chance = 0.03
+			Chance = 0.02
 			#If true, Angry Creeper emits particles
 			Particles = true
 			#The special sound effect that the Angry Creeper plays
 			#Allowed Values: NONE, CENA, WTF_BOOM, OLD_EXPLOSION
 			"Creeper sounds" = "OLD_EXPLOSION"
 			#If true, Angry Creeper will have a name
-			Name = true
+			Name = false
 			#When ignited, Angry Creeper will not stop swelling
 			"Force explosion" = false
 			#Makes angry creepers blow up on death like when they were added back in 0.30
@@ -908,7 +908,7 @@
 		#Range: 0.0 ~ 128.0
 		Knockback = 1.1
 		#Animals' knockback attribute will be increased/decreased based on the side of the mob.
-		"Knockback size based" = true
+		"Knockback size based" = false
 		#Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitations so use mods like Mobs Properties Randomness to change the damage. Base damage is 3
 		#Range: 0.0 ~ 1.0
 		"Neutral chance" = 0.25
