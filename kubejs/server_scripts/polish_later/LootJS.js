@@ -3,12 +3,6 @@
 //Modifier Event
 LootJS.modifiers(event => {
 
-    //Uranium types
-    event.addBlockLootModifier('mekanism:uranium_ore')
-	.replaceLoot('mekanism:raw_uranium', 'immersiveengineering:raw_uranium')
-    event.addBlockLootModifier('mekanism:deepslate_uranium_ore')
-	.replaceLoot('mekanism:raw_uranium', 'immersiveengineering:raw_uranium')
-
     //Lead Types
     let lead_types = [
         'mekanism:deepslate_lead_ore',
@@ -20,7 +14,7 @@ LootJS.modifiers(event => {
         event.addBlockLootModifier(type)
         .replaceLoot('mekanism:raw_lead', 'oreganized:raw_lead')
     })
-    
+
     //Silver Types
     let silver_types = [
         'thermal:deepslate_silver_ore',
@@ -33,5 +27,31 @@ LootJS.modifiers(event => {
     ].forEach(type => {
         event.addBlockLootModifier(type)
         .replaceLoot('thermal:raw_silver', 'oreganized:raw_silver')
+    })
+
+    //Uranium Types
+    let uranium_types = [
+        'mekanism:deepslate_uranium',
+        'mekanism:uranium',
+        'mekanismaaa:glacio_uranium_ore',
+        'mekanismaaa:mercury_uranium_ore',
+        'mekanismaaa:venus_uranium_ore'
+    ].forEach(type => {
+        event.addBlockLootModifier(type)
+        .replaceLoot('mekanism:raw_uranium', 'immersiveengineering:raw_uranium')
+    })
+
+    //Cinnabar Types
+    let cinnabar_types = [
+        'thermal:deepslate_cinnabar_ore',
+        'thermal:cinnabar_ore',
+        'thermal_and_space:glacio_cinnabar_ore',
+        'thermal_and_space:mars_cinnabar_ore',
+        'thermal_and_space:mercury_cinnabar_ore',
+        'thermal_and_space:moon_cinnabar_ore',
+        'thermal_and_space:venus_cinnabar_ore'
+    ].forEach(type => {
+        event.addBlockLootModifier(type)
+        .replaceLoot('thermal:cinnabar', 'spelunkery:rough_cinnabar')
     })
 })
