@@ -14,7 +14,7 @@
   - Mods
     - none
   - Configs
-    - none
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Unification, Missing (Un)packing Recipes)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
