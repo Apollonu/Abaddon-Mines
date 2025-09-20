@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
 
     //Input Recipe Types
     let input_recipe_types = [
-        
+        'create:cutting'
     ]
 
     //Custom Recipe Types
