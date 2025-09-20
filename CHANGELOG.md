@@ -12,7 +12,9 @@
   - Modpack
     - none
   - Mods
-    - none
+    - Lychee Tweaker - [5.1.21](https://www.curseforge.com/minecraft/mc-mods/lychee/files/6899773) -> [5.1.22](https://www.curseforge.com/minecraft/mc-mods/lychee/files/7015928)
+    - Mobs Properties Randomness - [5.0.13](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6915443) -> [5.0.19](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7012736)
+    - Oreganized - [4.2.4](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6968419) -> [4.2.5](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/7006274)
   - Configs
     - [Colossal Chests](https://www.curseforge.com/minecraft/mc-mods/colossal-chests)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Unification, Missing (Un)packing Recipes)
