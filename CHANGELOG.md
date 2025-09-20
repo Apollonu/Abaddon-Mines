@@ -5,7 +5,7 @@
 
 - Additions
   - Mods
-    - none
+    - Colossal Chests - [1.8.6](https://www.curseforge.com/minecraft/mc-mods/colossal-chests/files/6224796) + Cyclops Core - [1.20.1](https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/6602273)
   - Resourcepacks / Shaderpacks
     - none
 - Updates
@@ -14,6 +14,7 @@
   - Mods
     - none
   - Configs
+    - [Colossal Chests](https://www.curseforge.com/minecraft/mc-mods/colossal-chests)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Unification, Missing (Un)packing Recipes)
   - Resourcepacks / Shaderpacks
     - none
