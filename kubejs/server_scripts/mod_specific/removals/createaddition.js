@@ -12,6 +12,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'diamond_grit',
 		prefix + 'electrum_block',
 		prefix + 'electrum_ingot',
+		prefix + 'electrum_sheet',
 		prefix + 'iron_rod'
 	]
 	
