@@ -5,14 +5,14 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'createaddition:electrum_sheet'
+    let unified_individual = 'thermal:electrum_plate'
     let unified_variants = [
-        'thermal:electrum_plate'
+        'createaddition:electrum_sheet'
     ]
 
     //Output Recipe Types
     let output_recipe_types = [
-        'thermal:press'
+        'create:pressing'
     ]
 
     //Input Recipe Types
