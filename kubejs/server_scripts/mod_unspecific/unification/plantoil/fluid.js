@@ -186,7 +186,7 @@ ServerEvents.recipes(event => {
     ]
 
     //Other Recipe Types
-    
+    event.remove({input: '#c:seeds', type: 'create:compacting'})
 
     //Unify Items Function Push
     unify_items (
