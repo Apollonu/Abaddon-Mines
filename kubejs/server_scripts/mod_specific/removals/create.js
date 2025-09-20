@@ -10,6 +10,8 @@ ServerEvents.tags('item', event => {
 	//Individual Items
 	let individual_items = [
 		prefix + 'copper_nugget',
+		prefix + 'copper_sheet',
+		prefix + 'iron_sheet',
 		prefix + 'golden_sheet'
 	]
 	
