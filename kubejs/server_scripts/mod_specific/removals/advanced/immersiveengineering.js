@@ -20,7 +20,6 @@ ServerEvents.tags('item', event => {
 		prefix + 'dust_sulfur',
 		prefix + 'dust_wood',
 		prefix + 'deepslate_ore_uranium',
-		prefix + 'ingot_electrum',
 		prefix + 'nugget_copper',
 		prefix + 'ore_uranium',
 		prefix + 'plate_constantan',
@@ -58,6 +57,7 @@ ServerEvents.tags('item', event => {
 	let ingot_types = [
 		'aluminum',
 		'constantan',
+		'electrum',
 		'lead',
 		'nickel',
 		'silver',
