@@ -5,14 +5,14 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'vintage:lumium_sheet'
+    let unified_individual = 'thermal:lumium_plate'
     let unified_variants = [
-        'thermal:lumium_plate'
+        'vintage:lumium_sheet'
     ]
 
     //Output Recipe Types
     let output_recipe_types = [
-        'thermal:press'
+        'create:pressing'
     ]
 
     //Input Recipe Types
