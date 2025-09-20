@@ -5,14 +5,14 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'vintage:signalum_sheet'
+    let unified_individual = 'thermal:signalum_plate'
     let unified_variants = [
-        'thermal:signalum_plate'
+        'vintage:signalum_sheet'
     ]
 
     //Output Recipe Types
     let output_recipe_types = [
-        'thermal:press'
+        'create:pressing'
     ]
 
     //Input Recipe Types
