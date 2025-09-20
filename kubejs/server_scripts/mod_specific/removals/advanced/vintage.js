@@ -57,6 +57,7 @@ ServerEvents.tags('item', event => {
 		'rhodium',
 		'rose_gold',
 		'shadow_steel',
+		'signalum',
 		'silver',
 		'slimesteel',
 		'tin',
