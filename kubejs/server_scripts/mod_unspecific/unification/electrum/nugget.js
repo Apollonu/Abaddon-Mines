@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
 
     //Output Recipe Types
     let output_recipe_types = [
+        'minecraft:crafting_shapeless',
         'thermal:press'
     ]
 

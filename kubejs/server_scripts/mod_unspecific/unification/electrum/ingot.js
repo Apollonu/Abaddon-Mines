@@ -12,14 +12,14 @@ ServerEvents.recipes(event => {
 
     //Output Recipe Types
     let output_recipe_types = [
-        'minecraft:crafting_shapeless',
+        'minecraft:crafting_shaped',
         'thermal:press',
         'thermal:smelter'
     ]
 
     //Input Recipe Types
     let input_recipe_types = [
-        'minecraft:crafting_shaped',
+        'minecraft:crafting_shapeless',
         'thermal:press'
     ]
 
