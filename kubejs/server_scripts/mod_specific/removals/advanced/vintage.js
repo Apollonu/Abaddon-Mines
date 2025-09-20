@@ -42,6 +42,7 @@ ServerEvents.tags('item', event => {
 		'ironwood',
 		'knightmetal',
 		'lead',
+		'lumium',
 		'manyullyn',
 		'nethersteel',
 		'nickel',
