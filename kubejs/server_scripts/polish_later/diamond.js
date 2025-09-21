@@ -3,7 +3,7 @@
 //Recipe Event
 ServerEvents.recipes(event => {
     
-    //Barrel Recipe
+    //Steel Drill Head Recipe
     event.remove({output: 'immersiveengineering:drillhead_steel'})
     event.shaped('immersiveengineering:drillhead_steel', ['  C', 'AA ', 'BA '], {
         A: '#forge:ingots/steel',
