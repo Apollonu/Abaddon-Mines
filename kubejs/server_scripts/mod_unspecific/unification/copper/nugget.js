@@ -20,7 +20,8 @@ ServerEvents.recipes(event => {
 
     //Input Recipe Types
     let input_recipe_types = [
-        
+        'create:mixing',
+        'minecraft:crafting_shaped'
     ]
 
     //Custom Recipe Types
@@ -30,7 +31,6 @@ ServerEvents.recipes(event => {
 
     //Other Recipe Types
     event.remove({output: '#forge:ingots/copper', input: unified_individual, type: 'minecraft:crafting_shaped'})
-    event.shaped('#forge:ingots/copper', ['AAA','AAA','AAA'], {A: unified_individual})
     event.shapeless('9x #forge:nuggets/copper', ['#forge:ingots/copper'])
 
     //Unify Items Function Push
