@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
 	//Mechanical Drill Recipe
 	event.remove({output: 'create:mechanical_drill'})
 	event.shaped('create:mechanical_drill', [' A ', 'CDC', ' B '], {
-		A: 'immersiveengineering:drillhead_steel',
+		A: 'immersiveengineering:drillhead_iron',
 		B: 'create:andesite_casing',
 		C: '#forge:ingots/cast_iron',
 		D: '#forge:rods/steel'
