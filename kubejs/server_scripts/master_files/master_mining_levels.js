@@ -96,21 +96,25 @@ function block_tags (event, material, individual_blocks, individual_tags) {
 		mining_level_compressed_iron.forEach(type => {
 			if (type == material) {
 				event.add('hltweaker:needs_compressed_iron_tool', individual)
+				event.add('create:non_breakable', individual)
 			}
 		})
 		mining_level_steel.forEach(type => {
 			if (type == material) {
 				event.add('hltweaker:needs_steel_tool', individual)
+				event.add('create:non_breakable', individual)
 			}
 		})
 		mining_level_osmium.forEach(type => {
 			if (type == material) {
 				event.add('hltweaker:needs_osmium_tool', individual)
+				event.add('create:non_breakable', individual)
 			}
 		})
 		mining_level_diamond.forEach(type => {
 			if (type == material) {
 				event.add('minecraft:needs_diamond_tool', individual)
+				event.add('create:non_breakable', individual)
 			}
 		})
 	})
