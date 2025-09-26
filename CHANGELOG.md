@@ -6,6 +6,7 @@
 - Additions
   - Mods
     - Colossal Chests - [1.8.6](https://www.curseforge.com/minecraft/mc-mods/colossal-chests/files/6224796) + Cyclops Core - [1.20.1](https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/6602273)
+    - Iron Chests - [14.4.4](https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/4614852)
   - Resourcepacks / Shaderpacks
     - none
 - Updates
