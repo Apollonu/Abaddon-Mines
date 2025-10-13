@@ -27,7 +27,7 @@
   - Reverts
     - none
   - Removals
-    - none
+    - [Global GameRules](https://www.curseforge.com/minecraft/mc-mods/global-gamerules) Config
 </details>
 
 <details close>
