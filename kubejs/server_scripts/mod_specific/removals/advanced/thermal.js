@@ -25,7 +25,6 @@ ServerEvents.tags('item', event => {
 		prefix + 'deepslate_lead_ore',
 		prefix + 'electrum_ingot',
 		prefix + 'electrum_nugget',
-		prefix + 'electrum_plate',
 		prefix + 'gunpowder_block',
 		prefix + 'lapis_dust',
 		prefix + 'lead_ore',
