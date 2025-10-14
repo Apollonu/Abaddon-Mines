@@ -6,6 +6,6 @@ ServerEvents.tags('item', event => {
     //Variables
 	let prefix = 'htm:'
 
-    //Venus Sandstone Tags
+    //Hammer Tag
     event.add('forge:hammers', prefix + 'hatchet')
 })
