@@ -6,8 +6,8 @@ ServerEvents.tags('item', event => {
 	//Variables
 	let prefix = 'tconstruct:'
 
-	//Crushed Types
-	let crushed_types = [
+	//Hammer Types
+	let hammer_types = [
 		'sledge_hammer',
 		'vein_hammer'
 	].forEach(type => {
