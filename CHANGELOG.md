@@ -19,6 +19,7 @@
   - Configs
     - [Colossal Chests](https://www.curseforge.com/minecraft/mc-mods/colossal-chests)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Unification, Missing (Un)packing Recipes)
+    - [YUNG's Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
