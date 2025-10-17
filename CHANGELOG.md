@@ -17,7 +17,6 @@
   - Mods
     - GeckoLib - [4.7.4](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6920925) -> [4.8.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/7025129)
     - Gravestone Mod - [1.0.33](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/6930821) -> [1.0.35](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/7099725)
-    - Industrial Foregoing - [3.5.20](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/6626653) -> [3.5.21](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/7068937)
     - InsaneLib - [1.21.20](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6927148) -> [1.21.21](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7041495)
     - Just Enough Mekanism Multiblocks - [4.12.0](https://www.curseforge.com/minecraft/mc-mods/just-enough-mekanism-multiblocks/files/6972923) -> [4.14.0](https://www.curseforge.com/minecraft/mc-mods/just-enough-mekanism-multiblocks/files/7045730)
     - Lychee Tweaker - [5.1.21](https://www.curseforge.com/minecraft/mc-mods/lychee/files/6899773) -> [5.1.22](https://www.curseforge.com/minecraft/mc-mods/lychee/files/7015928)
