@@ -719,14 +719,14 @@
 	[Ghasts."Ghast shoot"]
 		#Chance for a Ghast to try and shoot the target even if can't see it. If enabled and the Ghast can't see the target, he will shoot 4 times as fast to breach.
 		#Range: 0.0 ~ 1.0
-		"Shoot when not seen chance" = 0.3
+		"Shoot when not seen chance" = 0.1
 
 		#How many ticks pass between shooting fireballs. Vanilla is 40
 		[Ghasts."Ghast shoot"."Attack cooldown"]
 			#Range: 1.0 ~ 300.0
-			Minimum = 40.0
+			Minimum = 120.0
 			#Range: 1.0 ~ 300.0
-			Maximum = 50.0
+			Maximum = 180.0
 
 		#How many fireballs ghast shoot in rapid succession. Vanilla is 1
 		[Ghasts."Ghast shoot"."Fireballs shot"]
