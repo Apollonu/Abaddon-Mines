@@ -30,6 +30,7 @@
     - PneumaticCraft: Repressurized - [6.0.20](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/6142963) -> [6.0.21](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7064978)
   - Configs
     - [Colossal Chests](https://www.curseforge.com/minecraft/mc-mods/colossal-chests)
+    - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Unification, Missing (Un)packing Recipes)
     - [Map Atlases](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge)
     - [YUNG's Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
