@@ -934,7 +934,7 @@
 	[Drowned.Drowned]
 		#Multiplier for the swim speed of Drowned. Note that the swim speed is also affected by the Movement Feature. Set to 0 to disable the multiplier.
 		#Range: 0.0 ~ 4.0
-		"Swim speed multiplier" = 0.3
+		"Swim speed multiplier" = 0.2
 		#Fixes a vanilla bug that makes drowned just stand still during daytime if can't reach water.
 		"Allow attack during day" = true
 
