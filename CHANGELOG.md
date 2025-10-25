@@ -13,7 +13,7 @@
     - none
 - Updates
   - Modpack
-    - none
+    - Journey's Gate - [1.1.6](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.7](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
     - Create: Vintage - [1.3.0](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6809097) -> [1.3.5](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/7049377)
     - GeckoLib - [4.7.4](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6920925) -> [4.8.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/7025129)
