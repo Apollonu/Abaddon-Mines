@@ -33,6 +33,7 @@
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Unification, Missing (Un)packing Recipes)
     - [Map Atlases](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge)
+    - [Oculus](https://www.curseforge.com/minecraft/mc-mods/oculus)
     - [YUNG's Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
   - Resourcepacks / Shaderpacks
     - none
