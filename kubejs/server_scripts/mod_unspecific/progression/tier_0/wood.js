@@ -10,8 +10,16 @@ ServerEvents.tags('item', event => {
 	event.get('minecraft:logs')
 	.getObjectIds().forEach(individual => {
 		individual = individual.toString()
-		if (individual.indexOf('stripped_') == -1 && individual.indexOf('_wood') == -1 && individual.indexOf('_hyphae') == -1 && individual.indexOf('glowing') == -1) {
+		if (
+			individual.indexOf('stripped_') == -1 && individual.indexOf('_wood') == -1 &&
+			individual.indexOf('_hyphae') == -1 &&
+			individual.indexOf('glowing_poise') == -1 && individual.indexOf('sappy_maple') == -1 &&
+			individual.indexOf('watchful_aspen') == -1 && individual.indexOf('crustose') == -1 &&
+			individual != 'atmospheric:rosewood' && individual != 'atmospheric:grimwood'
+			//&& individual != 'upgrade_aquatic:driftwood'
+		) {
 			individual = individual + 's'
+			console.log(individual)
 			individual_logs.push(individual)
 		}
 	})
