@@ -6,7 +6,7 @@
 - Additions
   - Mods
     - BaguetteLib - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/6909482) -> [1.1.1](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/7031573)
-    - Colossal Chests - [1.8.7](https://www.curseforge.com/minecraft/mc-mods/colossal-chests/files/6224796) + Cyclops Core - [1.21.2](https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/7137033)
+    - Colossal Chests - [1.8.7](https://www.curseforge.com/minecraft/mc-mods/colossal-chests/files/6224796) + Cyclops Core - [1.21.3](https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/7210370)
     - Immersive Posts - [4.3.0-11](https://www.curseforge.com/minecraft/mc-mods/immersiveposts/files/6900979)
     - Iron Chests - [14.4.4](https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/4614852)
   - Resourcepacks / Shaderpacks
@@ -24,9 +24,9 @@
     - Lychee Tweaker - [5.1.21](https://www.curseforge.com/minecraft/mc-mods/lychee/files/6899773) -> [5.1.22](https://www.curseforge.com/minecraft/mc-mods/lychee/files/7015928)
     - Mobs Properties Randomness - [5.0.13](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/6915443) -> [5.0.24](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7170252)
     - More Mekanism Processing - [4.3.0](https://www.curseforge.com/minecraft/mc-mods/more-mekanism-processing/files/6413517) -> [4.4.0](https://www.curseforge.com/minecraft/mc-mods/more-mekanism-processing/files/7022274)
-    - Oh The Biomes We've Gone - [1.6.5](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6943503) -> [1.7.0](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7170427)
+    - Oh The Biomes We've Gone - [1.6.5](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/6943503) -> [1.7.1](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7217773)
     - Oh The Trees You'll Grow - [1.3.13](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/6608610) -> [1.4.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow/files/7096323)
-    - Oreganized - [4.2.4](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6968419) -> [4.3.0](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/7144112)
+    - Oreganized - [4.2.4](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/6968419) -> [4.3.1](https://www.curseforge.com/minecraft/mc-mods/oreganized/files/7182747)
     - PneumaticCraft: Repressurized - [6.0.20](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/6142963) -> [6.0.21](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7064978)
   - Configs
     - [Colossal Chests](https://www.curseforge.com/minecraft/mc-mods/colossal-chests)
