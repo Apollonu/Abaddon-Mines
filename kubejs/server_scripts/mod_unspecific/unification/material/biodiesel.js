@@ -22,18 +22,22 @@ ServerEvents.recipes(event => {
 
     //Custom Recipe Types
     let custom_recipe_types = [
-        {
-            'type': 'createaddition:liquid_burning',
-            'input': {
-                'fluid': unified_individual,
-                'amount': 1000
-            },
-            'burnTime': 24000,
-            'superheated': true
-        }
+        
     ]
 
     //Other Recipe Types
+    event.forEachRecipe({type: 'createaddition:liquid_burning'}, recipe => {
+        const output = recipe.json.get('input')
+        if (!output) return
+        const output_variant = output.get('fluidTag')?.asString
+        if (!output_variant) return
+        if (output_variant.includes('forge:biodiesel')) {
+            output.remove('fluidTag')
+            output.addProperty('fluid',
+                output_variant.replace('forge:biodiesel', unified_individual)
+            )
+        }
+    })
     event.forEachRecipe({type: 'pneumaticcraft:fluid_mixer'}, recipe => {
         const output = recipe.json.get('fluid_output')
         if (!output) return
