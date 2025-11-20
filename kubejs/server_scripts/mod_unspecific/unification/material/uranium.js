@@ -5,36 +5,21 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'mekanism:ingot_uranium'
-    let unified_variants = [
-        'immersiveengineering:ingot_uranium'
-    ]
-
-	//Output Recipe Types
-	let output_recipe_types = [
-
-	]
-
-	//Input Recipe Types
-    let input_recipe_types = [
-        'minecraft:crafting_shaped'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'mekanism:ingot_uranium',
+        unified_variants: [
+            'immersiveengineering:ingot_uranium'
+        ],
+        input_recipe_types: [
+            'minecraft:crafting_shaped'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

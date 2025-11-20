@@ -5,37 +5,25 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:lead_block'
-    let unified_variants = [
-        'thermal:lead_block'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press'
-    ]
-    
-    //Input Recipe Types
-    let input_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:lead_block',
+        unified_variants: [
+            'thermal:lead_block'
+        ],
+        output_recipe_types: [
+            'thermal:press'
+        ],
+        input_recipe_types: [
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -43,38 +31,23 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:lead_dust'
-    let unified_variants = [
-        'mekanism:dust_lead'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'mekanism:enriching',
-        'mekanism:crushing'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:lead_dust',
+        unified_variants: [
+            'mekanism:dust_lead'
+        ],
+        output_recipe_types: [
+            'mekanism:enriching',
+            'mekanism:crushing'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -82,38 +55,23 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:lead_ingot'
-    let unified_variants = [
-        'thermal:lead_ingot'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press',
-        'thermal:smelter'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:lead_ingot',
+        unified_variants: [
+            'thermal:lead_ingot'
+        ],
+        output_recipe_types: [
+            'thermal:press',
+            'thermal:smelter'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -121,38 +79,23 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:lead_nugget'
-    let unified_variants = [
-        'thermal:lead_nugget'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press',
-        'thermal:smelter'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:lead_nugget',
+        unified_variants: [
+            'thermal:lead_nugget'
+        ],
+        output_recipe_types: [
+            'thermal:press',
+            'thermal:smelter'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -160,37 +103,22 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:lead_plate'
-    let unified_variants = [
-        'vintage:lead_sheet'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'create:pressing'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:lead_plate',
+        unified_variants: [
+            'vintage:lead_sheet'
+        ],
+        output_recipe_types: [
+            'create:pressing'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -198,37 +126,22 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:raw_lead'
-    let unified_variants = [
-        'thermal:raw_lead'
-    ]
-
-    //output Recipe Types
-    let output_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:raw_lead',
+        unified_variants: [
+            'thermal:raw_lead'
+        ],
+        output_recipe_types: [
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -236,36 +149,24 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:raw_lead_block'
-    let unified_variants = [
-        'thermal:raw_lead_block'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:raw_lead_block',
+        unified_variants: [
+            'thermal:raw_lead_block'
+        ],
+        output_recipe_types: [
+            'thermal:press'
+        ],
+        input_recipe_types: [
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

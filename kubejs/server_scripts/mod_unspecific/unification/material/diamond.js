@@ -5,39 +5,24 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:diamond_dust'
-    let unified_variants = [
-        'createaddition:diamond_grit',
-        'mekanism:dust_diamond'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'create:crushing',
-        'mekanism:crushing'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:diamond_dust',
+        unified_variants: [
+            'createaddition:diamond_grit',
+            'mekanism:dust_diamond'
+        ],
+        output_recipe_types: [
+            'create:crushing',
+            'mekanism:crushing'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -45,37 +30,17 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'spelunkery:diamond_shard'
-    let unified_variants = [
-
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'spelunkery:diamond_shard'
+    }
 
     //Other Recipe Types
-    event.remove({output: '#forge:gems/diamond', input: unified_individual, type: 'minecraft:crafting_shaped'})
-    event.shaped('#forge:gems/diamond', ['AAA','AAA','AAA'], {A: unified_individual})
+    event.remove({output: '#forge:gems/diamond', input: data.unified_individual, type: 'minecraft:crafting_shaped'})
+    event.shaped('#forge:gems/diamond', ['AAA','AAA','AAA'], {A: data.unified_individual})
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

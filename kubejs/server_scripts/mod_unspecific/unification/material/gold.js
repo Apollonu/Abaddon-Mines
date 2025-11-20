@@ -5,38 +5,23 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'mekanism:dust_gold'
-    let unified_variants = [
-        'thermal:gold_dust'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:centrifuge',
-        'thermal:pulverizer'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'mekanism:dust_gold',
+        unified_variants: [
+            'thermal:gold_dust'
+        ],
+        output_recipe_types: [
+            'thermal:centrifuge',
+            'thermal:pulverizer'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -44,37 +29,22 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:gold_plate'
-    let unified_variants = [
-        'create:golden_sheet'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'create:pressing',
-        'create:sequenced_assembly'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:gold_plate',
+        unified_variants: [
+            'create:golden_sheet'
+        ],
+        output_recipe_types: [
+            'create:pressing',
+            'create:sequenced_assembly'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

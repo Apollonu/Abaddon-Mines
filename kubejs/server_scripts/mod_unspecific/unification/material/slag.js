@@ -5,36 +5,24 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:slag'
-    let unified_variants = [
-        'tfmg:slag'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'create:crushing'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        'create:mixing'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:slag',
+        unified_variants: [
+            'tfmg:slag'
+        ],
+        output_recipe_types: [
+            'create:crushing'
+        ],
+        input_recipe_types: [
+            'create:mixing'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

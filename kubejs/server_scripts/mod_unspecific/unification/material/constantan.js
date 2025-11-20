@@ -5,37 +5,22 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:constantan_ingot'
-    let unified_variants = [
-        'tfmg:constantan_ingot'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'create:mixing'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:constantan_ingot',
+        unified_variants: [
+            'tfmg:constantan_ingot'
+        ],
+        output_recipe_types: [
+            'create:mixing'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -43,37 +28,22 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:constantan_plate'
-    let unified_variants = [
-        'vintage:constantan_sheet'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'create:pressing'
-    ]
-    
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:constantan_plate',
+        unified_variants: [
+            'vintage:constantan_sheet'
+        ],
+        output_recipe_types: [
+            'create:pressing'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -81,43 +51,23 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'tfmg:constantan_wire'
-    let unified_variants = [
-        
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-        {
-            'type': 'createaddition:rolling',
-            'input': {'tag': 'forge:plates/constantan'},  
-            'result': {
-                'item': unified_individual,
-                'count': 2
-            }
-        }
-    ]
+    let data = {
+        event: event,
+        unified_individual: [
+            'tfmg:constantan_wire'
+        ],
+        json_unified_variants: [
+            '"item":"vintage:constantan_wire"'
+        ],
+        json_recipe_types: [
+            'createaddition:rolling'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

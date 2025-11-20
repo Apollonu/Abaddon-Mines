@@ -5,40 +5,28 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:electrum_ingot'
-    let unified_variants = [
-        'thermal:electrum_ingot'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'minecraft:crafting_shaped',
-        'thermal:press',
-        'thermal:smelter'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        'minecraft:crafting_shapeless',
-        'thermal:press'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:electrum_ingot',
+        unified_variants: [
+            'thermal:electrum_ingot'
+        ],
+        output_recipe_types: [
+            'minecraft:crafting_shaped',
+            'thermal:press',
+            'thermal:smelter'
+        ],
+        input_recipe_types: [
+            'minecraft:crafting_shapeless',
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -46,38 +34,26 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'createaddition:electrum_nugget'
-    let unified_variants = [
-        'thermal:electrum_nugget'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'minecraft:crafting_shapeless',
-        'thermal:press'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        'minecraft:crafting_shaped'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'createaddition:electrum_nugget',
+        unified_variants: [
+            'thermal:electrum_nugget'
+        ],
+        output_recipe_types: [
+            'minecraft:crafting_shapeless',
+            'thermal:press'
+        ],
+        input_recipe_types: [
+            'minecraft:crafting_shaped'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -85,36 +61,21 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:electrum_plate'
-    let unified_variants = [
-        'createaddition:electrum_sheet'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'create:pressing'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:electrum_plate',
+        unified_variants: [
+            'createaddition:electrum_sheet'
+        ],
+        output_recipe_types: [
+            'create:pressing'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

@@ -5,36 +5,24 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'quark:apple_crate'
-    let unified_variants = [
-        'thermal:apple_block'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press'
-    ]
-    
-    //Input Recipe Types
-    let input_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'quark:apple_crate',
+        unified_variants: [
+            'thermal:apple_block'
+        ],
+        output_recipe_types: [
+            'thermal:press'
+        ],
+        input_recipe_types: [
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

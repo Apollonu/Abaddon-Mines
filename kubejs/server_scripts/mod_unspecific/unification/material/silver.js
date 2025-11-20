@@ -5,37 +5,25 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:silver_block'
-    let unified_variants = [
-        'thermal:silver_block'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:silver_block',
+        unified_variants: [
+            'thermal:silver_block'
+        ],
+        output_recipe_types: [
+            'thermal:press'
+        ],
+        input_recipe_types: [
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -43,38 +31,23 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'thermal:silver_dust'
-    let unified_variants = [
-        'moremekanismprocessing:dust_silver'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'mekanism:enriching',
-        'mekanism:crushing'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'thermal:silver_dust',
+        unified_variants: [
+            'moremekanismprocessing:dust_silver'
+        ],
+        output_recipe_types: [
+            'mekanism:enriching',
+            'mekanism:crushing'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -82,38 +55,26 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:silver_ingot'
-    let unified_variants = [
-        'thermal:silver_ingot'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press',
-        'thermal:smelter'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:silver_ingot',
+        unified_variants: [
+            'thermal:silver_ingot'
+        ],
+        output_recipe_types: [
+            'thermal:press',
+            'thermal:smelter'
+        ],
+        input_recipe_types: [
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -121,38 +82,23 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:silver_nugget'
-    let unified_variants = [
-        'thermal:silver_nugget'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press',
-        'thermal:smelter'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:silver_nugget',
+        unified_variants: [
+            'thermal:silver_nugget'
+        ],
+        output_recipe_types: [
+            'thermal:press',
+            'thermal:smelter'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -160,37 +106,22 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:raw_silver'
-    let unified_variants = [
-        'thermal:raw_silver'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:raw_silver',
+        unified_variants: [
+            'thermal:raw_silver'
+        ],
+        output_recipe_types: [
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
 
@@ -198,36 +129,21 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'oreganized:raw_silver_block'
-    let unified_variants = [
-        'thermal:raw_silver_block'
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        'thermal:press'
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-
-    ]
+    let data = {
+        event: event,
+        unified_individual: 'oreganized:raw_silver_block',
+        unified_variants: [
+            'thermal:raw_silver_block'
+        ],
+        output_recipe_types: [
+            'thermal:press'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

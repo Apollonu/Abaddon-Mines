@@ -5,68 +5,27 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'immersiveengineering:biodiesel'
-    let unified_variants = [
-        
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-        
-    ]
+    let data = {
+        event: event,
+        unified_individual: [
+            'immersiveengineering:biodiesel'
+        ],
+        fluid_unified_variants: [
+            '"fluid":"pneumaticcraft:biodiesel"',
+            '"input":{"fluidTag":"forge:biodiesel"',
+            '"tag":"forge:biodiesel"',
+        ],
+        fluid_recipe_types: [
+            'createaddition:liquid_burning',
+            'pneumaticcraft:fluid_mixer',
+            'pneumaticcraft:thermo_plant'
+        ]
+    }
 
     //Other Recipe Types
-    event.forEachRecipe({type: 'createaddition:liquid_burning'}, recipe => {
-        const output = recipe.json.get('input')
-        if (!output) return
-        const output_variant = output.get('fluidTag')?.asString
-        if (!output_variant) return
-        if (output_variant.includes('forge:biodiesel')) {
-            output.remove('fluidTag')
-            output.addProperty('fluid',
-                output_variant.replace('forge:biodiesel', unified_individual)
-            )
-        }
-    })
-    event.forEachRecipe({type: 'pneumaticcraft:fluid_mixer'}, recipe => {
-        const output = recipe.json.get('fluid_output')
-        if (!output) return
-        const output_variant = output.get('fluid')?.asString
-        if (!output_variant) return
-        output_variant.includes('pneumaticcraft:biodiesel') && output.addProperty('fluid',
-            output_variant.replace('pneumaticcraft:biodiesel', unified_individual)
-        )
-    })
-    event.forEachRecipe({type: 'pneumaticcraft:thermo_plant'}, recipe => {
-        const output = recipe.json.get('fluid_input')
-        if (!output) return
-        const output_variant = output.get('tag')?.asString
-        if (!output_variant) return
-        if (output_variant.includes('forge:biodiesel')) {
-            output.remove('tag')
-            output.addProperty('fluid',
-                output_variant.replace('forge:biodiesel', unified_individual)
-            )
-        }
-    })
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })

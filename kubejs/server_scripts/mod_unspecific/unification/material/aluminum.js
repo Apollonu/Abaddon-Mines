@@ -5,43 +5,23 @@
 ServerEvents.recipes(event => {
     
     //Variables
-    let unified_individual = 'tfmg:aluminum_wire'
-    let unified_variants = [
-        
-    ]
-
-    //Output Recipe Types
-    let output_recipe_types = [
-
-    ]
-
-    //Input Recipe Types
-    let input_recipe_types = [
-        
-    ]
-
-    //Custom Recipe Types
-    let custom_recipe_types = [
-        {
-            'type': 'createaddition:rolling',
-            'input': {'tag': 'forge:plates/aluminum'},  
-            'result': {
-                'item': unified_individual,
-                'count': 2
-            }
-        }
-    ]
+    let data = {
+        event: event,
+        unified_individual: [
+            'tfmg:aluminum_wire'
+        ],
+        json_unified_variants: [
+            '"item":"vintage:aluminum_wire"'
+        ],
+        json_recipe_types: [
+            'createaddition:rolling'
+        ]
+    }
 
     //Other Recipe Types
-    
 
     //Unify Items Function Push
     unify_items (
-        event,
-        unified_individual,
-        unified_variants,
-        output_recipe_types,
-        input_recipe_types,
-        custom_recipe_types
+        data
     )
 })
