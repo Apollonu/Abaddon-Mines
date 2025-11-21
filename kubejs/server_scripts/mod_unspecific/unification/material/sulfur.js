@@ -35,14 +35,70 @@ ServerEvents.recipes(event => {
     )
 })
 
-//Fluid Recipe Unification
+//Fluid Acid Recipe Unification
 ServerEvents.recipes(event => {
     
     //Variables
     let data = {
         event: event,
-        fluid_unified_individual: [
-            '"mekanism:sulfuric_acid"'
+        unified_individual: [
+            'mekanism:sulfuric_acid'
+        ],
+        fluid_unified_variants: [
+            '"fluid":"vintage:sulfuric_acid"'
+        ],
+        fluid_recipe_types: [
+            'vintage:pressurizing'
+        ]
+    }
+
+    //Other Recipe Types
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
+//Fluid Dioxide Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: [
+            'mekanism:sulfur_dioxide'
+        ],
+        fluid_unified_variants: [
+            '"fluid":"vintage:sulfur_dioxide"'
+        ],
+        fluid_recipe_types: [
+            'vintage:pressurizing'
+        ]
+    }
+
+    //Other Recipe Types
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
+//Fluid Trioxide Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: [
+            'mekanism:sulfur_trioxide'
+        ],
+        fluid_unified_variants: [
+            '"fluid":"vintage:sulfur_trioxide"'
+        ],
+        fluid_recipe_types: [
+            'vintage:pressurizing'
         ]
     }
 

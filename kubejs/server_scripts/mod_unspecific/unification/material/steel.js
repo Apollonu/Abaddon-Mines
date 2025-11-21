@@ -65,8 +65,14 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        json_unified_individual: [
-            '"ad_astra:steel_rod"'
+        unified_individual: [
+            'ad_astra:steel_rod'
+        ],
+        json_unified_variants: [
+            '"item":"vintage:steel_rod"' //JSON's good but doesnt work (refresh game?)
+        ],
+        json_recipe_types: [
+            'createaddition:rolling'
         ]
     }
 
