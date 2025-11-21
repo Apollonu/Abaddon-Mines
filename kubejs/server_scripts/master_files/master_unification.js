@@ -6,30 +6,36 @@ function unify_items (data) {
 
 	//Variables
 	let event = data.event
-	let unified_individual = data.unified_individual || []
-	let unified_variants = data.unified_variants || []
-	let output_recipe_types = data.output_recipe_types || []
-	let input_recipe_types = data.input_recipe_types || []
-	let json_unified_variants = data.json_unified_variants || []
-	let json_recipe_types = data.json_recipe_types || []
-	let fluid_unified_variants = data.fluid_unified_variants || []
-	let fluid_recipe_types = data.fluid_recipe_types || []
+	let unified_individual = data.unified_individual
+	let unified_variants = data.unified_variants
+	let output_recipe_types = data.output_recipe_types
+	let input_recipe_types = data.input_recipe_types
+	let json_unified_variants = data.json_unified_variants
+	let json_recipe_types = data.json_recipe_types
+	let fluid_unified_variants = data.fluid_unified_variants
+	let fluid_recipe_types = data.fluid_recipe_types
 
 	//Recipe Logic
-	unified_variants.forEach(variant => {
-		output_recipe_types.forEach(type => {
-			event.replaceOutput({output: variant, type: type},
-            	variant,
-            	unified_individual
-        	)
+	if (unified_individual != null && unified_variants != null) {
+		unified_variants.forEach(variant => {
+			if (output_recipe_types != null) {
+				output_recipe_types.forEach(type => {
+					event.replaceOutput({output: variant, type: type},
+						variant,
+						unified_individual
+					)
+				})
+			}
+			if (input_recipe_types != null) {
+				input_recipe_types.forEach(type => {
+					event.replaceInput({input: variant, type: type},
+						variant,
+						unified_individual
+					)
+				})
+			}
 		})
-		input_recipe_types.forEach(type => {
-			event.replaceInput({input: variant, type: type},
-            	variant,
-            	unified_individual
-        	)
-		})
-	})
+	}
 
 	//JSON Recipe Logic
 	if (unified_individual != null && json_unified_variants != null && json_recipe_types != null) {
