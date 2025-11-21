@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
             'ad_astra:steel_rod'
         ],
         json_unified_variants: [
-            '"item":"vintage:steel_rod"' //JSON's good but doesnt work (refresh game?)
+            '"item":"vintage:steel_rod"'
         ],
         json_recipe_types: [
             'createaddition:rolling'
