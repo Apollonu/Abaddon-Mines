@@ -8,45 +8,116 @@ ServerEvents.tags('item', event => {
 	let prefix = 'tfmg:'
 	const all_individual_items = []
 	let block_variants = ['_stairs', '_slab', '_wall']
+	let color_variants = [
+		'black', 'blue', 'brown', 'cyan', 'gray', 'green', 'light_blue', 'light_gray', 'lime',
+		'magenta', 'orange', 'pink', 'purple', 'red', 'white', 'yellow'
+	]
 	let ore_ingot_variants = ['_ore', '_ingot', '_nugget', '_block']
 	let tool_variants = ['axe', 'hoe', 'pickaxe', 'shovel', 'sword']
 
 	//Individual Items
 	let individual_items = [
+		prefix + 'accumulator',
+		prefix + 'aluminum_cable_hub',
 		prefix + 'aluminum_frame',
+		prefix + 'aluminum_lamp',
 		prefix + 'aluminum_sheet',
+		prefix + 'aluminum_spool',
 		prefix + 'bitumen',
+		prefix + 'brass_cable_hub',
+		prefix + 'cable_connector',
+		prefix + 'cable_tube',
+		prefix + 'cast_iron_chemical_vat',
+		prefix + 'centrifuge',
+		prefix + 'circular_light',
 		prefix + 'coal_coke',
 		prefix + 'coal_coke_block',
+		prefix + 'concrete',
+		prefix + 'concrete_slab',
+		prefix + 'concrete_stairs',
+		prefix + 'concrete_wall',
 		prefix + 'constantan_block',
 		prefix + 'constantan_ingot',
 		prefix + 'constantan_nugget',
+		prefix + 'constantan_spool',
+		prefix + 'converter',
+		prefix + 'copper_cable_hub',
+		prefix + 'copper_electrode',
+		prefix + 'copper_spool',
 		prefix + 'copper_wire',
+		prefix + 'copycat_cable_block',
+		prefix + 'creative_generator',
+		prefix + 'deposit_item',
 		prefix + 'deepslate_lead_ore',
 		prefix + 'deepslate_lithium_ore',
 		prefix + 'deepslate_nickel_ore',
+		prefix + 'diagonal_cable_block',
+		prefix + 'electric_diode',
+		prefix + 'electric_motor',
+		prefix + 'electric_post',
+		prefix + 'electric_pump',
+		prefix + 'electrical_switch',
+		prefix + 'electrode_holder',
+		prefix + 'electromagnetic_coil',
+		prefix + 'empty_spool',
+		prefix + 'fireproof_chemical_vat',
 		prefix + 'galena_pillar',
+		prefix + 'generator',
+		prefix + 'glass_cable_insulator',
+		prefix + 'glass_insulator_segment',
+		prefix + 'golden_turbo',
+		prefix + 'graphite_electrode',
+		prefix + 'heavy_cable_hub',
 		prefix + 'heavy_plate',
+		prefix + 'industrial_mixer',
+		prefix + 'industrial_pipe',
+		prefix + 'large_pumpjack_hammer_connector',
+		prefix + 'large_pumpjack_hammer_head',
+		prefix + 'large_pumpjack_hammer_part',
 		prefix + 'layered_galena',
+		prefix + 'light_bulb',
 		prefix + 'lit_lithium_blade',
 		prefix + 'lithium_blade',
 		prefix + 'lithium_ore',
 		prefix + 'lead_sheet',
+		prefix + 'machine_input',
+		prefix + 'modern_light',
+		prefix + 'multimeter',
+		prefix + 'napalm_bomb',
+		prefix + 'neon_tube',
 		prefix + 'nickel_sheet',
 		prefix + 'nitrate_dust',
+		prefix + 'oil_deposit',
 		prefix + 'plastic_sheet',
+		prefix + 'polarizer',
+		prefix + 'potentiometer',
+		prefix + 'pumpjack_base',
+		prefix + 'pumpjack_crank',
+		prefix + 'pumpjack_hammer',
+		prefix + 'pumpjack_hammer_connector',
+		prefix + 'pumpjack_hammer_head',
+		prefix + 'pumpjack_hammer_part',
 		prefix + 'raw_lead',
 		prefix + 'raw_lead_block',
 		prefix + 'raw_lithium',
 		prefix + 'raw_lithium_block',
 		prefix + 'raw_nickel',
 		prefix + 'raw_nickel_block',
+		prefix + 'resistor',
+		prefix + 'rotor',
 		prefix + 'screwdriver',
+		prefix + 'segmented_display',
 		prefix + 'slag',
+		prefix + 'stator',
 		prefix + 'steel_bars',
 		prefix + 'steel_block',
 		prefix + 'steel_boots',
+		prefix + 'steel_cable_hub',
+		prefix + 'steel_casing_cable_hub',
+		prefix + 'steel_chemical_vat',
 		prefix + 'steel_chestplate',
+		prefix + 'steel_distillation_controller',
+		prefix + 'steel_distillation_output',
 		prefix + 'steel_frame',
 		prefix + 'steel_helmet',
 		prefix + 'steel_ingot',
@@ -54,8 +125,37 @@ ServerEvents.tags('item', event => {
 		prefix + 'steel_nugget',
 		prefix + 'steel_scaffolding',
 		prefix + 'steel_trapdoor',
-		prefix + 'sulfur_dust'
+		prefix + 'sulfur_dust',
+		prefix + 'surface_scanner',
+		prefix + 'traffic_light',
+		prefix + 'transformer',
+		prefix + 'turbo',
+		prefix + 'winding_machine',
+		prefix + 'unfinished_capacitor',
+		prefix + 'unfinished_circuit_board',
+		prefix + 'unfinished_electric_motor',
+		prefix + 'unfinished_electromagnetic_coil',
+		prefix + 'unfinished_generator',
+		prefix + 'unfinished_insulator',
+		prefix + 'unfinished_potentiometer',
+		prefix + 'unfinished_resistor',
+		prefix + 'unfinished_steel_mechanism',
+		prefix + 'unfinished_transistor',
+		prefix + 'unfired_insulator',
+		prefix + 'unprocessed_heavy_plate',
+		prefix + 'voltage_observer',
+		prefix + 'voltmeter',
+		prefix + 'zinc_electrode'
 	]
+
+	//Concrete Types
+	color_variants.forEach(color => {
+		block_variants.forEach(variant => {
+			let individual = prefix + color + '_concrete' + variant
+			all_individual_items.push(individual)
+		})
+		all_individual_items.push(prefix + color + '_concrete')
+	})
 
 	//Galena Types
 	let galena_types = [
@@ -81,6 +181,12 @@ ServerEvents.tags('item', event => {
 			all_individual_items.push(individual)
 		})
 		all_individual_items.push(prefix + type)
+	})
+
+	//Multimeter Types
+	color_variants.forEach(color => {
+		let individual = prefix + color + '_multimeter'
+		all_individual_items.push(individual)
 	})
 
 	//Ore & Ingot Types
