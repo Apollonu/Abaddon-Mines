@@ -1,6 +1,31 @@
 //All Rights Reserved to Apollo, this is not allowed to be used in public packs not released by Apollo.
 //priority: 3
 
+//Fluid Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: [
+            'tconstruct:molten_steel'
+        ],
+        fluid_unified_variants: [
+            '"fluid":"tfmg:molten_steel"'
+        ],
+        fluid_recipe_types: [
+            'tfmg:industrial_blasting'
+        ]
+    }
+
+    //Other Recipe Types
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
 //Ingot Recipe Unification
 ServerEvents.recipes(event => {
     
