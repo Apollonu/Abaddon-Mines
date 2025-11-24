@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
     event.custom({
         'type': 'tconstruct:casting_basin',
         'cast': {'item': 'tfmg:rebar_floor'},
+        'cast_consumed': true,
         'cooling_time': 95,
         'fluid': {
             'amount': 540,
@@ -36,6 +37,7 @@ ServerEvents.recipes(event => {
     event.custom({
         'type': 'tconstruct:casting_basin',
         'cast': {'item': 'tfmg:rebar_stairs'},
+        'cast_consumed': true,
         'cooling_time': 95,
         'fluid': {
             'amount': 540,
@@ -46,6 +48,7 @@ ServerEvents.recipes(event => {
     event.custom({
         'type': 'tconstruct:casting_basin',
         'cast': {'item': 'tfmg:rebar_wall'},
+        'cast_consumed': true,
         'cooling_time': 95,
         'fluid': {
             'amount': 540,
