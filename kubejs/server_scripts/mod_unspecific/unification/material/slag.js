@@ -20,6 +20,62 @@ ServerEvents.recipes(event => {
     }
 
     //Other Recipe Types
+    event.remove({type: 'minecraft:smelting', output: 'thermal:white_rockwool'})
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
+//Block Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: 'tfmg:slag_block'
+    }
+
+    //Other Recipe Types
+    event.shaped(data.unified_individual, ['AA','AA'], {A: '#forge:slag'})
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
+//Fluid Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: [
+            'tfmg:molten_slag'
+        ]
+    }
+
+    //Other Recipe Types
+    event.custom({
+        'type': 'tconstruct:casting_table',
+        'cooling_time': 68,
+        'fluid': {
+            'amount': 100,
+            'fluid': 'tfmg:molten_slag'
+        },
+        'result': {'item': 'thermal:slag'}
+    })
+    event.custom({
+        'type': 'tconstruct:casting_basin',
+        'cooling_time': 137,
+        'fluid': {
+            'amount': 400,
+            'fluid': 'tfmg:molten_slag'
+        },
+        'result': {'item': 'tfmg:slag_block'}
+    })
 
     //Unify Items Function Push
     unify_items (
