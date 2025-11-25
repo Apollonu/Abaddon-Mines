@@ -8,6 +8,7 @@
     - BaguetteLib - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/6909482) -> [1.1.1](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/7031573)
     - Colossal Chests - [1.8.7](https://www.curseforge.com/minecraft/mc-mods/colossal-chests/files/6224796) + Cyclops Core - [1.21.3](https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/7210370)
     - Create: The Factory Must Grow - 1.0.1b-custom.1
+    - Immersive Petroleum - [4.3.0-30](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/7191176)
     - Immersive Posts - [4.3.0-11](https://www.curseforge.com/minecraft/mc-mods/immersiveposts/files/6900979)
     - Iron Chests - [14.4.4](https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/4614852)
   - Resourcepacks / Shaderpacks
