@@ -9,6 +9,12 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: [
             'immersiveengineering:concrete'
+        ],
+        fluid_unified_variants: [
+            '"fluid":"tfmg:liquid_concrete"'
+        ],
+        fluid_recipe_types: [
+            'minecraft:crafting_shaped'
         ]
     }
 
@@ -25,7 +31,7 @@ ServerEvents.recipes(event => {
     })
     event.custom({
         'type': 'tconstruct:casting_basin',
-        'cast': {'item': 'tfmg:rebar_floor'},
+        'cast': {'item': 'tfmg:rebar_pillar'},
         'cast_consumed': true,
         'cooling_time': 95,
         'fluid': {
@@ -33,6 +39,17 @@ ServerEvents.recipes(event => {
             'fluid': 'immersiveengineering:concrete'
         },
         'result': {'item': 'tfmg:rebar_concrete'}
+    })
+    event.custom({
+        'type': 'tconstruct:casting_basin',
+        'cast': {'item': 'tfmg:rebar_floor'},
+        'cast_consumed': true,
+        'cooling_time': 95,
+        'fluid': {
+            'amount': 270,
+            'fluid': 'immersiveengineering:concrete'
+        },
+        'result': {'item': 'tfmg:rebar_concrete_slab'}
     })
     event.custom({
         'type': 'tconstruct:casting_basin',
