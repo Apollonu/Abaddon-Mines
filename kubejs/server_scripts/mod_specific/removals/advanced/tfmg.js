@@ -48,6 +48,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'converter',
 		prefix + 'copper_cable_hub',
 		prefix + 'copper_electrode',
+		prefix + 'copper_grenade',
 		prefix + 'copper_spool',
 		prefix + 'copper_wire',
 		prefix + 'copycat_cable_block',
@@ -134,6 +135,8 @@ ServerEvents.tags('item', event => {
 		prefix + 'steel_chestplate',
 		prefix + 'steel_distillation_controller',
 		prefix + 'steel_distillation_output',
+		prefix + 'steel_encased_aluminum_cogwheel',
+		prefix + 'steel_encased_large_aluminum_cogwheel',
 		prefix + 'steel_encased_large_steel_cogwheel',
 		prefix + 'steel_encased_shaft',
 		prefix + 'steel_encased_steel_cogwheel',
@@ -149,7 +152,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'synthetic_leather',
 		prefix + 'traffic_light',
 		prefix + 'transformer',
-		prefix + 'transistor',
+		prefix + 'transistor_item',
 		prefix + 'turbo',
 		prefix + 'winding_machine',
 		prefix + 'unfinished_capacitor',
@@ -166,7 +169,8 @@ ServerEvents.tags('item', event => {
 		prefix + 'unprocessed_heavy_plate',
 		prefix + 'voltage_observer',
 		prefix + 'voltmeter',
-		prefix + 'zinc_electrode'
+		prefix + 'zinc_electrode',
+		prefix + 'zinc_grenade'
 	]
 
 	//Concrete Types
