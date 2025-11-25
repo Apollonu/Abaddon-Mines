@@ -14,6 +14,12 @@ ServerEvents.recipes(event => {
         output_recipe_types: [
             'thermal:press',
             'thermal:pyrolyzer'
+        ],
+        json_unified_variants: [
+            '"item":"tfmg:coal_coke"'
+        ],
+        json_recipe_types: [
+            'tfmg:coking'
         ]
     }
 

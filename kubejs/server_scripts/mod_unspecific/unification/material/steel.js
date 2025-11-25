@@ -93,6 +93,17 @@ ServerEvents.recipes(event => {
         unified_individual: [
             'ad_astra:steel_rod'
         ],
+        unified_variants: [
+            'tfmg:rebar'
+        ],
+        output_recipe_types: [
+            'minecraft:crafting_shapeless'
+        ],
+        input_recipe_types: [
+            'create:mechanical_crafting',
+            'minecraft:crafting_shaped',
+            'vintage:auto_curving'
+        ],
         json_unified_variants: [
             '"item":"vintage:steel_rod"'
         ],
