@@ -62,16 +62,15 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: [
             'ad_astra:iron_rod'
-        ],
-        json_unified_variants: [
-            '"item":"createaddition:iron_rod"' //JSON's good but doesnt work (refresh game?)
-        ],
-        json_recipe_types: [
-            'createaddition:rolling'
         ]
     }
 
     //Other Recipe Types
+    event.custom({
+        'type': 'createaddition:rolling',
+        'input': {'tag': 'forge:ingots/iron'},
+        'result': {'item': 'ad_astra:iron_rod', 'count': 2}
+    })
 
     //Unify Items Function Push
     unify_items (
