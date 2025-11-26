@@ -7,12 +7,22 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: 'thermal:bitumen',
+        unified_individual: 'immersivepetroleum:bitumen',
         unified_variants: [
-            'tfmg:bitumen'
+            'tfmg:bitumen',
+            'thermal:bitumen'
+        ],
+        output_recipe_types: [
+            'minecraft:crafting_shapeless',
+            'thermal:centrifuge',
+            'thermal:press',
+            'thermal:refinery'
         ],
         input_recipe_types: [
-            'create:mixing'
+            'create:mixing',
+            'minecraft:crafting_shaped',
+            'thermal:press',
+            'thermal:pyrolyzer'
         ]
     }
 

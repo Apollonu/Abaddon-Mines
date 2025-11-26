@@ -96,9 +96,6 @@ ServerEvents.recipes(event => {
         unified_variants: [
             'tfmg:rebar'
         ],
-        output_recipe_types: [
-            'minecraft:crafting_shapeless'
-        ],
         input_recipe_types: [
             'create:mechanical_crafting',
             'minecraft:crafting_shaped',
@@ -113,6 +110,7 @@ ServerEvents.recipes(event => {
     }
 
     //Other Recipe Types
+    event.shapeless('9x ' + data.unified_individual, 'tfmg:rebar_pile')
 
     //Unify Items Function Push
     unify_items (

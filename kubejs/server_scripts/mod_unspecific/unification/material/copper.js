@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
 
     //Other Recipe Types
     event.remove({output: '#forge:ingots/copper', input: data.unified_individual, type: 'minecraft:crafting_shaped'})
-    event.shapeless('9x #forge:nuggets/copper', ['#forge:ingots/copper'])
+    event.shapeless('9x #forge:nuggets/copper', '#forge:ingots/copper')
 
     //Unify Items Function Push
     unify_items (
