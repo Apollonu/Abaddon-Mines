@@ -13,6 +13,7 @@ ServerEvents.tags('item', event => {
 	//Individual Items
 	let individual_items = [
 		prefix + 'apple_block',
+		prefix + 'bitumen',
 		prefix + 'carrot_block',
 		prefix + 'charcoal_block',
 		prefix + 'chiseled_slag',
