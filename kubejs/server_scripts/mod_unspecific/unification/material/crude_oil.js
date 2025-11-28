@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: [
-            'tfmg:crude_oil'
+            'immersivepetroleum:crudeoil'
         ],
         fluid_unified_variants: [
             '"fluid":"thermal:crude_oil"',
