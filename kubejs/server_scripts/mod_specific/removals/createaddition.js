@@ -9,11 +9,19 @@ ServerEvents.tags('item', event => {
 	
 	//Individual Items
 	let individual_items = [
+		prefix + 'connector',
+		prefix + 'copper_spool',
 		prefix + 'diamond_grit',
 		prefix + 'electrum_block',
 		prefix + 'electrum_ingot',
 		prefix + 'electrum_sheet',
-		prefix + 'iron_rod'
+		prefix + 'electrum_spool',
+		prefix + 'festive_spool',
+		prefix + 'gold_spool',
+		prefix + 'iron_rod',
+		prefix + 'large_connector',
+		prefix + 'redstone_relay',
+		prefix + 'small_light_connector'
 	]
 	
 	//Remove Items Function Push
