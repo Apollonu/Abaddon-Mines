@@ -11,13 +11,11 @@ ServerEvents.recipes(event => {
             'tfmg:lpg'
         ],
         fluid_unified_variants: [
-            '"fluid":"pneumaticcraft:lpg"',
             '"id":"pneumaticcraft:lpg"',
             '"tag":"forge:lpg"'
         ],
         fluid_recipe_types: [
             'pneumaticcraft:amadron',
-            'pneumaticcraft:refinery',
             'pneumaticcraft:thermo_plant'
         ]
     }

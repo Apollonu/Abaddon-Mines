@@ -11,7 +11,6 @@ ServerEvents.recipes(event => {
             'immersivepetroleum:diesel'
         ],
         fluid_unified_variants: [
-            '"fluid":"pneumaticcraft:diesel"',
             '"id":"pneumaticcraft:diesel"',
             '"input":{"fluidTag":"forge:diesel"',
             '"tag":"forge:diesel"'
@@ -19,7 +18,6 @@ ServerEvents.recipes(event => {
         fluid_recipe_types: [
             'createaddition:liquid_burning',
             'pneumaticcraft:amadron',
-            'pneumaticcraft:refinery',
             'pneumaticcraft:thermo_plant'
         ]
     }

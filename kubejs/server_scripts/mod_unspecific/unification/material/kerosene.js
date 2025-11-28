@@ -11,13 +11,11 @@ ServerEvents.recipes(event => {
             'tfmg:kerosene'
         ],
         fluid_unified_variants: [
-            '"fluid":"pneumaticcraft:kerosene"',
             '"id":"pneumaticcraft:kerosene"',
             '"tag":"forge:kerosene"'
         ],
         fluid_recipe_types: [
             'pneumaticcraft:amadron',
-            'pneumaticcraft:refinery',
             'pneumaticcraft:thermo_plant'
         ]
     }
