@@ -14,19 +14,22 @@ ServerEvents.recipes(event => {
             '"fluid":"thermal:crude_oil"',
             '"fluid_tag":"forge:crude_oil"',
             '"id":"pneumaticcraft:oil"',
-            '"input":{"fluidTag":"forge:crude_oil"',
-            '"tag":"forge:crude_oil"'
+            '"input":{"fluidTag":"forge:crude_oil"'
         ],
         fluid_recipe_types: [
             'createaddition:liquid_burning',
             'pneumaticcraft:amadron',
-            'pneumaticcraft:refinery',
             'thermal:centrifuge',
             'thermal:refinery'
         ]
     }
 
     //Other Recipe Types
+    event.forEachRecipe({type: 'industrialforegoing:laser_drill_fluid'}, recipe => {
+		let json = recipe.json.toString()
+		json = json.replace('pneumaticcraft:oil', 'immersivepetroleum:crudeoil')
+		recipe.merge(JSON.parse(json))
+	})
 
     //Unify Items Function Push
     unify_items (
