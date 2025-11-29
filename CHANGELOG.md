@@ -55,7 +55,7 @@
 
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="">0.1.9</a> (Current Release)
+  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/6996736">0.1.9</a> (Current Release)
 </h2></summary><br>
 
 - Additions
