@@ -1,6 +1,24 @@
 //All Rights Reserved to Apollo, this is not allowed to be used in public packs not released by Apollo.
 //priority: 3
 
+//Block Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: 'thermal:sulfur_block'
+    }
+
+    //Other Recipe Types
+    event.remove({output: '#forge:gems/sulfur', input: '#forge:storage_blocks/sulfur'})
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
 //Dust Recipe Unification
 ServerEvents.recipes(event => {
     
@@ -24,6 +42,12 @@ ServerEvents.recipes(event => {
         ],
         input_recipe_types: [
             'create:mixing'
+        ],
+        json_unified_variants: [
+            '"item":"immersiveengineering:dust_sulfur"'
+        ],
+        json_recipe_types: [
+            'immersivepetroleum:hydrotreater'
         ]
     }
 
