@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'immersivepetroleum:crudeoil'
-        ],
+        unified_individual: 'immersivepetroleum:crudeoil',
         fluid_unified_variants: [
             '"fluid":"thermal:crude_oil"',
             '"fluid_tag":"forge:crude_oil"',
@@ -27,7 +25,7 @@ ServerEvents.recipes(event => {
     //Other Recipe Types
     event.forEachRecipe({type: 'industrialforegoing:laser_drill_fluid'}, recipe => {
 		let json = recipe.json.toString()
-		json = json.replace('pneumaticcraft:oil', 'immersivepetroleum:crudeoil')
+		json = json.replace('pneumaticcraft:oil', data.unified_individual)
 		recipe.merge(JSON.parse(json))
 	})
 

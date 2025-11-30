@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'tfmg:liquid_silicon'
-        ]
+        unified_individual: 'tfmg:liquid_silicon'
     }
 
     //Other Recipe Types
@@ -19,7 +17,7 @@ ServerEvents.recipes(event => {
         'cooling_time': 47,
         'fluid': {
             'amount': 90,
-            'fluid': 'tfmg:liquid_silicon'
+            'fluid': data.unified_individual
         },
         'result': {'tag': 'forge:ingots/silicon'}
     })

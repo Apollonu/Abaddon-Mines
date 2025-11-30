@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     }
 
     //Other Recipe Types
-    event.remove({output: 'immersivepetroleum:asphalt', type: 'immersiveengineering:shaped_fluid'})
+    event.remove({output: data.unified_individual, type: 'immersiveengineering:shaped_fluid'})
     event.remove({output: 'tfmg:asphalt_mixture', type: 'create:mixing'})
     event.custom({
         'type': 'immersiveengineering:shaped_fluid',

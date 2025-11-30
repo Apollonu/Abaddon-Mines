@@ -53,9 +53,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'tfmg:constantan_wire'
-        ],
+        unified_individual: 'tfmg:constantan_wire',
         json_unified_variants: [
             '"item":"vintage:constantan_wire"'
         ],

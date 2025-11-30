@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'tfmg:aluminum_wire'
-        ],
+        unified_individual: 'tfmg:aluminum_wire',
         json_unified_variants: [
             '"item":"vintage:aluminum_wire"'
         ],

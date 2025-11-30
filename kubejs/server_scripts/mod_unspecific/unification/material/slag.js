@@ -52,9 +52,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'tfmg:molten_slag'
-        ]
+        unified_individual: 'tfmg:molten_slag'
     }
 
     //Other Recipe Types
@@ -63,7 +61,7 @@ ServerEvents.recipes(event => {
         'cooling_time': 68,
         'fluid': {
             'amount': 100,
-            'fluid': 'tfmg:molten_slag'
+            'fluid': data.unified_individual
         },
         'result': {'item': 'thermal:slag'}
     })
@@ -72,7 +70,7 @@ ServerEvents.recipes(event => {
         'cooling_time': 137,
         'fluid': {
             'amount': 400,
-            'fluid': 'tfmg:molten_slag'
+            'fluid': data.unified_individual
         },
         'result': {'item': 'tfmg:slag_block'}
     })

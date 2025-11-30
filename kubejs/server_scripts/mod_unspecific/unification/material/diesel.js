@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'immersivepetroleum:diesel'
-        ],
+        unified_individual: 'immersivepetroleum:diesel',
         fluid_unified_variants: [
             '"id":"pneumaticcraft:diesel"',
             '"input":{"fluidTag":"forge:diesel"',

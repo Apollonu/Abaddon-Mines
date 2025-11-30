@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     }
 
     //Other Recipe Types
-    event.remove({output: '#forge:gems/sulfur', input: '#forge:storage_blocks/sulfur'})
+    event.remove({output: '#forge:gems/sulfur', input: data.unified_individual})
 
     //Unify Items Function Push
     unify_items (
@@ -65,9 +65,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'mekanism:sulfuric_acid'
-        ],
+        unified_individual: 'mekanism:sulfuric_acid',
         fluid_unified_variants: [
             '"fluid":"vintage:sulfuric_acid"'
         ],
@@ -90,9 +88,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'mekanism:sulfur_dioxide'
-        ],
+        unified_individual: 'mekanism:sulfur_dioxide',
         fluid_unified_variants: [
             '"fluid":"vintage:sulfur_dioxide"'
         ],
@@ -115,9 +111,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'mekanism:sulfur_trioxide'
-        ],
+        unified_individual: 'mekanism:sulfur_trioxide',
         fluid_unified_variants: [
             '"fluid":"vintage:sulfur_trioxide"'
         ],

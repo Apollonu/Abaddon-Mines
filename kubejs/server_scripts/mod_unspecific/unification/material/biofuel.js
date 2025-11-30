@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'industrialforegoing:biofuel'
-        ],
+        unified_individual: 'industrialforegoing:biofuel',
         fluid_unified_variants: [
             '"fluid":"createaddition:bioethanol"',
             '"input":{"fluidTag":"forge:biofuel"'

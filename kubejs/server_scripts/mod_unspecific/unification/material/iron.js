@@ -60,16 +60,14 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'ad_astra:iron_rod'
-        ]
+        unified_individual: 'ad_astra:iron_rod'
     }
 
     //Other Recipe Types
     event.custom({
         'type': 'createaddition:rolling',
         'input': {'tag': 'forge:ingots/iron'},
-        'result': {'item': 'ad_astra:iron_rod', 'count': 2}
+        'result': {'item': data.unified_individual, 'count': 2}
     })
 
     //Unify Items Function Push

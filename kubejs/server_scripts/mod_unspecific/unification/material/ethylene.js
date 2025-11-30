@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'mekanism:ethene'
-        ],
+        unified_individual: 'mekanism:ethene',
         fluid_unified_variants: [
             '"fluid":"tfmg:ethylene"'
         ],

@@ -1,21 +1,36 @@
 //All Rights Reserved to Apollo, this is not allowed to be used in public packs not released by Apollo.
 //priority: 3
 
+//Bucket Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: 'immersiveengineering:concrete_bucket',
+        unified_variants: [
+            'tfmg:liquid_concrete_bucket'
+        ],
+        input_recipe_types: [
+            'minecraft:crafting_shaped'
+        ]
+    }
+
+    //Other Recipe Types
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
 //Fluid Recipe Unification
 ServerEvents.recipes(event => {
     
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'immersiveengineering:concrete'
-        ],
-        fluid_unified_variants: [
-            '"fluid":"tfmg:liquid_concrete"'
-        ],
-        fluid_recipe_types: [
-            'minecraft:crafting_shaped'
-        ]
+        unified_individual: 'immersiveengineering:concrete'
     }
 
     //Other Recipe Types
@@ -25,7 +40,7 @@ ServerEvents.recipes(event => {
         'cooling_time': 47,
         'fluid': {
             'amount': 90,
-            'fluid': 'immersiveengineering:concrete'
+            'fluid': data.unified_individual
         },
         'result': {'item': 'tfmg:cinderblock'}
     })
@@ -36,7 +51,7 @@ ServerEvents.recipes(event => {
         'cooling_time': 95,
         'fluid': {
             'amount': 540,
-            'fluid': 'immersiveengineering:concrete'
+            'fluid': data.unified_individual
         },
         'result': {'item': 'tfmg:rebar_concrete'}
     })
@@ -47,7 +62,7 @@ ServerEvents.recipes(event => {
         'cooling_time': 95,
         'fluid': {
             'amount': 270,
-            'fluid': 'immersiveengineering:concrete'
+            'fluid': data.unified_individual
         },
         'result': {'item': 'tfmg:rebar_concrete_slab'}
     })
@@ -58,7 +73,7 @@ ServerEvents.recipes(event => {
         'cooling_time': 95,
         'fluid': {
             'amount': 540,
-            'fluid': 'immersiveengineering:concrete'
+            'fluid': data.unified_individual
         },
         'result': {'item': 'tfmg:rebar_concrete_stairs'}
     })
@@ -69,7 +84,7 @@ ServerEvents.recipes(event => {
         'cooling_time': 95,
         'fluid': {
             'amount': 540,
-            'fluid': 'immersiveengineering:concrete'
+            'fluid': data.unified_individual
         },
         'result': {'item': 'tfmg:rebar_concrete_wall'}
     })

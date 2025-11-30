@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'tfmg:hardened_planks'})
     event.recipes.create.mixing('tfmg:hardened_planks', [
         '#minecraft:planks',
-        Fluid.of('immersiveengineering:creosote', 125)
+        Fluid.of(data.unified_individual, 125)
     ]).heated()
 
     //Unify Items Function Push

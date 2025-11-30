@@ -38,9 +38,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'pneumaticcraft:plastic'
-        ],
+        unified_individual: 'pneumaticcraft:plastic',
         fluid_unified_variants: [
             '"fluid":"tfmg:molten_plastic"'
         ],

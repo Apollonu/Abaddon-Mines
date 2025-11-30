@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'tfmg:kerosene'
-        ],
+        unified_individual: 'tfmg:kerosene',
         fluid_unified_variants: [
             '"id":"pneumaticcraft:kerosene"',
             '"tag":"forge:kerosene"'

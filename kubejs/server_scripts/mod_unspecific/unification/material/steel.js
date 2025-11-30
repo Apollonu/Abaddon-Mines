@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'tconstruct:molten_steel'
-        ],
+        unified_individual: 'tconstruct:molten_steel',
         fluid_unified_variants: [
             '"fluid":"tfmg:molten_steel"'
         ],
@@ -90,9 +88,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'ad_astra:steel_rod'
-        ],
+        unified_individual: 'ad_astra:steel_rod',
         unified_variants: [
             'tfmg:rebar'
         ],

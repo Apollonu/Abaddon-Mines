@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: [
-            'pneumaticcraft:printed_circuit_board'
-        ],
+        unified_individual: 'pneumaticcraft:printed_circuit_board',
         unified_variants: [
             'tfmg:circuit_board'
         ],
