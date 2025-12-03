@@ -21,6 +21,7 @@
     - Create Crafts & Additions - [1.3.2](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/6901922) -> [1.3.3](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/7208610)
     - Create: Aquatic Ambitions - [2.0.1](https://www.curseforge.com/minecraft/mc-mods/create-aquatic-ambitions/files/6832241) -> [2.0.2](https://www.curseforge.com/minecraft/mc-mods/create-aquatic-ambitions/files/7192401)
     - Create: Vintage - [1.3.0](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/6809097) -> [1.4.5](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port/files/7187075)
+    - Enhanced AI - [2.7.1](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/6831339) -> [3.3.2](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7291200)
     - GeckoLib - [4.7.4](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/6920925) -> [4.8.2](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/7025129)
     - Gravestone Mod - [1.0.33](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/6930821) -> [1.0.35](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/7099725)
     - InsaneLib - [1.21.20](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/6927148) -> [1.21.21](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7041495)
