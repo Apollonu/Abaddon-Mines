@@ -5,7 +5,6 @@
 
 - Additions
   - Mods
-    - BaguetteLib - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/6909482) -> [1.1.1](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/7031573)
     - Colossal Chests - [1.8.7](https://www.curseforge.com/minecraft/mc-mods/colossal-chests/files/6224796) + Cyclops Core - [1.21.3](https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/7210370)
     - Create: The Factory Must Grow - 1.0.1b-custom.1
     - Immersive Petroleum - [4.3.0-30](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/7191176)
@@ -17,6 +16,7 @@
   - Modpack
     - Journey's Gate - [1.1.6](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.7](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
+    - BaguetteLib - [1.1.0](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/6909482) -> [1.1.5](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/7287505)
     - Create - [6.0.6](https://www.curseforge.com/minecraft/mc-mods/create/files/6641603) -> [6.0.8](https://www.curseforge.com/minecraft/mc-mods/create/files/7178761)
     - Create Crafts & Additions - [1.3.2](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/6901922) -> [1.3.3](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/7208610)
     - Create: Aquatic Ambitions - [2.0.1](https://www.curseforge.com/minecraft/mc-mods/create-aquatic-ambitions/files/6832241) -> [2.0.2](https://www.curseforge.com/minecraft/mc-mods/create-aquatic-ambitions/files/7192401)
