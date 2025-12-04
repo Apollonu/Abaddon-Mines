@@ -1,6 +1,34 @@
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="">0.2.0</a> (Nightly)
+  Abaddon Mines - <a href="">0.2.1</a> (Nightly)
+</h2></summary><br>
+
+- Additions
+  - Mods
+    - none
+  - Resourcepacks / Shaderpacks
+    - none
+- Updates
+  - Modpack
+    - none
+  - Mods
+    - none
+  - Configs
+    - none
+  - Resourcepacks / Shaderpacks
+    - none
+- Fixes
+  - none
+- Reverts / Removals
+  - Reverts
+    - none
+  - Removals
+    - none
+</details>
+
+<details close>
+<summary><h2>
+  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/7291889">0.2.0</a> (Current Release)
 </h2></summary><br>
 
 - Additions
@@ -56,7 +84,7 @@
 
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/6996736">0.1.9</a> (Current Release)
+  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/6996736">0.1.9</a>
 </h2></summary><br>
 
 - Additions
@@ -362,7 +390,6 @@
     - none
 </details>
 
-
 <details close>
 <summary><h2>
   Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/6214238">0.1.3</a>
@@ -409,7 +436,6 @@
     - [Tetra](https://www.curseforge.com/minecraft/mc-mods/tetra) + [mutil](https://www.curseforge.com/minecraft/mc-mods/mutil) + [tetracelium](https://www.curseforge.com/minecraft/mc-mods/tetracelium) + [Withering Boon](https://www.curseforge.com/minecraft/mc-mods/tetra-booster-pack)
 </details>
 
-
 <details close>
 <summary><h2>
   Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/6148451">0.1.2</a>
@@ -448,7 +474,6 @@
   - Removals
     - [Item Obliterator](https://www.curseforge.com/minecraft/mc-mods/item-obliterator)
 </details>
-
 
 <details close>
 <summary><h2>
@@ -505,7 +530,6 @@
     - [Alex's Caves](https://www.curseforge.com/minecraft/mc-mods/alexs-caves)
     - [More Create Burners](https://www.curseforge.com/minecraft/mc-mods/more-create-burners)
 </details>
-
 
 <details close>
 <summary><h2>
