@@ -26,7 +26,7 @@ ServerEvents.tags('item', event => {
 			individual.includes('stripped_') || individual == 'autumnity:sappy_maple_log' ||
 			individual == 'autumnity:sappy_maple_wood'
 		) {
-			console.log(individual)
+			//console.log(individual)
 			individual_stripped_logs.push(individual)
 		}
 	})
@@ -73,9 +73,6 @@ ServerEvents.recipes(event => {
 		})
 		if (individual == 'atmospheric:stripped_rosewood') plank = plank + '_planks'
 		if (individual.includes('palo_verde')) plank = 'minecraft:birch_planks'
-		
-		console.log('/// Plank: ' + plank)
-		console.log('/// Input: ' + individual)
 
 		event.remove({output: plank, input: individual, type: 'create:cutting'})
 		event.recipes.create.cutting('4x ' + plank, individual)
