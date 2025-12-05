@@ -45,6 +45,12 @@ ServerEvents.recipes(event => {
         input_recipe_types: [
             'minecraft:crafting_shaped',
             'minecraft:crafting_shapeless'
+        ],
+        json_unified_variants: [
+            '"item":"tfmg:steel_ingot"'
+        ],
+        json_recipe_types: [
+            'create:sequenced_assembly'
         ]
     }
 
@@ -71,6 +77,12 @@ ServerEvents.recipes(event => {
         input_recipe_types: [
             'create:mechanical_crafting',
             'minecraft:crafting_shaped'
+        ],
+        json_unified_variants: [
+            '"item":"tfmg:heavy_plate"'
+        ],
+        json_recipe_types: [
+            'create:sequenced_assembly'
         ]
     }
 
