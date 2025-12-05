@@ -67,7 +67,7 @@ function unify_items (data) {
 
 						/*
 						console.log('Altered Recipe: ' + json)
-						console.log('/// Fluid Recipe End')
+						console.log('/// JSON Recipe End')
 						*/
 					}
 				})
