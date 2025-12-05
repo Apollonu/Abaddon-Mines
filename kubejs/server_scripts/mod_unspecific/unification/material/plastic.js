@@ -31,26 +31,3 @@ ServerEvents.recipes(event => {
         data
     )
 })
-
-//Fluid Recipe Unification
-ServerEvents.recipes(event => {
-    
-    //Variables
-    let data = {
-        event: event,
-        unified_individual: 'pneumaticcraft:plastic',
-        fluid_unified_variants: [
-            '"fluid":"tfmg:molten_plastic"'
-        ],
-        fluid_recipe_types: [
-            'tfmg:vat_machine_recipe'
-        ]
-    }
-
-    //Other Recipe Types
-
-    //Unify Items Function Push
-    unify_items (
-        data
-    )
-})

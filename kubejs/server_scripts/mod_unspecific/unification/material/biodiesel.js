@@ -8,12 +8,13 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'immersiveengineering:biodiesel',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"pneumaticcraft:biodiesel"',
             '"input":{"fluidTag":"forge:biodiesel"',
             '"tag":"forge:biodiesel"',
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'createaddition:liquid_burning',
             'pneumaticcraft:fluid_mixer',
             'pneumaticcraft:thermo_plant'

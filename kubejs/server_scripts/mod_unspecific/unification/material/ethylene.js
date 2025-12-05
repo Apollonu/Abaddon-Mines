@@ -8,10 +8,11 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'mekanism:ethene',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"tfmg:ethylene"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'create:mixing',
             'tfmg:vat_machine_recipe'
         ]

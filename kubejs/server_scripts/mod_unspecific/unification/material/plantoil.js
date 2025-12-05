@@ -8,13 +8,14 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'immersiveengineering:plantoil',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"pneumaticcraft:vegetable_oil"',
             '"fluidTag":"forge:plantoil"',
             '"input":{"fluidTag":"forge:plantoil"',
             '"tag":"forge:plantoil"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'create:mixing',
             'createaddition:liquid_burning',
             'pneumaticcraft:fluid_mixer',

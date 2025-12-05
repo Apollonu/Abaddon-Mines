@@ -8,11 +8,12 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'tfmg:lpg',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"id":"pneumaticcraft:lpg"',
             '"tag":"forge:lpg"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'pneumaticcraft:amadron',
             'pneumaticcraft:thermo_plant'
         ]

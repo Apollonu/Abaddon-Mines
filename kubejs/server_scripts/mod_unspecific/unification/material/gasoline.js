@@ -8,12 +8,13 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'immersivepetroleum:gasoline',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"id":"pneumaticcraft:gasoline"',
             '"input":{"fluidTag":"forge:gasoline"',
             '"tag":"forge:gasoline"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'createaddition:liquid_burning',
             'pneumaticcraft:amadron',
             'pneumaticcraft:thermo_plant'

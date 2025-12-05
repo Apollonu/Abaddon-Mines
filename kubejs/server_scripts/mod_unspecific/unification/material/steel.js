@@ -8,10 +8,11 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'tconstruct:molten_steel',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"tfmg:molten_steel"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'tfmg:industrial_blasting'
         ]
     }

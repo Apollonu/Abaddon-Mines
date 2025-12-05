@@ -8,12 +8,13 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'immersiveengineering:creosote',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"tfmg:creosote"',
             '"fluid":"thermal:creosote"',
             '"input":{"fluidTag":"forge:creosote"',
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'createaddition:liquid_burning',
             'tfmg:coking',
             'thermal:pyrolyzer'

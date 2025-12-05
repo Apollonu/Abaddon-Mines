@@ -8,11 +8,12 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'industrialforegoing:biofuel',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"createaddition:bioethanol"',
             '"input":{"fluidTag":"forge:biofuel"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'create:mixing',
             'createaddition:liquid_burning'
         ]
