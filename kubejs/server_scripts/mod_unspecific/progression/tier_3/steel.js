@@ -41,20 +41,6 @@ ServerEvents.recipes(event => {
 		E: '#forge:ingots/steel'
 	})
 
-	//Steel Mechanism Recipe
-	event.recipes.create.sequenced_assembly([
-        Item.of('tfmg:steel_mechanism').withChance(120),
-        Item.of('tfmg:steel_cogwheel').withChance(4),
-        Item.of('#forge:ingots/steel').withChance(4)
-    ], '#forge:plates/steel', [
-		event.recipes.createDeploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'tfmg:steel_cogwheel']),
-        event.recipes.createDeploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', '#forge:plates/nickel']),
-        event.recipes.createDeploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'tfmg:large_steel_cogwheel']),
-        event.recipes.createDeploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', '#forge:plates/lead']),
-        event.recipes.createDeploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'tfmg:screw']),
-        event.recipes.createDeploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'immersiveengineering:screwdriver'])
-	]).transitionalItem('tfmg:unfinished_steel_mechanism').loops(2)
-
 	//Generator Coil Recipe
 	event.remove({output: 'create_new_age:generator_coil'})
 	event.recipes.create.mechanical_crafting('create_new_age:generator_coil', [
