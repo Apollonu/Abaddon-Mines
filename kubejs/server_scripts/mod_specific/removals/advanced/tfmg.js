@@ -166,7 +166,6 @@ ServerEvents.tags('item', event => {
 		prefix + 'unfinished_insulator',
 		prefix + 'unfinished_potentiometer',
 		prefix + 'unfinished_resistor',
-		prefix + 'unfinished_steel_mechanism',
 		prefix + 'unfinished_transistor',
 		prefix + 'unfired_insulator',
 		prefix + 'unprocessed_heavy_plate',
