@@ -45,18 +45,20 @@ function unify_items (data) {
 					let json = recipe.json.toString()
 					variant = variant.toString()
 					if (json.includes(variant)) {
+						/*
 						console.log('/// JSON Recipe Start')
 						console.log('Variant: ' + variant)
 						console.log('Recipe: ' + json)
+						*/
 
 						let unified_individual_string = '"item":"' + unified_individual + '"'
 						if (type.includes('ad_astra:compressing')) unified_individual_string = unified_individual_string.replace('item', 'id')
-						console.log('Unified Individual: ' + unified_individual_string)
+						//console.log('Unified Individual: ' + unified_individual_string)
 
 						json = json.replace(variant, unified_individual_string)
 
-						console.log('Altered Recipe: ' + json)
-						console.log('/// JSON Recipe End')
+						//console.log('Altered Recipe: ' + json)
+						//console.log('/// JSON Recipe End')
 
 						recipe.merge(JSON.parse(json))
 					}
@@ -73,20 +75,22 @@ function unify_items (data) {
 					let json = recipe.json.toString()
 					variant = variant.toString()
 					if (json.includes(variant)) {
+						/*
 						console.log('/// Fluid Recipe Start')
 						console.log('Variant: ' + variant)
 						console.log('Recipe: ' + json)
+						*/
 
 						let unified_individual_string = '"fluid":"' + unified_individual + '"'
 						if (type.includes('createaddition:liquid_burning') && variant.includes('plantoil') && variant.includes('"input":{') == 0) return
 						if (type.includes('createaddition:liquid_burning')) unified_individual_string = '"input":{' + unified_individual_string
 						if (type.includes('pneumaticcraft:amadron')) unified_individual_string = unified_individual_string.replace('fluid', 'id')
-						console.log('Unified Individual: ' + unified_individual_string)
+						//console.log('Unified Individual: ' + unified_individual_string)
 
 						json = json.replace(variant, unified_individual_string)
 
-						console.log('Altered Recipe: ' + json)
-						console.log('/// Fluid Recipe End')
+						//console.log('Altered Recipe: ' + json)
+						//console.log('/// Fluid Recipe End')
 
 						recipe.merge(JSON.parse(json))
 					}
