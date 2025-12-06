@@ -14,16 +14,18 @@ ServerEvents.recipes(event => {
         output_recipe_types: [
             'thermal:press',
             'thermal:pyrolyzer'
-        ],
-        json_unified_variants: [
-            '"item":"tfmg:coal_coke"'
-        ],
-        json_recipe_types: [
-            'tfmg:coking'
         ]
     }
 
     //Other Recipe Types
+    event.custom({'type': 'tfmg:coking',
+        'ingredients': [{'item': 'minecraft:coal'}],
+        'processingTime': 1200,
+        'results': [{'item': data.unified_individual},
+            {'amount': 1, 'fluid': 'immersiveengineering:creosote'},
+            {'amount': 30, 'fluid': 'tfmg:carbon_dioxide'}
+        ]
+    })
 
     //Unify Items Function Push
     unify_items (
