@@ -12,7 +12,8 @@
   - Modpack
     - none
   - Mods
-    - none
+    - Enhanced AI - [3.3.2](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7291200) -> [3.3.3](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7293315)
+    - Mobs Properties Randomness - [5.1.0](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7195699) -> [5.1.0.2](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7297397)
   - Configs
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
   - Resourcepacks / Shaderpacks
