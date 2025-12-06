@@ -19,7 +19,7 @@
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
-  - none
+  - Missing Coal Coke Recipe
 - Reverts / Removals
   - Reverts
     - none
