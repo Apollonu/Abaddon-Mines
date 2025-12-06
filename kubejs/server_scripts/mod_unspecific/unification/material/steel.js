@@ -109,12 +109,6 @@ ServerEvents.recipes(event => {
             'create:mechanical_crafting',
             'minecraft:crafting_shaped',
             'vintage:auto_curving'
-        ],
-        json_unified_variants: [
-            '"item":"vintage:steel_rod"'
-        ],
-        json_recipe_types: [
-            'createaddition:rolling'
         ]
     }
 
