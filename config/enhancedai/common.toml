@@ -379,7 +379,7 @@
 	[Mobs.Spawning]
 		#How far away from any player monsters will instantly despawn? Vanilla is 128. Reducing this makes mobs more crowded around players.
 		#Range: 0 ~ 128
-		"Monsters despawning distance" = 96
+		"Monsters despawning distance" = 128
 		#How far away from any player monsters will be able to randomly despawn? Vanilla is 32
 		#Range: 0 ~ 128
 		"Min monsters despawning distance" = 48
@@ -434,11 +434,11 @@
 			#Chances for a mob to spawn neutral (so will not attack players until provoked)
 			[Mobs.Targeting."Better nearby targeting"."Neutral chances"]
 				#Range: 0.0 ~ 1.0
-				"Easy/Peaceful" = 0.25
+				"Easy/Peaceful" = 0.1
 				#Range: 0.0 ~ 1.0
-				Normal = 0.1
+				Normal = 0.025
 				#Range: 0.0 ~ 1.0
-				Hard = 0.04
+				Hard = 0.005
 
 	#Allows mobs to break vehicles to escape.
 	[Mobs.Anti-Cheese]
@@ -868,7 +868,7 @@
 	[Creepers."Creeper swell"]
 		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
 		#Range: 0.0 ~ 1.0
-		"Ignore walls chance" = 0.2
+		"Ignore walls chance" = 0.05
 		#Makes creepers blow up on death like when they were added back in 0.30
 		#Allowed Values: NONE, CHARGED, ALL
 		"Blow up on death" = "CHARGED"
