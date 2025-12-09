@@ -13,7 +13,6 @@ ServerEvents.tags('item', event => {
 		prefix + 'electrical_connector',
 		prefix + 'netherite_magnet',
 		prefix + 'solid_corium'
-		
 	]
 	
 	//Remove Items Function Push
