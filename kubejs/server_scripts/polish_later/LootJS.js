@@ -45,8 +45,8 @@ LootJS.modifiers(event => {
 
     //Uranium Types
     let uranium_types = [
-        'mekanism:deepslate_uranium',
-        'mekanism:uranium',
+        'mekanism:deepslate_uranium_ore',
+        'mekanism:uranium_ore',
         'mekanismaaa:glacio_uranium_ore',
         'mekanismaaa:mercury_uranium_ore',
         'mekanismaaa:venus_uranium_ore'
