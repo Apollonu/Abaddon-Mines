@@ -11,7 +11,9 @@ ServerEvents.tags('item', event => {
 	let individual_items = [
 		prefix + 'corium',
 		prefix + 'electrical_connector',
+		prefix + 'netherite_magnet',
 		prefix + 'solid_corium'
+		
 	]
 	
 	//Remove Items Function Push
