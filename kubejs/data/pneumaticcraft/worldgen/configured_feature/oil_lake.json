@@ -10,7 +10,7 @@
     "fluid": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "tfmg:crude_oil",
+        "Name": "immersivepetroleum:crudeoil",
         "Properties": {
           "level": "0"
         }
