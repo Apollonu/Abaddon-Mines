@@ -5,7 +5,7 @@
 
 - Additions
   - Mods
-    - Sophisticated Backpacks - [3.24.12.1433](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7316707) + Sophisticated Core - [1.2.108.1240](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7169400)
+    - Sophisticated Backpacks - [3.24.12.1433](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7316707) + Sophisticated Core - [1.2.108.1259](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7316237)
   - Resourcepacks / Shaderpacks
     - none
 - Updates
