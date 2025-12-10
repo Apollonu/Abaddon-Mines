@@ -5,7 +5,7 @@
 
 - Additions
   - Mods
-    - Sophisticated Backpacks - [3.24.12.1416](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7312006) + Sophisticated Core - [1.2.108.1253](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7311310)
+    - Sophisticated Backpacks - [3.24.12.1433](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7316707) + Sophisticated Core - [1.2.108.1259](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7316237)
   - Resourcepacks / Shaderpacks
     - none
 - Updates
@@ -14,6 +14,7 @@
   - Mods
     - Enhanced AI - [3.3.2](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7291200) -> [3.3.3](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7293315)
     - Immersive Petroleum - [4.3.0-30](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/7191176) -> [4.3.0-31](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/7308297)
+    - InsaneLib - [1.21.21](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7041495) -> [1.22.1](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7315596)
     - Mobs Properties Randomness - [5.1.0](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7195699) -> [5.1.0.2](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7297397)
     - Oh The Biomes We've Gone - [1.7.1](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7217773) -> [1.7.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7304438)
     - PneumaticCraft: Repressurized - [6.0.21](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7064978) -> [6.0.22](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7307654)
