@@ -28,7 +28,7 @@
   - Reverts
     - none
   - Removals
-    - [Backpacked](https://www.curseforge.com/minecraft/mc-mods/backpacked)
+    - [Backpacked](https://www.curseforge.com/minecraft/mc-mods/backpacked) + Config
 </details>
 
 <details close>
