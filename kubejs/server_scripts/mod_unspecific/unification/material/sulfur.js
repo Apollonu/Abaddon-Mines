@@ -66,10 +66,11 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'mekanism:sulfuric_acid',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"vintage:sulfuric_acid"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'vintage:pressurizing'
         ]
     }
@@ -89,10 +90,11 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'mekanism:sulfur_dioxide',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"vintage:sulfur_dioxide"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'vintage:pressurizing'
         ]
     }
@@ -112,10 +114,11 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'mekanism:sulfur_trioxide',
-        fluid_unified_variants: [
+        is_liquid: true,
+        json_unified_variants: [
             '"fluid":"vintage:sulfur_trioxide"'
         ],
-        fluid_recipe_types: [
+        json_recipe_types: [
             'vintage:pressurizing'
         ]
     }
