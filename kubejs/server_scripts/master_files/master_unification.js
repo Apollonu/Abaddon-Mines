@@ -10,9 +10,8 @@ function unify_items (data) {
 	let unified_variants = data.unified_variants
 	let output_recipe_types = data.output_recipe_types
 	let input_recipe_types = data.input_recipe_types
-	let is_liquid = data.is_liquid
-	let json_unified_variants = data.json_unified_variants
-	let json_recipe_types = data.json_recipe_types
+	let json_ids = data.json_ids
+	let json_recipes = data.json_recipes
 
 	//Recipe Logic
 	if (unified_individual != null && unified_variants != null) {
@@ -37,41 +36,16 @@ function unify_items (data) {
 	}
 
 	//JSON Recipe Logic
-	if (unified_individual != null && json_unified_variants != null && json_recipe_types != null) {
-		json_unified_variants.forEach(variant => {
-			json_recipe_types.forEach(type => {
-				event.forEachRecipe({type: type}, recipe => {
-					let json = recipe.json.toString()
-					variant = variant.toString()
-					if (json.includes(variant)) {
-						let unified_individual_string
-						if (is_liquid == true) {
-							unified_individual_string = '"fluid":"' + unified_individual + '"'
-							if (type.includes('createaddition:liquid_burning') && variant.includes('plantoil') && variant.includes('"input":{') == 0) return
-							if (type.includes('createaddition:liquid_burning')) unified_individual_string = '"input":{' + unified_individual_string
-							if (type.includes('pneumaticcraft:amadron')) unified_individual_string = unified_individual_string.replace('fluid', 'id')
-						} else {
-							unified_individual_string = '"item":"' + unified_individual + '"'
-							if (type.includes('ad_astra:compressing')) unified_individual_string = unified_individual_string.replace('item', 'id')
-						}
-
-						/*
-						console.log('/// JSON Recipe Start')
-						console.log('Variant: ' + variant)
-						console.log('Recipe: ' + json)
-						console.log('Unified Individual: ' + unified_individual_string)
-						*/
-
-						json = json.replace(variant, unified_individual_string)
-						recipe.merge(JSON.parse(json))
-
-						/*
-						console.log('Altered Recipe: ' + json)
-						console.log('/// JSON Recipe End')
-						*/
-					}
-				})
+	if (unified_individual != null) {
+		if (json_ids != null) {
+			json_ids.forEach(id => {
+				event.remove({id: id})
 			})
-		})
+		}
+		if (json_recipes != null) {
+			json_recipes.forEach(recipe => {
+				event.custom(recipe)
+			})
+		}
 	}
 }
