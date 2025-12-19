@@ -22,6 +22,7 @@
   - Configs
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
+    - [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools)
     - [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
     - [Stylish Effects](https://www.curseforge.com/minecraft/mc-mods/stylish-effects)
   - Resourcepacks / Shaderpacks
