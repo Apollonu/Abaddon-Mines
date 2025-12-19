@@ -8,16 +8,49 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'immersiveengineering:creosote',
-        is_liquid: true,
-        json_unified_variants: [
-            '"fluid":"tfmg:creosote"',
-            '"fluid":"thermal:creosote"',
-            '"input":{"fluidTag":"forge:creosote"',
+        json_ids: [
+            'tfmg:coking/charcoal',
+            'tfmg:coking/coal',
+            'thermal:machines/pyrolyzer/pyrolyzer_coal',
+            'thermal:machines/pyrolyzer/pyrolyzer_logs'
         ],
-        json_recipe_types: [
-            'createaddition:liquid_burning',
-            'tfmg:coking',
-            'thermal:pyrolyzer'
+        json_recipes: [
+            {
+                'type': 'tfmg:coking',
+                'ingredients': [{'tag': 'minecraft:logs_that_burn'}],
+                'processingTime': 600,
+                'results': [
+                    {'item': 'minecraft:charcoal'},
+                    {'amount': 2, 'fluid': 'immersiveengineering:creosote'},
+                    {'amount': 20, 'fluid': 'tfmg:carbon_dioxide'}
+                ]
+            }, {
+                'type': 'tfmg:coking',
+                'ingredients': [{'item':'minecraft:coal'}],
+                'processingTime': 1200,
+                'results': [
+                    {'item': 'immersiveengineering:coal_coke'},
+                    {'amount': 1, 'fluid': 'immersiveengineering:creosote'},
+                    {'amount': 30, 'fluid': 'tfmg:carbon_dioxide'}
+                ]
+            }, {
+                'type': 'thermal:pyrolyzer',
+                'ingredient': {'item': 'minecraft:coal'},
+                'result': [
+                    {'item': 'immersiveengineering:coal_coke'},
+                    {'item': 'thermal:tar', 'chance': 0.25},
+                    {'fluid': 'immersiveengineering:creosote', 'amount': 250}
+                ],
+                'experience': 0.15
+            }, {
+                'type': 'thermal:pyrolyzer',
+                'ingredient': {'tag': 'minecraft:logs'},
+                'result': [
+                    {'item': 'minecraft:charcoal'},
+                    {'fluid': 'immersiveengineering:creosote', 'amount': 125}
+                ],
+                'experience': 0.15
+            }
         ]
     }
 

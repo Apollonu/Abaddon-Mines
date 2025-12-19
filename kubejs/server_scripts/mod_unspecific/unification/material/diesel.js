@@ -8,16 +8,18 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'immersivepetroleum:diesel',
-        is_liquid: true,
-        json_unified_variants: [
-            '"id":"pneumaticcraft:diesel"',
-            '"input":{"fluidTag":"forge:diesel"',
-            '"tag":"forge:diesel"'
+        json_ids: [
+            'pneumaticcraft:amadron/diesel_to_emerald'
         ],
-        json_recipe_types: [
-            'createaddition:liquid_burning',
-            'pneumaticcraft:amadron',
-            'pneumaticcraft:thermo_plant'
+        json_recipes: [
+            {
+                'type': 'pneumaticcraft:amadron',
+                'id': 'pneumaticcraft:amadron/diesel_to_emerald',
+                'input': {'type': 'FLUID', 'amount': 4000, 'id': 'immersivepetroleum:diesel'},
+                'level': 0,
+                'output': {'type': 'ITEM', 'amount': 1, 'id': 'minecraft:emerald'},
+                'static': true
+            }
         ]
     }
 

@@ -43,11 +43,19 @@ ServerEvents.recipes(event => {
         input_recipe_types: [
             'create:mixing'
         ],
-        json_unified_variants: [
-            '"item":"immersiveengineering:dust_sulfur"'
+        json_ids: [
+            'immersivepetroleum:hydrotreater/sulfur_recovery'
         ],
-        json_recipe_types: [
-            'immersivepetroleum:hydrotreater'
+        json_recipes: [
+            {
+                'type': 'immersivepetroleum:hydrotreater',
+                'energy': 8000,
+                'input': {'amount': 1000, 'tag': 'forge:diesel_sulfur'},
+                'result': {'amount': 1000, 'fluid': 'immersivepetroleum:diesel'},
+                'secondary_input': {'amount': 500, 'tag': 'minecraft:water'},
+                'secondary_result': {'chance': '1.0', 'count': 5, 'item': 'spelunkery:sulfur'},
+                'time': 100
+            }
         ]
     }
 
@@ -66,12 +74,8 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'mekanism:sulfuric_acid',
-        is_liquid: true,
-        json_unified_variants: [
-            '"fluid":"vintage:sulfuric_acid"'
-        ],
-        json_recipe_types: [
-            'vintage:pressurizing'
+        json_ids: [
+            'vintage:pressurizing/sulfuric_acid'
         ]
     }
 
@@ -90,12 +94,8 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'mekanism:sulfur_dioxide',
-        is_liquid: true,
-        json_unified_variants: [
-            '"fluid":"vintage:sulfur_dioxide"'
-        ],
-        json_recipe_types: [
-            'vintage:pressurizing'
+        json_ids: [
+            'vintage:pressurizing/sulfur_dioxide'
         ]
     }
 
@@ -114,12 +114,9 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'mekanism:sulfur_trioxide',
-        is_liquid: true,
-        json_unified_variants: [
-            '"fluid":"vintage:sulfur_trioxide"'
-        ],
-        json_recipe_types: [
-            'vintage:pressurizing'
+        json_ids: [
+            'vintage:pressurizing/sulfur_trioxide',
+            'vintage:pressurizing/sulfur_trioxide_alt'
         ]
     }
 

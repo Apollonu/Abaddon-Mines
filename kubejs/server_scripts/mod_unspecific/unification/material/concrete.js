@@ -38,10 +38,7 @@ ServerEvents.recipes(event => {
         'type': 'tconstruct:casting_table',
         'cast': {'tag': 'tconstruct:casts/multi_use/ingot'},
         'cooling_time': 47,
-        'fluid': {
-            'amount': 90,
-            'fluid': data.unified_individual
-        },
+        'fluid': {'amount': 90, 'fluid': 'immersiveengineering:concrete'},
         'result': {'item': 'tfmg:cinderblock'}
     })
     event.custom({
@@ -49,10 +46,7 @@ ServerEvents.recipes(event => {
         'cast': {'item': 'tfmg:rebar_pillar'},
         'cast_consumed': true,
         'cooling_time': 95,
-        'fluid': {
-            'amount': 540,
-            'fluid': data.unified_individual
-        },
+        'fluid': {'amount': 540, 'fluid': 'immersiveengineering:concrete'},
         'result': {'item': 'tfmg:rebar_concrete'}
     })
     event.custom({
@@ -60,10 +54,7 @@ ServerEvents.recipes(event => {
         'cast': {'item': 'tfmg:rebar_floor'},
         'cast_consumed': true,
         'cooling_time': 95,
-        'fluid': {
-            'amount': 270,
-            'fluid': data.unified_individual
-        },
+        'fluid': {'amount': 270, 'fluid': 'immersiveengineering:concrete'},
         'result': {'item': 'tfmg:rebar_concrete_slab'}
     })
     event.custom({
@@ -71,10 +62,7 @@ ServerEvents.recipes(event => {
         'cast': {'item': 'tfmg:rebar_stairs'},
         'cast_consumed': true,
         'cooling_time': 95,
-        'fluid': {
-            'amount': 540,
-            'fluid': data.unified_individual
-        },
+        'fluid': {'amount': 540, 'fluid': 'immersiveengineering:concrete'},
         'result': {'item': 'tfmg:rebar_concrete_stairs'}
     })
     event.custom({
@@ -82,10 +70,7 @@ ServerEvents.recipes(event => {
         'cast': {'item': 'tfmg:rebar_wall'},
         'cast_consumed': true,
         'cooling_time': 95,
-        'fluid': {
-            'amount': 540,
-            'fluid': data.unified_individual
-        },
+        'fluid': {'amount': 540, 'fluid': 'immersiveengineering:concrete'},
         'result': {'item': 'tfmg:rebar_concrete_wall'}
     })
 

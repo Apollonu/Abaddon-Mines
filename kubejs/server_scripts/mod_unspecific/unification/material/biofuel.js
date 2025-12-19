@@ -8,14 +8,20 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'industrialforegoing:biofuel',
-        is_liquid: true,
-        json_unified_variants: [
-            '"fluid":"createaddition:bioethanol"',
-            '"input":{"fluidTag":"forge:biofuel"'
+        json_ids: [
+            'createaddition:mixing/bioethanol'
         ],
-        json_recipe_types: [
-            'create:mixing',
-            'createaddition:liquid_burning'
+        json_recipes: [
+            {
+                'type': 'create:mixing',
+                'ingredients': [
+                    {'item': 'minecraft:sugar'},
+                    {'item': 'create:cinder_flour'},
+                    {'item': 'createaddition:biomass'},
+                    {'item': 'createaddition:biomass'}
+                ],
+                'results': [{'fluid': 'industrialforegoing:biofuel', 'amount': 125}
+            ]}
         ]
     }
 

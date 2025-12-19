@@ -8,12 +8,23 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'tconstruct:molten_steel',
-        is_liquid: true,
-        json_unified_variants: [
-            '"fluid":"tfmg:molten_steel"'
+        json_ids: [
+            'tfmg:industrial_blasting/steel',
+            'tfmg:industrial_blasting/steel_from_dust', //This Recipe is Removed
+            'tfmg:industrial_blasting/steel_from_raw_iron' //This Recipe is Removed
         ],
-        json_recipe_types: [
-            'tfmg:industrial_blasting'
+        json_recipes: [
+            {
+                'type': 'tfmg:industrial_blasting',
+                'hotAirUsage': 20,
+                'ingredients': [{'item': 'create:crushed_raw_iron'}, {'tag': 'tfmg:flux'}],
+                'processingTime': 20,
+                'results': [
+                    {'amount': 144, 'fluid': 'tconstruct:molten_steel'},
+                    {'amount': 144, 'fluid': 'tfmg:molten_slag'},
+                    {'amount': 200, 'fluid': 'tfmg:furnace_gas'}
+                ]
+            }
         ]
     }
 
@@ -47,12 +58,6 @@ ServerEvents.recipes(event => {
             'minecraft:crafting_shaped',
             'minecraft:crafting_shapeless'
         ],
-        json_unified_variants: [
-            '"item":"tfmg:steel_ingot"'
-        ],
-        json_recipe_types: [
-            'create:sequenced_assembly'
-        ]
     }
 
     //Other Recipe Types
@@ -79,11 +84,73 @@ ServerEvents.recipes(event => {
             'create:mechanical_crafting',
             'minecraft:crafting_shaped'
         ],
-        json_unified_variants: [
-            '"item":"tfmg:heavy_plate"'
+        json_ids: [
+            'tfmg:sequenced_assembly/steel_mechanism'
         ],
-        json_recipe_types: [
-            'create:sequenced_assembly'
+        json_recipes: [
+            {
+                'type': 'create:sequenced_assembly',
+                'ingredient': {'tag': 'forge:plates/steel'},
+                'loops': 2,
+                'results': [
+                    {
+                        'chance': 120.0,
+                        'item': 'tfmg:steel_mechanism'
+                    }, {
+                        'chance': 4.0,
+                        'item': 'minecraft:compass'
+                    }, {
+                        'chance': 4.0,
+                        'tag': 'forge:ingots/steel'
+                    }
+                ],
+                'sequence': [
+                    {
+                        'type': 'create:deploying',
+                        'ingredients': [
+                            {'item': 'tfmg:unfinished_steel_mechanism'},
+                            {'item': 'tfmg:steel_cogwheel'}
+                        ],
+                        'results': [{'item': 'tfmg:unfinished_steel_mechanism'}]
+                    }, {
+                        'type': 'create:deploying',
+                        'ingredients': [
+                            {'item': 'tfmg:unfinished_steel_mechanism'},
+                            {'tag': 'forge:plates/nickel'}
+                        ],
+                        'results': [{'item': 'tfmg:unfinished_steel_mechanism'}]
+                    }, {
+                        'type': 'create:deploying',
+                        'ingredients': [
+                            {'item': 'tfmg:unfinished_steel_mechanism'},
+                            {'item': 'tfmg:large_steel_cogwheel'}
+                        ],
+                        'results': [{'item': 'tfmg:unfinished_steel_mechanism'}]
+                    }, {
+                        'type': 'create:deploying',
+                        'ingredients': [
+                            {'item': 'tfmg:unfinished_steel_mechanism'},
+                            {'tag': 'forge:plates/lead'}
+                        ],
+                        'results': [{'item': 'tfmg:unfinished_steel_mechanism'}]
+                    }, {
+                        'type': 'create:deploying',
+                        'ingredients': [
+                            {'item': 'tfmg:unfinished_steel_mechanism'},
+                            {'item': 'tfmg:screw'}
+                        ],
+                        'results': [{'item': 'tfmg:unfinished_steel_mechanism'}]
+                    }, {
+                        'type': 'create:deploying',
+                        'ingredients': [
+                            {'item': 'tfmg:unfinished_steel_mechanism'},
+                            {'item': 'immersiveengineering:screwdriver'}
+                        ],
+                        'results': [{'item': 'tfmg:unfinished_steel_mechanism'}]
+                    }
+                ],
+                'transitionalItem': {'item': 'tfmg:unfinished_steel_mechanism'}
+            }
         ]
     }
 

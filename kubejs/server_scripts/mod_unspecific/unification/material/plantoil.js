@@ -8,18 +8,26 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'immersiveengineering:plantoil',
-        is_liquid: true,
-        json_unified_variants: [
-            '"fluid":"pneumaticcraft:vegetable_oil"',
-            '"fluidTag":"forge:plantoil"',
-            '"input":{"fluidTag":"forge:plantoil"',
-            '"tag":"forge:plantoil"'
+        json_ids: [
+            'pneumaticcraft:thermo_plant/vegetable_oil_from_crops',
+            'pneumaticcraft:thermo_plant/vegetable_oil_from_seeds'
         ],
-        json_recipe_types: [
-            'create:mixing',
-            'createaddition:liquid_burning',
-            'pneumaticcraft:fluid_mixer',
-            'pneumaticcraft:thermo_plant'
+        json_recipes: [
+            {
+                'type': 'pneumaticcraft:thermo_plant',
+                'exothermic': false,
+                'fluid_output': {'amount' :20, 'fluid': 'immersiveengineering:plantoil'},
+                'item_input': {'tag': 'forge:crops'},
+                'pressure': 2.0,
+                'speed': 0.5
+            }, {
+                'type': 'pneumaticcraft:thermo_plant',
+                'exothermic': false,
+                'fluid_output': {'amount': 50, 'fluid': 'immersiveengineering:plantoil'},
+                'item_input': {'tag': 'forge:seeds'},
+                'pressure': 2.0,
+                'speed': 0.5
+            }
         ]
     }
 

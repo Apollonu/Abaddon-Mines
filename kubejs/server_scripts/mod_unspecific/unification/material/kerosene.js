@@ -8,14 +8,18 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'tfmg:kerosene',
-        is_liquid: true,
-        json_unified_variants: [
-            '"id":"pneumaticcraft:kerosene"',
-            '"tag":"forge:kerosene"'
+        json_ids: [
+            'pneumaticcraft:amadron/kerosene_to_emerald'
         ],
-        json_recipe_types: [
-            'pneumaticcraft:amadron',
-            'pneumaticcraft:thermo_plant'
+        json_recipes: [
+            {
+                'type': 'pneumaticcraft:amadron',
+                'id': 'pneumaticcraft:amadron/kerosene_to_emerald',
+                'input': {'type': 'FLUID', 'amount': 3000, 'id': 'tfmg:kerosene'},
+                'level': 0,
+                'output': {'type': 'ITEM', 'amount': 1, 'id': 'minecraft:emerald'},
+                'static': true
+            }
         ]
     }
 

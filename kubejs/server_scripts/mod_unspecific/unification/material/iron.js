@@ -38,11 +38,24 @@ ServerEvents.recipes(event => {
         output_recipe_types: [
             'create:pressing'
         ],
-        json_unified_variants: [
-            '"id":"ad_astra:iron_plate"'
+        json_ids: [
+            'ad_astra:compressing/iron_plate_from_compressing_iron_block',
+            'ad_astra:compressing/iron_plate_from_compressing_iron_ingot'
         ],
-        json_recipe_types: [
-            'ad_astra:compressing'
+        json_recipes: [
+            {
+                "type": "ad_astra:compressing",
+                "cookingtime": 800,
+                "energy": 20,
+                "ingredient": {"item":"minecraft:iron_block"},
+                "result": {"count": 9, "id": "thermal:iron_plate"}
+            }, {
+                "type": "ad_astra:compressing",
+                "cookingtime": 100,
+                "energy": 20,
+                "ingredient": {"item": "minecraft:iron_ingot"},
+                "result": {"count": 1, "id": "thermal:iron_plate"}
+            }
         ]
     }
 
@@ -60,15 +73,18 @@ ServerEvents.recipes(event => {
     //Variables
     let data = {
         event: event,
-        unified_individual: 'ad_astra:iron_rod'
+        unified_individual: 'ad_astra:iron_rod',
+        json_ids: [
+            'createaddition:rolling/iron_ingot'
+        ],
+        json_recipes: [
+            {
+                "type": "createaddition:rolling",
+                "input": {"tag":"forge:ingots/iron"},
+                "result": {"item":"ad_astra:iron_rod", "count": 2}
+            }
+        ]
     }
-
-    //Other Recipe Types
-    event.custom({
-        'type': 'createaddition:rolling',
-        'input': {'tag': 'forge:ingots/iron'},
-        'result': {'item': data.unified_individual, 'count': 2}
-    })
 
     //Unify Items Function Push
     unify_items (

@@ -17,29 +17,16 @@ ServerEvents.recipes(event => {
         'category': 'misc',
         'key': {
             'B': {
-            'type': 'immersiveengineering:fluid',
-            'amount': 1000,
-            'tag': 'minecraft:water'
+                'type': 'immersiveengineering:fluid',
+                'amount': 1000,
+                'tag': 'minecraft:water'
             },
-            'C': {
-            'item': 'immersivepetroleum:bitumen'
-            },
-            'G': {
-            'tag': 'forge:gravel'
-            },
-            'S': {
-            'tag': 'forge:sand'
-            }
+            'C': {'item': 'immersivepetroleum:bitumen'},
+            'G': {'tag': 'forge:gravel'},
+            'S': {'tag': 'forge:sand'}
         },
-        'pattern': [
-            'SCS',
-            'GBG',
-            'SCS'
-        ],
-        'result': {
-            'count': 16,
-            'item': 'tfmg:asphalt_mixture'
-        },
+        'pattern': ['SCS', 'GBG', 'SCS'],
+        'result': {'count': 16, 'item': 'tfmg:asphalt_mixture'},
         'show_notification': true
     })
     event.recipes.create.mixing('8x tfmg:asphalt_mixture', [

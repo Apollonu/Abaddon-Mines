@@ -8,11 +8,15 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'tfmg:aluminum_wire',
-        json_unified_variants: [
-            '"item":"vintage:aluminum_wire"'
+        json_ids: [
+            'vintage:rolling/aluminum_plate'
         ],
-        json_recipe_types: [
-            'createaddition:rolling'
+        json_recipes: [
+            {
+                'type': 'createaddition:rolling',
+                'input': {'tag': 'forge:plates/aluminum'},
+                'result': {'item': 'tfmg:aluminum_wire', 'count': 2}
+            }
         ]
     }
 

@@ -54,11 +54,15 @@ ServerEvents.recipes(event => {
     let data = {
         event: event,
         unified_individual: 'tfmg:constantan_wire',
-        json_unified_variants: [
-            '"item":"vintage:constantan_wire"'
+        json_ids: [
+            'vintage:rolling/constantan_plate'
         ],
-        json_recipe_types: [
-            'createaddition:rolling'
+        json_recipes: [
+            {
+                'type': 'createaddition:rolling',
+                'input': {'tag': 'forge:plates/constantan'},
+                'result': {'item': 'tfmg:constantan_wire', 'count': 2}
+            }
         ]
     }
 
