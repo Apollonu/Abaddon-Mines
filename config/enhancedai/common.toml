@@ -583,7 +583,7 @@
 			"Attribute based" = true
 			#The maximum attack speed a mob can attack with (in attacks per second, 2 is an attack every 0.5 seconds, 1.25 is an attack every 0.8s, 1 is an attack every 1s).
 			#Range: 0.0 ~ 4.0
-			Maximum = 2.0
+			Maximum = 4.0
 
 			#Multiplies the attack speed of monsters by this value.
 			[Mobs."Melee attacking"."Attack speed".Multiplier]
@@ -817,7 +817,7 @@
 	#Makes mobs be able to move in more ways, like climbing or swim. Only entity types in `enhancedai:mobs/can_sprint` tag are affected by this feature.
 	[Mobs.Sprint]
 		#Range: 0.0 ~ 1.0
-		Chance = 0.25
+		Chance = 0.1
 
 	#Makes mobs be able to climb ladders and similar blocks. Only entity types in `enhancedai:mobs/can_climb` tag are affected by this feature.
 	[Mobs.Climbing]
@@ -1069,7 +1069,7 @@
 		"Flee speed near" = 1.15
 		#Animals' knockback attribute will be set to this value multiplied by their bounding box size (bigger mobs have higher knockback). 0 disables this and lets you customize knockback per mob with attribute modifiers.
 		#Range: 0.0 ~ 128.0
-		Knockback = 1.1
+		Knockback = 1.0
 		#Animals' knockback attribute will be increased/decreased based on the size of the mob.
 		"Knockback size based" = false
 
