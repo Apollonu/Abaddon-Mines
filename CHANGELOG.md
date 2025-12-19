@@ -12,7 +12,7 @@
   - Modpack
     - Journey's Gate - [1.1.7](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.8](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
-    - Create: New Age - [1.1.4](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/6482827) -> [1.1.7b](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/7323729)
+    - Create: New Age - [1.1.4](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/6482827) -> [1.1.7c](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/7353494)
     - Enhanced AI - [3.3.2](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7291200) -> [3.3.3](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7293315)
     - Immersive Petroleum - [4.3.0-30](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/7191176) -> [4.3.0-31](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/7308297)
     - InsaneLib - [1.21.21](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7041495) -> [1.23.0](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7331744)
