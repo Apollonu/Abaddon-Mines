@@ -51,6 +51,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'copper_electrode',
 		prefix + 'copper_grenade',
 		prefix + 'copper_spool',
+		prefix + 'copper_sulfate',
 		prefix + 'copper_wire',
 		prefix + 'copycat_cable_block',
 		prefix + 'creative_generator',
