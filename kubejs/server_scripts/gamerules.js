@@ -5,5 +5,6 @@ ServerEvents.loaded(event => {
 
     //Gamerules
     event.server.runCommandSilent('/gamerule announceAdvancements false')
+    event.server.runCommandSilent('/gamerule playersSleepingPercentage 65')
     event.server.runCommandSilent('/gamerule spawnRadius 1024')
 })
