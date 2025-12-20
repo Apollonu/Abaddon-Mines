@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
 	//Variables
 	let prefix = 'pneumaticcraft:'
 
-	//Spring Coiling Machine Recipe
+	//Compressed Gear Recipe
 	event.remove({output: prefix + 'compressed_iron_gear'})
 	event.custom({
 		'type': 'pneumaticcraft:pressure_chamber',
