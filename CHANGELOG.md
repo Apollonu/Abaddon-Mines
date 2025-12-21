@@ -6,6 +6,7 @@
 - Additions
   - Mods
     - Sophisticated Backpacks - [3.24.12.1445](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7329597) + Sophisticated Core - [1.2.108.1296](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7337962)
+    - Steam Powered - [3.1.0](https://modrinth.com/mod/create-steam-powered/version/1.20.1-3.1.0)
   - Resourcepacks / Shaderpacks
     - none
 - Updates
@@ -78,6 +79,7 @@
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Unification, Missing (Un)packing Recipes)
     - [Map Atlases](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge)
     - [Oculus](https://www.curseforge.com/minecraft/mc-mods/oculus)
+    - [Steam Powered](https://modrinth.com/mod/create-steam-powered)
     - [Stellar View](https://www.curseforge.com/minecraft/mc-mods/stellarview)
     - [YUNG's Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
   - Resourcepacks / Shaderpacks
