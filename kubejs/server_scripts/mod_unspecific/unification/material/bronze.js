@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'thermal:bronze_plate',
         unified_variants: [
-            'thermal:bronze_plate'
+            'vintage:bronze_sheet'
         ],
         output_recipe_types: [
             'create:pressing'
