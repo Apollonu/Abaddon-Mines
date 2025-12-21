@@ -21,6 +21,7 @@
     - Oh The Biomes We've Gone - [1.7.1](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7217773) -> [1.7.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7304438)
     - PneumaticCraft: Repressurized - [6.0.21](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7064978) -> [6.0.22](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7307654)
   - Configs
+    - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
     - [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools)
