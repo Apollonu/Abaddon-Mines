@@ -22,6 +22,7 @@
     - PneumaticCraft: Repressurized - [6.0.21](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7064978) -> [6.0.22](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7307654)
   - Configs
     - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
+    - [Create Picky Wheels](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels)
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai)
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
     - [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools)
