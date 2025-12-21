@@ -98,7 +98,7 @@
 	#.
 	#Amount of sail-type blocks required for a windmill to assemble successfully.
 	#Range: > 0
-	minimumWindmillSails = 8
+	minimumWindmillSails = 24
 	#.
 	#Number of sail-type blocks required to increase windmill speed by 1RPM.
 	#Range: > 1
@@ -203,6 +203,9 @@
 		#Whether the players hitbox should be expanded to the size of the contraption hitbox.
 		#[Technical]
 		syncPlayerPickupHitboxWithContraptionHitbox = false
+		#.
+		#Whether to prevent block dropping when contraption is placed inside in-world blocks.
+		noDropWhenContraptionReplaceBlocks = false
 
 	#.
 	#Configure speed/capacity levels for requirements and indicators.
@@ -302,12 +305,12 @@
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
 				steam_engine = 1024.0
-				water_wheel = 32.0
-				copper_valve_handle = 8.0
-				hand_crank = 8.0
+				water_wheel = 16.0
+				copper_valve_handle = 4.0
+				hand_crank = 4.0
 				creative_motor = 16384.0
-				large_water_wheel = 128.0
-				windmill_bearing = 512.0
+				large_water_wheel = 96.0
+				windmill_bearing = 640.0
 
 #.
 #Create's liquid manipulation tools
