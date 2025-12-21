@@ -25,6 +25,7 @@
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
     - [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools)
     - [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
+    - [Steam Powered](https://modrinth.com/mod/create-steam-powered)
     - [Stylish Effects](https://www.curseforge.com/minecraft/mc-mods/stylish-effects)
   - Resourcepacks / Shaderpacks
     - none
@@ -79,7 +80,6 @@
     - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (Unification, Missing (Un)packing Recipes)
     - [Map Atlases](https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge)
     - [Oculus](https://www.curseforge.com/minecraft/mc-mods/oculus)
-    - [Steam Powered](https://modrinth.com/mod/create-steam-powered)
     - [Stellar View](https://www.curseforge.com/minecraft/mc-mods/stellarview)
     - [YUNG's Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
   - Resourcepacks / Shaderpacks
