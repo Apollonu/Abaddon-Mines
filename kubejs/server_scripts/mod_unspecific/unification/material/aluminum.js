@@ -1,6 +1,26 @@
 //All Rights Reserved to Apollo, this is not allowed to be used in public packs not released by Apollo.
 //priority: 3
 
+//Ingot Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: 'tfmg:aluminum_ingot',
+        json_ids: [
+            'tfmg:mixing/napalm' //This Recipe is Removed
+        ]
+    }
+
+    //Other Recipe Types
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
 //Wire Recipe Unification
 ServerEvents.recipes(event => {
     
