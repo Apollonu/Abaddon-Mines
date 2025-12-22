@@ -22,30 +22,3 @@ ServerEvents.recipes(event => {
         data
     )
 })
-
-//Wire Recipe Unification
-ServerEvents.recipes(event => {
-    
-    //Variables
-    let data = {
-        event: event,
-        unified_individual: 'tfmg:aluminum_wire',
-        json_ids: [
-            'vintage:rolling/aluminum_plate'
-        ],
-        json_recipes: [
-            {
-                'type': 'createaddition:rolling',
-                'input': {'tag': 'forge:plates/aluminum'},
-                'result': {'item': 'tfmg:aluminum_wire', 'count': 2}
-            }
-        ]
-    }
-
-    //Other Recipe Types
-
-    //Unify Items Function Push
-    unify_items (
-        data
-    )
-})
