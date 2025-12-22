@@ -33,7 +33,7 @@
     - none
 - Fixes
   - Missing Coal Coke Recipe
-  - Renamed tfmg for uploading
+  - Renamed TFMG for Uploads
 - Reverts / Removals
   - Reverts
     - none
