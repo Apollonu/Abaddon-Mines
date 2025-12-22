@@ -9,7 +9,8 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'tfmg:lpg',
         json_ids: [
-            'pneumaticcraft:amadron/lpg_to_emerald'
+            'pneumaticcraft:amadron/lpg_to_emerald',
+            'pneumaticcraft:thermo_plant/lpg'
         ],
         json_recipes: [
             {
@@ -19,6 +20,17 @@ ServerEvents.recipes(event => {
                 'level': 0,
                 'output': {'type': 'ITEM','amount': 1,'id': 'minecraft:emerald'},
                 'static':true
+            }, {
+                'type': 'pneumaticcraft:thermo_plant',
+                'exothermic': false,
+                'fluid_input': {
+                    'type': 'pneumaticcraft:fluid',
+                    'amount': 100,
+                    'tag': 'forge:gasoline'
+                },
+                'fluid_output': {'amount': 80, 'fluid': 'tfmg:lpg'},
+                'pressure': 2.0,
+                'temperature': {'min_temp': 573}
             }
         ]
     }

@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
             'pneumaticcraft:amadron/lubricant_to_emerald',
             'pneumaticcraft:speed_upgrade',
             'pneumaticcraft:thermo_plant/lubricant_from_biodiesel',
-            'pneumaticcraft:thermo_plant/lubricant_from_diesel'
+            'pneumaticcraft:thermo_plant/lubricant_from_diesel' //This Recipe is Removed
         ],
         json_recipes: [
             {
@@ -50,18 +50,7 @@ ServerEvents.recipes(event => {
                     'amount': 1000,
                     'tag': 'forge:biodiesel'
                 },
-                'fluid_output': {'amount': 1000, 'fluid': 'immersivepetroleum:lubricant'},
-                'item_input': {'tag': 'forge:dusts/redstone'},
-                'temperature': {'min_temp': 373}
-            }, {
-                'type': 'pneumaticcraft:thermo_plant',
-                'exothermic': false,
-                'fluid_input': {
-                    'type': 'pneumaticcraft:fluid',
-                    'amount': 1000,
-                    'tag': 'forge:diesel'
-                },
-                'fluid_output': {'amount': 1000, 'fluid': 'immersivepetroleum:lubricant'},
+                'fluid_output': {'amount': 400, 'fluid': 'immersivepetroleum:lubricant'},
                 'item_input': {'tag': 'forge:dusts/redstone'},
                 'temperature': {'min_temp': 373}
             }

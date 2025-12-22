@@ -9,7 +9,8 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'tfmg:kerosene',
         json_ids: [
-            'pneumaticcraft:amadron/kerosene_to_emerald'
+            'pneumaticcraft:amadron/kerosene_to_emerald',
+            'pneumaticcraft:thermo_plant/kerosene' //This Recipe is Removed
         ],
         json_recipes: [
             {

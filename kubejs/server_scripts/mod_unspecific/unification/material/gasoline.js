@@ -9,7 +9,8 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'immersivepetroleum:gasoline',
         json_ids: [
-            'pneumaticcraft:amadron/gasoline_to_emerald'
+            'pneumaticcraft:amadron/gasoline_to_emerald',
+            'pneumaticcraft:thermo_plant/gasoline' //This Recipe is Removed
         ],
         json_recipes: [
             {
