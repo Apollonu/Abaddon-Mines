@@ -1,6 +1,25 @@
 //All Rights Reserved to Apollo, this is not allowed to be used in public packs not released by Apollo.
 //priority: 3
 
+//Block Recipe Unification
+ServerEvents.recipes(event => {
+    
+    //Variables
+    let data = {
+        event: event,
+        unified_individual: 'thermal:electrum_block'
+    }
+
+    //Other Recipe Types
+    event.shaped(data.unified_individual, ['AAA','AAA','AAA'], {A: '#forge:ingots/electrum'})
+    event.shapeless('9x #forge:ingots/electrum', [data.unified_individual])
+
+    //Unify Items Function Push
+    unify_items (
+        data
+    )
+})
+
 //Ingot Recipe Unification
 ServerEvents.recipes(event => {
     
