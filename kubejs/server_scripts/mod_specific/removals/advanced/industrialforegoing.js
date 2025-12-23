@@ -15,6 +15,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'gold_gear',
 		prefix + 'iron_gear',
 		prefix + 'plastic',
+		prefix + 'straw',
 		prefix + 'tinydryrubber'
 	]
 
