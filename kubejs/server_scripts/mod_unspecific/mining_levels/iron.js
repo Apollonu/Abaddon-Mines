@@ -9,8 +9,10 @@ ServerEvents.tags('block', event => {
 
 	//Individual Blocks
 	let individual_blocks = [
+		'ad_astra:encased_iron_block',
 		'ad_astra:iron_factory_block',
-		'ad_astra:iron_panel',
+		'ad_astra:iron_plateblock',
+		'ad_astra:iron_plating',
 
 		'create:blaze_burner',
 		'create:chute',
