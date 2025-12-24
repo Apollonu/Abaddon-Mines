@@ -9,10 +9,15 @@ ServerEvents.tags('item', event => {
 	
 	//Individual Items
 	let individual_items = [
+		prefix + 'calorite_panel',
+		prefix + 'desh_panel',
+		prefix + 'iron_panel',
 		prefix + 'iron_plate',
 		prefix + 'steel_block',
 		prefix + 'steel_nugget',
-		prefix + 'nugget_steel'
+		prefix + 'steel_panel',
+		prefix + 'nugget_steel',
+		prefix + 'ostrum_panel',
 	]
 	
 	//Remove Items Function Push
