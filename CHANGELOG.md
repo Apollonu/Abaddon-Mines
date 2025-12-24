@@ -6,6 +6,7 @@
 - Additions
   - Mods
     - Architect's Palette - [1.3.6.1](https://www.curseforge.com/minecraft/mc-mods/architects-palette/files/5060610)
+    - Aethena - [3.1.2](https://www.curseforge.com/minecraft/mc-mods/athena/files/5176879)
     - Sophisticated Backpacks - [3.24.12.1445](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7329597) + Sophisticated Core - [1.2.108.1296](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7337962)
     - Steam Powered - [3.1.0](https://modrinth.com/mod/create-steam-powered/version/1.20.1-3.1.0)
   - Resourcepacks / Shaderpacks
