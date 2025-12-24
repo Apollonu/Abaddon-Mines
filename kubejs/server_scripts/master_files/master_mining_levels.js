@@ -20,7 +20,7 @@ function block_tags (event, material, individual_blocks, individual_tags) {
 		'tin'
 	]
 	let mining_level_copper = [
-		//'bronze',
+		'bronze',
 		'zinc'
 	]
 	let mining_level_bronze = [
@@ -34,11 +34,11 @@ function block_tags (event, material, individual_blocks, individual_tags) {
 		'gold',
 		'nahuatl',
 		'redstone'
-		//'steel'
 	]
 	let mining_level_compressed_iron = [
 		'cobalt',
-		'obsidian'
+		'obsidian',
+		'steel'
 	]
 	let mining_level_steel = [
 		'osmium'
