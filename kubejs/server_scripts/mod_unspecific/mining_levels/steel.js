@@ -15,7 +15,6 @@ ServerEvents.tags('block', event => {
 		'ad_astra:steel_door',
 		'ad_astra:steel_factory_block',
 		'ad_astra:steel_pillar',
-		'ad_astra:steel_plateblock',
 		'ad_astra:steel_plating',
 		'ad_astra:steel_plating_pressure_plate',
 		'ad_astra:steel_plating_slab',

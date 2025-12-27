@@ -11,7 +11,6 @@ ServerEvents.tags('block', event => {
 	let individual_blocks = [
 		'ad_astra:encased_iron_block',
 		'ad_astra:iron_factory_block',
-		'ad_astra:iron_plateblock',
 		'ad_astra:iron_plating',
 
 		'create:blaze_burner',
