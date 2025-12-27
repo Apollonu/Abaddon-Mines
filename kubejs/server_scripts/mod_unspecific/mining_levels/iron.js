@@ -13,6 +13,12 @@ ServerEvents.tags('block', event => {
 		'ad_astra:iron_factory_block',
 		'ad_astra:iron_plating',
 
+		'architects_palette:pipe',
+		'architects_palette:tread_plate',
+		'architects_palette:tread_plate_slab',
+		'architects_palette:tread_plate_stairs',
+		'architects_palette:tread_plate_wall',
+
 		'create:blaze_burner',
 		'create:chute',
 		'create:empty_blaze_burner',
