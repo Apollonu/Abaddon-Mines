@@ -68,10 +68,23 @@ ServerEvents.recipes(event => {
 		'show_notification': true
 	})
 
+	//Pipe Recipe
+	event.remove({output: prefix + 'pipe'})
+	event.shaped('6x ' + prefix + 'pipe', ['A A', 'A A', 'A A'], {
+		A: 'quark:iron_plate'
+	})
+
 	//Scute Block Recipes
 	event.remove({output: prefix + 'scute_block'})
 	event.shaped(prefix + 'scute_block', ['AAA', 'AAA', 'AAA'], {
 		A: 'minecraft:scute'
 	})
 	event.shapeless('9x minecraft:scute', [prefix + 'scute_block'])
+
+	//Tread Plate Recipe
+	event.remove({output: prefix + 'tread_plate'})
+	event.shaped('3x ' + prefix + 'tread_plate', ['BBB', 'AAA', 'BBB'], {
+		A: 'quark:iron_plate',
+		B: '#forge:nuggets/iron'
+	})
 })
