@@ -7,7 +7,7 @@
   - Mods
     - Architect's Palette - [1.3.6.1](https://www.curseforge.com/minecraft/mc-mods/architects-palette/files/5060610)
     - Aethena - [3.1.2](https://www.curseforge.com/minecraft/mc-mods/athena/files/5176879)
-    - Sophisticated Backpacks - [3.24.12.1445](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7329597) + Sophisticated Core - [1.2.108.1296](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7337962)
+    - Sophisticated Backpacks - [3.24.12.1471](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7369580) + Sophisticated Core - [1.2.108.1333](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7369562)
     - Steam Powered - [3.1.0](https://modrinth.com/mod/create-steam-powered/version/1.20.1-3.1.0)
   - Resourcepacks / Shaderpacks
     - none
@@ -15,13 +15,15 @@
   - Modpack
     - Journey's Gate - [1.1.7](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.8](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
-    - Create: New Age - [1.1.4](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/6482827) -> [1.1.7c](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/7353494)
-    - Enhanced AI - [3.3.2](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7291200) -> [3.3.3](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7293315)
+    - Create: New Age - [1.1.4](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/6482827) -> [1.1.7d](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/7364447)
+    - Enhanced AI - [3.3.2](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7291200) -> [3.3.6](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai/files/7360784)
     - Immersive Petroleum - [4.3.0-30](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/7191176) -> [4.3.0-31](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/7308297)
-    - InsaneLib - [1.21.21](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7041495) -> [1.23.0](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7331744)
-    - Mobs Properties Randomness - [5.1.0](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7195699) -> [5.1.2.2](www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7297397)
-    - Oh The Biomes We've Gone - [1.7.1](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7217773) -> [1.7.2](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7304438)
+    - InsaneLib - [1.21.21](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7041495) -> [1.23.2](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7384640)
+    - Mantle - [1.11.79](https://www.curseforge.com/minecraft/mc-mods/mantle/files/6819217) -> [1.11.95](https://www.curseforge.com/minecraft/mc-mods/mantle/files/7367477)
+    - Mobs Properties Randomness - [5.1.0](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7195699) -> [5.1.2.3](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7360802)
+    - Oh The Biomes We've Gone - [1.7.1](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7217773) -> [1.7.3](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone/files/7360172)
     - PneumaticCraft: Repressurized - [6.0.21](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7064978) -> [6.0.22](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7307654)
+    - Tinkers Construct - [3.10.2.92](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/6777068) -> [3.11.0.148](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7371800)
   - Configs
     - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
     - [Create Picky Wheels](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels)
