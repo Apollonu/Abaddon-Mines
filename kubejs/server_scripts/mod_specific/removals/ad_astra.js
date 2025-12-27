@@ -13,9 +13,11 @@ ServerEvents.tags('item', event => {
 		prefix + 'desh_panel',
 		prefix + 'iron_panel',
 		prefix + 'iron_plate',
+		prefix + 'iron_plateblock',
 		prefix + 'steel_block',
 		prefix + 'steel_nugget',
 		prefix + 'steel_panel',
+		prefix + 'steel_plateblock',
 		prefix + 'nugget_steel',
 		prefix + 'ostrum_panel',
 	]
