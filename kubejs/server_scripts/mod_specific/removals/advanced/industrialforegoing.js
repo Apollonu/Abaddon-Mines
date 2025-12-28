@@ -14,9 +14,14 @@ ServerEvents.tags('item', event => {
 		prefix + 'diamond_gear',
 		prefix + 'gold_gear',
 		prefix + 'iron_gear',
+		prefix + 'mycelial_furnace',
+		prefix + 'mycelial_magma',
+		prefix + 'pitiful_generator',
 		prefix + 'plastic',
+		prefix + 'resourceful_furnace',
 		prefix + 'straw',
-		prefix + 'tinydryrubber'
+		prefix + 'tinydryrubber',
+		prefix + 'water_condensator'
 	]
 
 	//Conveyor Types

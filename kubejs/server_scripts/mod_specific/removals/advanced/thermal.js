@@ -14,6 +14,8 @@ ServerEvents.tags('item', event => {
 	let individual_items = [
 		prefix + 'apple_block',
 		prefix + 'bitumen',
+		prefix + 'dynamo_disenchantment',
+		prefix + 'dynamo_gourmand',
 		prefix + 'carrot_block',
 		prefix + 'charcoal_block',
 		prefix + 'chiseled_slag',
@@ -29,6 +31,7 @@ ServerEvents.tags('item', event => {
 		prefix + 'gunpowder_block',
 		prefix + 'lapis_dust',
 		prefix + 'lead_ore',
+		prefix + 'machine_furnace',
 		prefix + 'machine_sawmill',
 		prefix + 'netherite_dust',
 		prefix + 'niter_dust',

@@ -254,11 +254,14 @@ ServerEvents.tags('item', event => {
 //Recipe Event
 ServerEvents.recipes(event => {
 
+	//Variables
+	let prefix = 'tfmg:'
+
 	//Recipe Types
 	let recipe_types = [
-		'tfmg:casting',
-		'tfmg:distillation',
-		'tfmg:vat_machine_recipe'
+		prefix + 'casting',
+		prefix + 'distillation',
+		prefix + 'vat_machine_recipe'
 	].forEach(type => {
 		event.remove({type: type})
 	})
