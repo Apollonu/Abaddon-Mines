@@ -5,9 +5,11 @@
 
 - Additions
   - Mods
+    - Applied Energistics 2 - [15.4.10](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/7148487) + GuideME - [20.1.14](https://www.curseforge.com/minecraft/mc-mods/guideme/files/7127447)
     - Architect's Palette - [1.3.6.1](https://www.curseforge.com/minecraft/mc-mods/architects-palette/files/5060610)
     - Athena - [3.1.2](https://www.curseforge.com/minecraft/mc-mods/athena/files/5176879)
     - Measurements - [2.0.1](https://www.curseforge.com/minecraft/mc-mods/measurements/files/6426500)
+    - Refined Storage - [1.12.4](https://www.curseforge.com/minecraft/mc-mods/refined-storage/files/4844585)
     - Sophisticated Backpacks - [3.24.12.1471](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7369580) + Sophisticated Core - [1.2.108.1333](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7369562)
     - Steam Powered - [3.1.0](https://modrinth.com/mod/create-steam-powered/version/1.20.1-3.1.0)
   - Resourcepacks / Shaderpacks
