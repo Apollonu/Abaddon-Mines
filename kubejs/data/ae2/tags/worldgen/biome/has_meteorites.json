@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "#ad_astra:has_structure/mars_temple",
+      "required": false
+    }
+  ]
+}
