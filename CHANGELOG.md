@@ -28,6 +28,7 @@
     - PneumaticCraft: Repressurized - [6.0.21](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7064978) -> [6.0.22](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7307654)
     - Tinkers Construct - [3.10.2.92](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/6777068) -> [3.11.0.148](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7371800)
   - Configs
+    - [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
     - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
     - [Create Picky Wheels](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels)
     - [Enhanced AI](https://www.curseforge.com/minecraft/mc-mods/enhanced-ai)
