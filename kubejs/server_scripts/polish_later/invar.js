@@ -78,13 +78,4 @@ ServerEvents.recipes(event => {
 		}],
 		'energy': 3000
 	})
-	
-	//Machine Frame
-	event.remove({output: 'thermal:machine_frame'})
-	event.shaped('thermal:machine_frame', ['ACA', 'CDC', 'BCB'], {
-		A: '#forge:ingots/osmium',
-		B: '#forge:ingots/steel',
-		C: '#c:glass_blocks',
-		D: '#forge:gears/tin'
-	})
 })
