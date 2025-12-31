@@ -40,7 +40,24 @@ ServerEvents.recipes(event => {
         A: 'refinedstorage:quartz_enriched_iron',
         B: 'thermal:cured_rubber',
         C: 'mekanism:steel_casing',
-        D: 'ae2:engineering_processor'
+        D: prefix + 'engineering_processor'
+    })
+
+    //ME Controller Recipe
+    event.remove({output: prefix + 'controller'})
+    event.shaped(prefix + 'controller', ['ABA', 'BCB', 'ABA' ], {
+        A: prefix + 'smooth_sky_stone_block',
+        B: '#forge:gems/fluix',
+        C: 'refinedstorage:machine_casing'
+    })
+
+    //ME Drive Recipe
+    event.remove({output: prefix + 'drive'})
+    event.shaped(prefix + 'drive', ['ABA', 'CDC', 'ABA' ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'mekanism:basic_universal_cable',
+        C: '#' + prefix + 'glass_cable',
+        D: 'refinedstorage:machine_casing'
     })
 
     //Printed Silicon Recipe
