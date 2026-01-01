@@ -1,6 +1,6 @@
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="">0.2.1</a> (Nightly)
+  Abaddon Mines - <a href="">0.2.2</a> (Nightly)
 </h2></summary><br>
 
 - Additions
@@ -42,7 +42,6 @@
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
-  - Missing Coal Coke Recipe
   - Renamed TFMG for Uploads
 - Reverts / Removals
   - Reverts
@@ -53,7 +52,35 @@
 
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/7291889">0.2.0</a> (Current Release)
+  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/7299206">0.2.1</a> (Current Release)
+</h2></summary><br>
+
+- Additions
+  - Mods
+    - none
+  - Resourcepacks / Shaderpacks
+    - none
+- Updates
+  - Modpack
+    - none 0.0.0
+  - Mods
+    - none 0.0.0
+  - Configs
+    - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
+  - Resourcepacks / Shaderpacks
+    - none
+- Fixes
+  - Missing Coal Coke Recipe
+- Reverts / Removals
+  - Reverts
+    - none
+  - Removals
+    - none
+</details>
+
+<details close>
+<summary><h2>
+  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/7291889">0.2.0</a>
 </h2></summary><br>
 
 - Additions
