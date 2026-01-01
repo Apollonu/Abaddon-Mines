@@ -1,6 +1,34 @@
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="">0.2.2</a> (Nightly)
+  Abaddon Mines - <a href="">0.2.3</a> (Nightly)
+</h2></summary><br>
+
+- Additions
+  - Mods
+    - none
+  - Resourcepacks / Shaderpacks
+    - none
+- Updates
+  - Modpack
+    - none
+  - Mods
+    - none
+  - Configs
+    - none
+  - Resourcepacks / Shaderpacks
+    - none
+- Fixes
+  - none
+- Reverts / Removals
+  - Reverts
+    - none
+  - Removals
+    - none
+</details>
+
+<details close>
+<summary><h2>
+  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/7402590">0.2.2</a> (Current Release)
 </h2></summary><br>
 
 - Additions
@@ -52,7 +80,7 @@
 
 <details close>
 <summary><h2>
-  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/7299206">0.2.1</a> (Current Release)
+  Abaddon Mines - <a href="https://www.curseforge.com/minecraft/modpacks/abaddon-mines/files/7299206">0.2.1</a>
 </h2></summary><br>
 
 - Additions
