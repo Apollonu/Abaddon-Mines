@@ -10,7 +10,7 @@
     - none
 - Updates
   - Modpack
-    - none
+    - Journey's Gate - [1.1.8](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.9](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
     - none
   - Configs
