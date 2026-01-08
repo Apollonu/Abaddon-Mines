@@ -12,7 +12,14 @@
   - Modpack
     - Journey's Gate - [1.1.8](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md) -> [1.1.9](https://github.com/Apollonu/Abaddon-Vanilla/blob/main/CHANGELOG.md)
   - Mods
-    - none
+    - CobbleGen - [5.4.6](https://www.curseforge.com/minecraft/mc-mods/cobblegen/files/6767399) -> [5.4.7](https://www.curseforge.com/minecraft/mc-mods/cobblegen/files/7428291)
+    - Create Picky Wheels - [6.0.6-2](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels/files/6932328) -> [6.0.8-1](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels/files/7422427)
+    - Immersive Posts - [4.3.0-11](https://www.curseforge.com/minecraft/mc-mods/immersiveposts/files/6900979) -> [4.3.0-15](https://www.curseforge.com/minecraft/mc-mods/immersiveposts/files/7434158)
+    - InsaneLib - [1.23.2](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7384640) -> [1.23.3](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7409616)
+    - Mantle - [1.11.95](https://www.curseforge.com/minecraft/mc-mods/mantle/files/7367477) -> [1.11.97](https://www.curseforge.com/minecraft/mc-mods/mantle/files/7414488)
+    - Mobs Properties Randomness - [5.1.2.3](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7360802) -> [5.1.4.0](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7425802)
+    - Sophisticated Backpacks - [3.24.12.1481](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7397662) -> [3.24.18.1488](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7414216)
+    - Tinkers Construct - [3.11.0.148](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7371800) -> [3.11.1.158](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7419961)
   - Configs
     - none
   - Resourcepacks / Shaderpacks
