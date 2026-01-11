@@ -9,40 +9,30 @@ ServerEvents.recipes(event => {
 	//Large Water Wheel Recipe
 	event.remove({output: prefix + 'large_water_wheel'})
     event.recipes.createMechanicalCrafting(prefix + 'large_water_wheel', [
-		' ABA ', 'AACAA', 'BCDCB', 'AACAA', ' ABA '
+		' AAA ', 'AABAA', 'ABCBA', 'AABAA', ' AAA '
     ], {
         A: '#minecraft:planks',
-        B: '#minecraft:wooden_slabs',
-		C: prefix + 'shaft',
-		D: prefix + 'water_wheel'
+		B: '#forge:nuggets/iron',
+		C: prefix + 'water_wheel'
+    })
+
+    //Sail Frame Recipes
+	event.remove({output: prefix + 'sail_frame'})
+    event.shaped('2x ' + prefix + 'sail_frame', ['BAB', 'A A', 'BAB'], {
+        A: '#forge:rods/wooden',
+        B: '#forge:nuggets/iron'
     })
 
 	//Water Wheel Recipe
 	event.remove({output: prefix + 'water_wheel'})
-    event.recipes.createMechanicalCrafting(prefix + 'water_wheel', [
-		' AA ', 'ABCA', 'ACBA', ' AA '
-    ], {
+    event.shaped(prefix + 'water_wheel', ['ABA', 'BCB', 'ABA'], {
         A: '#minecraft:planks',
-        B: prefix + 'andesite_casing',
-        C: '#forge:rods/iron'
+        B: '#forge:nuggets/iron',
+        C: prefix + 'shaft'
     })
 
-    //Windmill Recipes
-	event.remove({output: prefix + 'white_sail', input: '#c:rods'})
-    event.recipes.createMechanicalCrafting('3x ' + prefix + 'white_sail', [
-		'ACAB', 'CACD', 'ACAD', 'BDDB'
-    ], {
-        A: '#minecraft:wool',
-        B: prefix + 'andesite_alloy',
-        C: '#forge:rods/iron',
-        D: '#c:rods/wooden'
-    })
-	event.recipes.createMechanicalCrafting('3x ' + prefix + 'white_sail', [
-		'ACAB', 'CACD', 'ACAD', 'BDDB'
-    ], {
-        A: '#forge:fabric_hemp',
-        B: prefix + 'andesite_alloy',
-        C: '#forge:rods/iron',
-        D: '#c:rods/wooden'
-    })
+    //White Sail Recipes
+    event.remove({output: prefix + 'white_sail'})
+    event.shapeless(prefix + 'white_sail', [prefix + 'sail_frame', '#minecraft:wool'])
+    event.shapeless(prefix + 'white_sail', [prefix + 'sail_frame', '#forge:fabric_hemp'])
 })
