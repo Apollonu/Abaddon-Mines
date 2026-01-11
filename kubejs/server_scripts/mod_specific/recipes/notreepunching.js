@@ -28,16 +28,16 @@ ServerEvents.recipes(event => {
 	//Campfire Recipes
     event.shaped('minecraft:campfire', [' B ', 'BCB', 'AAA'], {
         A: '#minecraft:logs',
-        B: '#c:rods/wooden',
+        B: '#forge:rods/wooden',
         C: '#minecraft:coals'
     })
     event.shaped('minecraft:soul_campfire', [' B ', 'BCB', 'AAA'], {
         A: '#minecraft:logs',
-        B: '#c:rods/wooden',
+        B: '#forge:rods/wooden',
         C: '#minecraft:soul_fire_base_blocks'
     })
     event.replaceInput({output: 'netherexp:ancient_campfire'},
-        '#c:rods/wooden',
-        '#c:rods/wooden'
+        '#forge:rods/wooden',
+        '#forge:rods/wooden'
     )
 })
