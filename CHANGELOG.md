@@ -21,7 +21,7 @@
     - Sophisticated Backpacks - [3.24.12.1481](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7397662) -> [3.24.18.1488](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7414216)
     - Tinkers Construct - [3.11.0.148](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7371800) -> [3.11.1.158](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7419961)
   - Configs
-    - none
+    - [Tide](https://www.curseforge.com/minecraft/mc-mods/tide)
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
