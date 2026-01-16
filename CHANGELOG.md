@@ -14,14 +14,15 @@
   - Mods
     - CobbleGen - [5.4.6](https://www.curseforge.com/minecraft/mc-mods/cobblegen/files/6767399) -> [5.4.7](https://www.curseforge.com/minecraft/mc-mods/cobblegen/files/7428291)
     - Create Picky Wheels - [6.0.6-2](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels/files/6932328) -> [6.0.8-3](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels/files/7438493)
+    - Create: New Age - [1.1.7e](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/7388264) -> [1.1.7f](https://www.curseforge.com/minecraft/mc-mods/create-new-age/files/7452740)
     - Immersive Posts - [4.3.0-11](https://www.curseforge.com/minecraft/mc-mods/immersiveposts/files/6900979) -> [4.3.0-15](https://www.curseforge.com/minecraft/mc-mods/immersiveposts/files/7434158)
     - InsaneLib - [1.23.2](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7384640) -> [1.24.1](https://www.curseforge.com/minecraft/mc-mods/insanelib/files/7441604)
     - Lychee Tweaker - [5.1.22](https://www.curseforge.com/minecraft/mc-mods/lychee/files/7015928) -> [5.1.24](https://www.curseforge.com/minecraft/mc-mods/lychee/files/7437062)
     - Mantle - [1.11.95](https://www.curseforge.com/minecraft/mc-mods/mantle/files/7367477) -> [1.11.97](https://www.curseforge.com/minecraft/mc-mods/mantle/files/7414488)
-    - Mobs Properties Randomness - [5.1.2.3](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7360802) -> [5.1.4.3](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7441869)
-    - Sophisticated Backpacks - [3.24.12.1481](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7397662) -> [3.24.18.1492](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7444144)
-    - Sophisticated Core - [1.2.108.1347](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7402037) -> [1.2.118.1357](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7443274)
-    - Tinkers Construct - [3.11.0.148](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7371800) -> [3.11.2.165](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7443615)
+    - Mobs Properties Randomness - [5.1.2.3](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7360802) -> [5.1.5.0](https://www.curseforge.com/minecraft/mc-mods/mobs-properties-randomness/files/7446421)
+    - Sophisticated Backpacks - [3.24.12.1481](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7397662) -> [3.24.20.1500](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/7455143)
+    - Sophisticated Core - [1.2.108.1347](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7402037) -> [1.2.119.1369](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7455151)
+    - Tinkers Construct - [3.11.0.148](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7371800) -> [3.11.2.166](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7449219)
   - Configs
     - none
   - Resourcepacks / Shaderpacks
