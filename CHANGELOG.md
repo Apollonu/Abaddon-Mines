@@ -24,6 +24,7 @@
     - Sophisticated Core - [1.2.108.1347](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7402037) -> [1.2.119.1369](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7455151)
     - Tinkers Construct - [3.11.0.148](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7371800) -> [3.11.2.166](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7449219)
   - Configs
+    - [Create Picky Wheels](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels)
     - [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
   - Resourcepacks / Shaderpacks
     - none
