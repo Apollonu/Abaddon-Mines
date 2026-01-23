@@ -60,6 +60,7 @@ ServerEvents.recipes(event => {
     })
 
     //Tier 1 Rocket Recipe
+    event.remove({id: 'ad_astra:nasa_workbench/tier_1_rocket_from_nasa_workbench'})
     event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
         '  E  ', '  I  ', ' AGA ', ' AGA ', ' HGH ', 'CBFBC', 'C D C'
     ], {
