@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
     event.blasting('create:limestone', unified_individual)
 
     //Mechanical Extruder Recipe
+    event.remove({id: 'create_mechanical_extruder:extruding/limestone'})
     event.custom({
         'type': 'create_mechanical_extruder:extruding',
         'ingredients': [
