@@ -89,9 +89,7 @@ ServerEvents.tags('block', event => {
 		'supplementaries:spring_launcher',
 		'supplementaries:wind_vane',
 
-		'tfmg:coke_oven',
-
-		'vintage:spring_coiling_machine'
+		'tfmg:coke_oven'
 	]
 
 	//Individual Tags

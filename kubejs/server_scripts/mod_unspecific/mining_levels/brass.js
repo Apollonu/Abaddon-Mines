@@ -45,7 +45,7 @@ ServerEvents.tags('block', event => {
 		'tfmg:brass_smart_fluid_pipe',
 		'tfmg:brass_truss',
 
-		'vintage:laser'
+		'vintageimprovements:laser'
 	]
 
 	//Individual Tags

@@ -66,14 +66,14 @@ ServerEvents.tags('block', event => {
 
 		'createlowheated:basic_burner',
 
-		'vintage:belt_grinder',
-		'vintage:centrifuge',
-		'vintage:curving_press',
-		'vintage:helve_hammer',
-		'vintage:lathe',
-		'vintage:spring_coiling_machine',
-		'vintage:vacuum_chamber',
-		'vintage:vibrating_table'
+		'vintageimprovements:belt_grinder',
+		'vintageimprovements:centrifuge',
+		'vintageimprovements:curving_press',
+		'vintageimprovements:helve_hammer',
+		'vintageimprovements:lathe',
+		'vintageimprovements:spring_coiling_machine',
+		'vintageimprovements:vacuum_chamber',
+		'vintageimprovements:vibrating_table'
 	]
 	
 	//Individual Tags
