@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "kubejs:sulfur_overworld",
+  "step": "underground_ores"
+}
