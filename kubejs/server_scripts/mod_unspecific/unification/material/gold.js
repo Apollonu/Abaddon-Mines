@@ -24,27 +24,3 @@ ServerEvents.recipes(event => {
         data
     )
 })
-
-//Plate Recipe Unification
-ServerEvents.recipes(event => {
-    
-    //Variables
-    let data = {
-        event: event,
-        unified_individual: 'thermal:gold_plate',
-        unified_variants: [
-            'create:golden_sheet'
-        ],
-        output_recipe_types: [
-            'create:pressing',
-            'create:sequenced_assembly'
-        ]
-    }
-
-    //Other Recipe Types
-
-    //Unify Items Function Push
-    unify_items (
-        data
-    )
-})

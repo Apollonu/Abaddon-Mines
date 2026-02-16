@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'tfmg:aluminum_wire',
         json_ids: [
-            'vintage:rolling/aluminum_plate'
+            'vintageimprovements:rolling/aluminum_plate'
         ],
         json_recipes: [
             {

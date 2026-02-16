@@ -99,29 +99,6 @@ ServerEvents.recipes(event => {
     )
 })
 
-//Plate Recipe Unification
-ServerEvents.recipes(event => {
-    
-    //Variables
-    let data = {
-        event: event,
-        unified_individual: 'thermal:lead_plate',
-        unified_variants: [
-            'vintage:lead_sheet'
-        ],
-        output_recipe_types: [
-            'create:pressing'
-        ]
-    }
-
-    //Other Recipe Types
-
-    //Unify Items Function Push
-    unify_items (
-        data
-    )
-})
-
 //Raw Recipe Unification
 ServerEvents.recipes(event => {
     

@@ -25,48 +25,6 @@ ServerEvents.recipes(event => {
     )
 })
 
-//Plate Recipe Unification
-ServerEvents.recipes(event => {
-    
-    //Variables
-    let data = {
-        event: event,
-        unified_individual: 'thermal:iron_plate',
-        unified_variants: [
-            'create:iron_sheet'
-        ],
-        output_recipe_types: [
-            'create:pressing'
-        ],
-        json_ids: [
-            'ad_astra:compressing/iron_plate_from_compressing_iron_block',
-            'ad_astra:compressing/iron_plate_from_compressing_iron_ingot'
-        ],
-        json_recipes: [
-            {
-                "type": "ad_astra:compressing",
-                "cookingtime": 800,
-                "energy": 20,
-                "ingredient": {"item":"minecraft:iron_block"},
-                "result": {"count": 9, "id": "thermal:iron_plate"}
-            }, {
-                "type": "ad_astra:compressing",
-                "cookingtime": 100,
-                "energy": 20,
-                "ingredient": {"item": "minecraft:iron_ingot"},
-                "result": {"count": 1, "id": "thermal:iron_plate"}
-            }
-        ]
-    }
-
-    //Other Recipe Types
-
-    //Unify Items Function Push
-    unify_items (
-        data
-    )
-})
-
 //Rod Recipe Unification
 ServerEvents.recipes(event => {
     

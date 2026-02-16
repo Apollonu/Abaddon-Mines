@@ -24,29 +24,6 @@ ServerEvents.recipes(event => {
     )
 })
 
-//Plate Recipe Unification
-ServerEvents.recipes(event => {
-    
-    //Variables
-    let data = {
-        event: event,
-        unified_individual: 'thermal:constantan_plate',
-        unified_variants: [
-            'vintage:constantan_sheet'
-        ],
-        output_recipe_types: [
-            'create:pressing'
-        ]
-    }
-
-    //Other Recipe Types
-
-    //Unify Items Function Push
-    unify_items (
-        data
-    )
-})
-
 //Wire Recipe Unification
 ServerEvents.recipes(event => {
     
@@ -55,7 +32,7 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'tfmg:constantan_wire',
         json_ids: [
-            'vintage:rolling/constantan_plate'
+            'vintageimprovements:rolling/constantan_plate'
         ],
         json_recipes: [
             {

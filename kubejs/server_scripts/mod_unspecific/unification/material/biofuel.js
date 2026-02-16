@@ -20,8 +20,8 @@ ServerEvents.recipes(event => {
                     {'item': 'createaddition:biomass'},
                     {'item': 'createaddition:biomass'}
                 ],
-                'results': [{'fluid': 'industrialforegoing:biofuel', 'amount': 125}
-            ]}
+                'results': [{'fluid': 'industrialforegoing:biofuel', 'amount': 125}]
+            }
         ]
     }
 

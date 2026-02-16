@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     }
 
     //Other Recipe Types
-    event.recipes.vintage.vibrating(['9x minecraft:cobblestone'], data.unified_individual)
+    event.recipes.vintageimprovements.vibrating(['9x minecraft:cobblestone'], data.unified_individual)
 
     //Unify Items Function Push
     unify_items (

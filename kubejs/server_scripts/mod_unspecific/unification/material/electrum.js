@@ -75,26 +75,3 @@ ServerEvents.recipes(event => {
         data
     )
 })
-
-//Plate Recipe Unification
-ServerEvents.recipes(event => {
-    
-    //Variables
-    let data = {
-        event: event,
-        unified_individual: 'thermal:electrum_plate',
-        unified_variants: [
-            'createaddition:electrum_sheet'
-        ],
-        output_recipe_types: [
-            'create:pressing'
-        ]
-    }
-
-    //Other Recipe Types
-
-    //Unify Items Function Push
-    unify_items (
-        data
-    )
-})

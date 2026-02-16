@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'mekanism:sulfuric_acid',
         json_ids: [
-            'vintage:pressurizing/sulfuric_acid'
+            'vintageimprovements:pressurizing/sulfuric_acid'
         ]
     }
 
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'mekanism:sulfur_dioxide',
         json_ids: [
-            'vintage:pressurizing/sulfur_dioxide'
+            'vintageimprovements:pressurizing/sulfur_dioxide'
         ]
     }
 
@@ -115,8 +115,8 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'mekanism:sulfur_trioxide',
         json_ids: [
-            'vintage:pressurizing/sulfur_trioxide',
-            'vintage:pressurizing/sulfur_trioxide_alt'
+            'vintageimprovements:pressurizing/sulfur_trioxide',
+            'vintageimprovements:pressurizing/sulfur_trioxide_alt'
         ]
     }
 
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
         event: event,
         unified_individual: 'thermal:sulfur',
         unified_variants: [
-            'vintage:sulfur'
+            'vintageimprovements:sulfur'
         ],
         output_recipe_types: [
             'minecraft:crafting_shaped'

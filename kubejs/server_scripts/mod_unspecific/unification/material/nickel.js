@@ -24,26 +24,3 @@ ServerEvents.recipes(event => {
         data
     )
 })
-
-//Plate Recipe Unification
-ServerEvents.recipes(event => {
-    
-    //Variables
-    let data = {
-        event: event,
-        unified_individual: 'thermal:nickel_plate',
-        unified_variants: [
-            'vintage:nickel_sheet'
-        ],
-        output_recipe_types: [
-            'create:pressing'
-        ]
-    }
-
-    //Other Recipe Types
-
-    //Unify Items Function Push
-    unify_items (
-        data
-    )
-})
