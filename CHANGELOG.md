@@ -42,7 +42,7 @@
   - Reverts
     - none
   - Removals
-    - none
+    - [Create: Vintage](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port) + Config
 </details>
 
 <details close>
