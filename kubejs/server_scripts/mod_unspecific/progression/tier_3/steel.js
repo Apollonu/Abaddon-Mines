@@ -6,14 +6,6 @@ ServerEvents.recipes(event => {
 	//Steel Rod Recipe
 	event.remove({output: '#forge:rods/steel', type: 'minecraft:crafting_shaped'})
 
-	//Steel Plate Recipe
-	event.remove({output: '#forge:plates/steel', type: 'create:pressing'})
-	event.recipes.create.sequenced_assembly(['#forge:plates/steel'], '#forge:ingots/steel', [
-		event.recipes.create.pressing('tfmg:unprocessed_heavy_plate', 'tfmg:unprocessed_heavy_plate'),
-		event.recipes.create.pressing('tfmg:unprocessed_heavy_plate', 'tfmg:unprocessed_heavy_plate'),
-		event.recipes.create.pressing('tfmg:unprocessed_heavy_plate', 'tfmg:unprocessed_heavy_plate')
-	]).transitionalItem('tfmg:unprocessed_heavy_plate').loops(2)
-
 	//Metal Girder Recipe
 	event.remove({output: 'create:metal_girder'})
 	event.shaped(Item.of('create:metal_girder', 8), ['AAA', 'BBB'], {
