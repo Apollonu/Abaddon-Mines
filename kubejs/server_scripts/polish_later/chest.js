@@ -134,6 +134,6 @@ ServerEvents.recipes(event => {
         'wood'
     ].forEach(type => {
         event.remove({output: 'colossalchests:interface_' + type})
-        event.recipes.vintage.turning('colossalchests:interface_' + type, 'colossalchests:chest_wall_' + type)
+        event.recipes.vintageimprovements.turning('colossalchests:interface_' + type, 'colossalchests:chest_wall_' + type)
     })
 })
