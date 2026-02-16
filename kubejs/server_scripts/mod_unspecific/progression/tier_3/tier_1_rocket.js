@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.sequenced_assembly(['ad_astra:rocket_fin'], '#forge:plates/steel', [
 		event.recipes.createDeploying('kubejs:incomplete_rocket_fin', ['kubejs:incomplete_rocket_fin', '#forge:plates/steel']),
 		event.recipes.createDeploying('kubejs:incomplete_rocket_fin', ['kubejs:incomplete_rocket_fin', '#forge:plates/steel']),
-		event.recipes.vintage.curving('kubejs:incomplete_rocket_fin', 'kubejs:incomplete_rocket_fin').mode(2).headDamage(40),
+		event.recipes.vintageimprovements.curving('kubejs:incomplete_rocket_fin', 'kubejs:incomplete_rocket_fin').mode(2).headDamage(40),
 		event.recipes.create.pressing('kubejs:incomplete_rocket_fin', 'kubejs:incomplete_rocket_fin'),
 		event.recipes.create.pressing('kubejs:incomplete_rocket_fin', 'kubejs:incomplete_rocket_fin')
 	]).transitionalItem('kubejs:incomplete_rocket_fin').loops(1)
