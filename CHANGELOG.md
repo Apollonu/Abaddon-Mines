@@ -40,7 +40,7 @@
   - Resourcepacks / Shaderpacks
     - none
 - Fixes
-  - none
+  - Uncraftable Copper Plates
 - Reverts / Removals
   - Reverts
     - none
