@@ -33,6 +33,7 @@
     - Sophisticated Core - [1.2.108.1347](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7402037) -> [1.3.4.1491](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7630585)
     - Tinkers Construct - [3.11.0.148](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7371800) -> [3.11.2.166](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/7449219)
   - Configs
+    - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap)
     - [Create Picky Wheels](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels)
     - [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
     - [Vintage Improvements - SSW Edition](https://www.curseforge.com/minecraft/mc-mods/vintage-improvenents-ssw-edition)
