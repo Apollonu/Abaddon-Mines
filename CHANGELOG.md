@@ -45,6 +45,7 @@
     - none
   - Removals
     - [Create: Vintage](https://www.curseforge.com/minecraft/mc-mods/create-vintage-unofficial-port) + Config
+    - [Thermal](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) Config
 </details>
 
 <details close>
