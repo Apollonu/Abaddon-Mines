@@ -16,31 +16,6 @@ to make editing this file much easier.
 	"swapper": {
 		"create:limestone": "quark:limestone",
 
-		"mekanism:deepslate_osmium_ore": "minecraft:stone",
-		"mekanism:osmium_ore": "minecraft:stone",
-
-		"oreganized:deepslate_lead_ore": "minecraft:deepslate",
-		"oreganized:deepslate_silver_ore": "minecraft:deepslate",
-		"oreganized:lead_ore": "minecraft:stone",
-		"oreganized:silver_ore": "minecraft:stone",
-
-		"spelunkery:andesite_lead_ore": "minecraft:andesite",
-		"spelunkery:andesite_silver_ore": "minecraft:andesite",
-		"spelunkery:diorite_lead_ore": "minecraft:diorite",
-		"spelunkery:diorite_silver_ore": "minecraft:diorite",
-		"spelunkery:granite_lead_ore": "minecraft:granite",
-		"spelunkery:granite_silver_ore": "minecraft:granite",
-		"spelunkery:tuff_lead_ore": "minecraft:tuff",
-		"spelunkery:tuff_silver_ore": "minecraft:tuff",
-
-		"tfmg:deepslate_lead_ore": "minecraft:deepslate",
-		"tfmg:deepslate_lithium_ore": "minecraft:deepslate",
-		"tfmg:deepslate_nickel_ore": "minecraft:deepslate",
-		"tfmg:galena": "oreganized:glance",
-		"tfmg:lead_ore": "minecraft:stone",
-		"tfmg:lithium_ore": "minecraft:stone",
-		"tfmg:nickel_ore": "minecraft:stone",
-
 		"thermal_and_space:glacio_lead_ore": "ad_astra:glacio_stone",
 		"thermal_and_space:mars_lead_ore": "ad_astra:mars_stone",
 		"thermal_and_space:mercury_lead_ore": "ad_astra:mercury_stone",
