@@ -14,12 +14,6 @@ to make editing this file much easier.
 	"retro_gen": false,
 	"state_swapper": [],
 	"swapper": {
-		"create:limestone": "quark:limestone",
-
-		"thermal_and_space:glacio_lead_ore": "ad_astra:glacio_stone",
-		"thermal_and_space:mars_lead_ore": "ad_astra:mars_stone",
-		"thermal_and_space:mercury_lead_ore": "ad_astra:mercury_stone",
-		"thermal_and_space:moon_lead_ore": "ad_astra:moon_stone",
-		"thermal_and_space:venus_lead_ore": "ad_astra:venus_sandstone"
+		"create:limestone": "quark:limestone"
 	}
 }
