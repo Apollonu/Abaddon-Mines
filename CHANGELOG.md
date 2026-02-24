@@ -35,6 +35,8 @@
   - Configs
     - [Block Swap](https://www.curseforge.com/minecraft/mc-mods/block-swap)
     - [Create Picky Wheels](https://www.curseforge.com/minecraft/mc-mods/create-picky-waterwheels)
+    - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
+    - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
     - [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
     - [Vintage Improvements - SSW Edition](https://www.curseforge.com/minecraft/mc-mods/vintage-improvenents-ssw-edition)
   - Resourcepacks / Shaderpacks
