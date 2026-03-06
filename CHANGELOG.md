@@ -5,6 +5,7 @@
 
 - Additions
   - Mods
+    - Angel Islands - [2.0.3](https://www.curseforge.com/minecraft/mc-mods/angel-islands/files/7359122)
     - Vintage Improvements - SSW Edition - [0.3.7.0](https://www.curseforge.com/minecraft/mc-mods/vintage-improvenents-ssw-edition/files/7436235)
     - Vintage KubeJS - [1.0.0rc-2](https://www.curseforge.com/minecraft/mc-mods/vintage-kubejs/files/5607145)
   - Resourcepacks / Shaderpacks
